@@ -11,7 +11,6 @@ Usage:  python3 tools/extract_stories.py
 """
 import json
 import re
-import shutil
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -44,8 +43,8 @@ def read_pages(src: str, n: str) -> list[str]:
 def main() -> None:
     src = HTML.read_text(encoding="utf-8")
     books = BOOK_RE.findall(src)
-    for old in OUT.glob("[0-9][0-9]-*"):
-        shutil.rmtree(old)
+    for old in OUT.glob("[0-9][0-9]-*/story.md"):  # keep other files (art, notes) in book folders
+        old.unlink()
     for num, (book_id, title, n) in enumerate(books, 1):
         pages = read_pages(src, n)
         folder = OUT / f"{num:02d}-{book_id}"

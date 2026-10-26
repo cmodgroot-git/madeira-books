@@ -24,7 +24,7 @@ Highlighted: `esplanada`, `mesa`, `restaurante`, `vista`
 
 O empregado traz a ementa e um cesto de bolo do caco com manteiga de alho. Cheira muito bem.
 
-Highlighted: `alho`, `bem`, `bolo`, `cesto`, `ementa`, `empregado`
+Highlighted: `alho`, `bem`, `bolodocaco`, `cesto`, `ementa`, `empregado`
 
 ## Page 5
 
