@@ -7,7 +7,7 @@ WORK=os.environ.get('WORK','/tmp/claude-0/-home-user-madeira-books/11c1ecef-e1df
 DOC=os.path.abspath(os.path.join(os.path.dirname(__file__),'..','..','docs','audio'))
 BATCH={'wb1':['pólo','campo de golfe','clube','saco de golfe','inês','taco','luva','joelhos','bola','bate','relva','patos'],
        'wb2':['fogem','baía','machico','ponta de são lourenço','hortênsias','tentilhão','buraco','rola','abraça-a','envergonhados','porta-bagagens']}
-LINES={'querias uma coisa com os pés no chão?':'e_querias','a minha amiga inês vai ensinar-nos.':'e_ensinar','já joguei golfe muitas vezes!':'e_joguei','nunca trouxe ninguém aqui.':'e_trouxeb'}
+LINES={'querias uma coisa com os pés no chão?':'e_querias','a minha amiga inês vai ensinar-nos.':'e_ensinar','já joguei golfe muitas vezes!':'e_joguei','nunca trouxe ninguém aqui.':'e_trouxeb','eu trago o vinho.':'e_trago'}
 def dur(f): return float(subprocess.run(['ffprobe','-v','error','-show_entries','format=duration','-of','csv=p=0',f],capture_output=True,text=True).stdout)
 def enc(a,out):
     tmp=out+'.wav'; n=len(a); f=int(0.012*16000)

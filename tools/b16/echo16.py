@@ -17,4 +17,8 @@ ECHO={
   {"id":"eco_golfe_7_0","ph":"disse-me que nunca tinha trazido ninguém aqui","o":"Nunca trouxe ninguém aqui.",
    "pairs":[[["trouxe"],["tinha","trazido"]]],
    "g":["Tiago told me he had never brought anyone here","Tiago hat mir gesagt, dass er noch nie jemanden hierher gebracht hatte","Tiago m'a dit qu'il n'avait jamais amené personne ici","Tiago me dijo que nunca había traído a nadie aquí","Tiago zei me dat hij nog nooit iemand hierheen had gebracht","Tiago powiedział mi, że nigdy nikogo tu nie przywiózł"]}],
+ "festa:2":[
+  {"id":"eco_festa_2_0","ph":"disse que trazia o vinho","o":"Eu trago o vinho.",
+   "pairs":[[["trago"],["trazia"]]],
+   "g":["Tiago said he would bring the wine","Tiago hat gesagt, dass er den Wein mitbringt","Tiago a dit qu'il apporterait le vin","Tiago dijo que traía el vino","Tiago zei dat hij de wijn zou meebrengen","Tiago powiedział, że przyniesie wino"]}],
 }
