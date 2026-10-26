@@ -1,0 +1,7 @@
+{"golfe:0:vibra":{"t":"sound","x":201,"y":118,"ang":-55,"spread":30,"r1":9,"r2":15},
+ "golfe:0:sorri":{"t":"sound","x":176,"y":58,"ang":-35,"spread":30,"r1":6,"r2":12},
+ "golfe:3:bate":{"t":"hold"},
+ "golfe:4:fogem":{"t":"arrow","x1":232,"y1":160,"x2":262,"y2":118},
+ "golfe:6:rola":{"t":"arrow","x1":252,"y1":236,"x2":228,"y2":250},
+ "golfe:6:abraca":{"t":"hold"},
+ "golfe:7:beijinhos":{"t":"hold"}}

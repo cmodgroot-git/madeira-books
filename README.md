@@ -21,6 +21,7 @@ A library of illustrated Portuguese picture books for adults learning the langua
 | 13 | O Veleiro | [books/13-veleiro](books/13-veleiro/story.md) |
 | 14 | O Voo da Rita | [books/14-voo](books/14-voo/story.md) |
 | 15 | A Festa da Casa Nova | [books/15-festa](books/15-festa/story.md) |
+| 16 | Com os Pés no Chão | [books/16-golfe](books/16-golfe/story.md) |
 
 ## Layout
 

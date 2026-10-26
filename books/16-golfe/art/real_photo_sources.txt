@@ -1,0 +1,14 @@
+r1 https://cdn.sanity.io/images/03mhssoh/production/23092c2cbe583b6b9467bf6d7fdfe4a88cb4f4ee-4284x2844.jpg
+r2 https://cdn.sanity.io/images/03mhssoh/production/3696924a064d9c6e0767144373136337a5845115-1600x1067.jpg
+r3 https://cdn.sanity.io/images/03mhssoh/production/40267eb6864fc14b97439c76a5a40f5e58c0365e-6865x4581.jpg
+r4 https://cdn.sanity.io/images/03mhssoh/production/47b62398b7276d729d9fac4194be667efe4da73f-5472x3078.jpg
+r5 https://cdn.sanity.io/images/03mhssoh/production/7bb7b804dacd405579a5c95ef48263c6ad28e0f5-5616x3744.jpg
+r6 https://cdn.sanity.io/images/03mhssoh/production/82db7b744131a273fe1bf0a740be02d81396c116-1600x1067.jpg
+r7 https://cdn.sanity.io/images/03mhssoh/production/be2c840048998fbccff0f9b5a54e096aba25f3d4-4000x3000.jpg
+r8 https://cdn.sanity.io/images/03mhssoh/production/e0de2b0bb63279747b56997b54ef904a688f3af5-1600x900.jpg
+r9 https://cdn.sanity.io/images/03mhssoh/production/e1298aefcb7d52bba4d56d12d3d9fcbda0af8274-2500x1561.jpg
+r10 https://www.planetgolf.com/uploads/courses/madeirasantodaserra-1502329304.jpg
+r11 https://cdn.mos.cms.futurecdn.net/2oc3ktHJX9VKDmSSTvAbdN-1280-80.jpg
+r12 https://cdn.mos.cms.futurecdn.net/88mecLm275FeVWKJP6fYHH-1280-80.jpg
+r13 https://santodaserragolf.com/wp-content/uploads/2024/04/cropped-clube-golf-santo-serra-clubhouse-11.jpg
+r14 https://santodaserragolf.com/wp-content/uploads/2024/11/promo-video-cgss.jpg

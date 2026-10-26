@@ -1,0 +1,13 @@
+/* echoes: a reported line, tap to see the words first said */
+.echo{cursor:pointer;text-decoration:underline dotted 1.6px color-mix(in srgb,var(--accent) 70%,transparent);text-underline-offset:.3em;border-radius:4px;transition:background .25s}
+.echo:hover,.echo.on{background:color-mix(in srgb,var(--accent) 10%,transparent)}
+.echo.on [data-ep="0"],.eco-pop b[data-ep="0"]{color:#C2410C}
+.echo.on [data-ep="1"],.eco-pop b[data-ep="1"]{color:#0F766E}
+.echo.on [data-ep="2"],.eco-pop b[data-ep="2"]{color:#7C3AED}
+.echo.on [data-ep]{font-weight:700;text-decoration:underline 2px;text-underline-offset:.28em}
+.eco-pop{position:fixed;z-index:30;max-width:min(380px,calc(100vw - 16px));background:#FFFDF8;color:#2A1D14;font:500 1.06rem var(--f-read,Georgia,serif);padding:9px 14px 10px;border-radius:14px;border:2px solid #2A1D14;box-shadow:0 8px 22px rgba(0,0,0,.2);animation:rise .22s ease}
+.eco-pop i{font-style:normal;color:#9A7B5C;margin:0 .15em}
+.eco-pop b{font-weight:800;text-decoration:underline 2px;text-underline-offset:.22em}
+.quiz .ebub{display:block;margin:6px auto 4px;max-width:30em;background:#FFFDF8;color:#2A1D14;border:2px solid #2A1D14;border-radius:16px;padding:12px 18px;font:500 1.15rem var(--f-read,Georgia,serif);text-align:center}
+.quiz .qopts .eopt{text-align:left;white-space:normal;line-height:1.35}
+@media (prefers-reduced-motion:reduce){.eco-pop{animation:none}}
