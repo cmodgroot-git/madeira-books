@@ -1,0 +1,4 @@
+{"presente:5:esconde":{"t":"hold"},
+ "presente:7:cantam":{"t":"sound","x":186,"y":84,"ang":-90,"spread":40,"r1":10,"r2":17},
+ "presente:7:sopra":{"t":"arrow","x1":282,"y1":140,"x2":266,"y2":172},
+ "presente:7:encolheombros":{"t":"hold"}}

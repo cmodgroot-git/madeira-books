@@ -1,0 +1,23 @@
+{
+"loja": ["shop", "Laden, Geschäft", "boutique, magasin", "tienda", "winkel", "sklep"],
+"sinal": ["road sign", "Verkehrsschild", "panneau (de signalisation)", "señal de tráfico", "verkeersbord", "znak drogowy"],
+"moldura": ["picture frame", "Bilderrahmen", "cadre (photo)", "marco (de foto)", "fotolijst", "ramka (na zdjęcie)"],
+"embrulho": ["wrapped present, parcel", "eingepacktes Geschenk, Päckchen", "paquet (cadeau emballé)", "paquete (regalo envuelto)", "ingepakt cadeau, pakje", "paczka (zapakowany prezent)"],
+"camiao": ["lorry, truck", "Lastwagen", "camion", "camión", "vrachtwagen", "ciężarówka"],
+"reboque": ["tow truck", "Abschleppwagen", "dépanneuse", "grúa", "takelwagen", "laweta, pomoc drogowa"],
+"esquadra": ["police station", "Polizeiwache", "commissariat", "comisaría", "politiebureau", "komisariat policji"],
+"fila": ["queue", "Schlange (Warteschlange)", "file d'attente", "cola, fila", "rij, wachtrij", "kolejka"],
+"agente": ["police officer", "Polizist", "agent de police", "agente de policía", "politieagent", "policjant"],
+"matricula": ["number plate, registration", "Nummernschild, Kennzeichen", "plaque d'immatriculation", "matrícula", "kenteken(plaat)", "tablica rejestracyjna"],
+"computador": ["computer", "Computer", "ordinateur", "ordenador", "computer", "komputer"],
+"multa": ["fine (to pay)", "Strafe, Bußgeld", "amende", "multa", "boete", "mandat, grzywna"],
+"cartao": ["bank card", "Bankkarte", "carte bancaire", "tarjeta (bancaria)", "bankpas", "karta (płatnicza)"],
+"recibo": ["receipt", "Quittung, Beleg", "reçu", "recibo", "bonnetje, kwitantie", "paragon, pokwitowanie"],
+"deposito": ["car pound", "Abschlepphof", "fourrière", "depósito de vehículos", "autodepot", "parking policyjny"],
+"esconde": ["hides", "versteckt", "cache", "esconde", "verstopt", "chowa"],
+"costas": ["back (of the body)", "Rücken", "dos", "espalda", "rug", "plecy"],
+"papel": ["(piece of) paper, notice", "Zettel, Papier", "papier, avis", "papel, aviso", "papiertje, bekeuring", "kartka, mandat"],
+"parabrisas": ["windscreen", "Windschutzscheibe", "pare-brise", "parabrisas", "voorruit", "przednia szyba"],
+"cantam": ["sing (they sing)", "singen", "chantent", "cantan", "zingen", "śpiewają"],
+"sopra": ["blows (out)", "bläst (aus)", "souffle", "sopla", "blaast (uit)", "zdmuchuje"]
+}

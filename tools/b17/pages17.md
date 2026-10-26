@@ -1,6 +1,6 @@
 # O Presente — approved text
 
-1. Na terça-feira, a Rita vai à baixa do Funchal comprar um [presente|presente]: no sábado, o Tiago faz trinta e um anos. Estaciona o [carro|carro] azul em frente a uma [loja|loja] de molduras, ao lado de um [sinal|sinal] que nem lê. «São só cinco minutos», pensa ela.
+1. Na terça-feira, a Rita vai à baixa do Funchal comprar um presente: no sábado, o Tiago faz trinta e um anos. Estaciona o [carro|carro] azul em frente a uma [loja|loja] de molduras, ao lado de um [sinal|sinal] que nem lê. «São só cinco minutos», pensa ela.
 2. Lá dentro, mostra ao [vendedor|vendedor] uma [fotografia|fotografia] do pódio do Faial, com as [medalhas|medalha]. — Se eu fosse a senhora, escolhia esta [moldura|moldura] vermelha — diz ele. — Combina com o kart do Tiago. — Conhece-o? — No Funchal, toda a gente conhece o Tiago!
 3. Quinze minutos depois, a Rita sai com o [embrulho|embrulho] debaixo do braço… e para. O carro azul desapareceu! No sinal há um [camião|camiao] desenhado: cargas e descargas. «Se eu tivesse lido o sinal, não estava agora aqui», pensa.
 4. Da [janela|janela], uma [senhora|senhora] de idade chama-a. — Levou-o o [reboque|reboque], filha, há dez minutos. Se eu fosse a si, ia já à esquadra. Ao fundo da rua, a Rita ainda vê o carro azul a dobrar a esquina, preso atrás do reboque.
@@ -9,5 +9,5 @@
 7. O Tiago olha para o carro azul, com um [papel|papel] amarelo no [para-brisas|parabrisas], e depois para ela. — Se eu fosse tu, não estacionava em cargas e descargas — diz ele, a rir. — E se eu fosse tu, não fazia tantas perguntas — responde a Rita.
 8. No sábado, na [oficina|oficina], os amigos [cantam|cantam] os parabéns e o Tiago [sopra|sopra] as [velas|vela]. Depois abre o embrulho: é a fotografia do pódio, na moldura vermelha. — Então era isto que escondias no depósito! A Rita [encolhe os ombros|encolheombros]… e desta vez é ela que fica vermelha.
 
-New words (22): presente, loja, sinal, moldura, embrulho, camiao, reboque, esquadra, fila, agente, matricula, computador, multa, cartao, recibo, deposito, esconde, costas, papel, parabrisas, cantam, sopra.
+New words (21): loja, sinal, moldura, embrulho, camiao, reboque, esquadra, fila, agente, matricula, computador, multa, cartao, recibo, deposito, esconde, costas, papel, parabrisas, cantam, sopra.
 Action cues: esconde, cantam, sopra, encolheombros, paga.

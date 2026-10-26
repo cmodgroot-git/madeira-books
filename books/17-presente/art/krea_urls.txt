@@ -1,0 +1,13 @@
+p1 https://gen.krea.ai/images/14f536b7-4f0b-4afd-bcd0-e6ec9875e93e.png
+p2 https://gen.krea.ai/images/e8062feb-dfb5-4504-b332-588c809c06e7.png
+p5 https://gen.krea.ai/images/8e7bdacd-95b6-40d7-916e-8c4d4962f6b7.png
+p6 https://gen.krea.ai/images/af416085-f855-4e8e-bfbe-b8bed28580a3.png
+p7 https://gen.krea.ai/images/b5160c77-2dbf-4969-979b-ca0d06d6251f.png
+p8 https://gen.krea.ai/images/e75acfc0-96fe-4ea7-b751-8c16813fdcb6.png
+p1b https://gen.krea.ai/images/fad6c653-c5e9-4f09-8b00-59b48a69d954.png
+p2b https://gen.krea.ai/images/e8fc2d6b-4583-4c6c-86bb-2551c0c30a7f.png
+p7b https://gen.krea.ai/images/1c677668-9436-4132-a851-e05664dc4cca.png
+p8shrug https://gen.krea.ai/images/66ce2302-9823-4c2d-81a1-0f78e855c526.png
+p8photo https://gen.krea.ai/images/a3b65c33-fd5a-48a4-ab13-b4f86da998ad.png
+p3 https://gen.krea.ai/images/6f5d1119-8172-4389-b1d2-65689f96698b.png
+p4 https://gen.krea.ai/images/fed09400-9acf-4b20-b0ef-d2df2cbe0bc0.png
