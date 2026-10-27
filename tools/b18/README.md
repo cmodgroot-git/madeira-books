@@ -36,3 +36,12 @@ Written before the ledger rules existed, so it is a baseline rather than a pass/
 Low-cost fix to offer at the picture review, no text or picture change: tag *homem* (p1, "um homem alto" = Bruno,
 rank 228, never met) and *cabeça* (p4, "de cabeça" = João's head as he dives, rank 333, met 3 times).
 Book 19 should lean the other way: a practical-life story full of everyday words.
+
+## Words left out of the daily Review (to fix when work resumes)
+Nine words have no picture region on the page where they first appear, so the Review skips them:
+- looking words shown by a look-at beam, not a region: *vê*, *olha* (book 1) — free fix in code: crop the card
+  from the beam's looker and target;
+- actions not visible in their picture: *acorda*, *abre* (book 1 p2), *apanha*, *sobe* (book 1 p8), *ouvem* (book 3 p6),
+  *pede* (book 4 p5), *vai abaixo* (book 12 p4) — fix by showing them in later books (recycling rule) and letting the
+  Review use any page where the word has a region, not only its first page (small change in `revQueue`/`drawReview`;
+  set-aside entries have step -1 and must be released when a region appears).
