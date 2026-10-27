@@ -1,0 +1,11 @@
+p1 https://gen.krea.ai/images/f43aada1-d319-4c5a-8456-0f6f4b3576e9.png
+p2 https://gen.krea.ai/images/078201e6-949e-416a-9103-92e3b76f4989.png
+p3 https://gen.krea.ai/images/0da8a58c-5fbb-499c-98dd-9da387928730.png
+p4 https://gen.krea.ai/images/454ba068-bb26-48e7-a1d6-40e484e55637.png
+p5 https://gen.krea.ai/images/47f64ccb-2274-4a2b-b714-b1c4ed10a962.png
+p6 https://gen.krea.ai/images/7af76676-63bc-43d1-8b11-36e1c77fd2a5.png
+p7 https://gen.krea.ai/images/609f0a0f-73a6-4a57-8aa7-85ee425d788c.png
+p8 https://gen.krea.ai/images/bd7fe77c-8dae-4898-8ad8-e5585efa5443.png
+# p8 master has the garbled van lettering painted out in code (cv2.inpaint, box 280,518-312,533 at 1600 px)
+# p5 = regional edit of e041515e (Tiago's cap and Bruno's helmet removed); p6 = regional edit of e7806d2a (Rita re-dressed in canyoning gear)
+# rejected first tries: p1 f0bc9237 (car and van merged), p3 a0a4a4c6 (abseil pose wrong)
