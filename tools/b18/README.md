@@ -27,3 +27,12 @@ New friend: Bruno, firefighter and canyoning guide. Ends on Tiago asking Rita to
 
 Outfits: canyoning — black wetsuits, harness, gloves, boots; helmets Rita white, Ana mustard, João blue, Tiago red, Bruno orange (orange rope bag).
 Page 1: Rita terracotta hoodie, black leggings; Ana deep teal hoodie, jeans; João navy t-shirt, grey jeans; Tiago light grey t-shirt, jeans, red cap; Bruno dark-red t-shirt, khaki shorts.
+
+## Ledger check (Oct 27, 2026 — `python3 tools/ledger.py --draft tools/b18/pages18.json`)
+Written before the ledger rules existed, so it is a baseline rather than a pass/fail:
+- readability 79% (rule ≥ 80%; books 9–17 scored 73–82%) — about on par
+- recycling 36 under-used words come back (rule ≥ 15) — passes
+- new tappable words in the top 2,000: 2 of 19 (rule: about half) — misses; canyoning words are specific by nature
+Low-cost fix to offer at the picture review, no text or picture change: tag *homem* (p1, "um homem alto" = Bruno,
+rank 228, never met) and *cabeça* (p4, "de cabeça" = João's head as he dives, rank 333, met 3 times).
+Book 19 should lean the other way: a practical-life story full of everyday words.
