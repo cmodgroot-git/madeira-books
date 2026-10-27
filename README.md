@@ -22,6 +22,7 @@ A library of illustrated Portuguese picture books for adults learning the langua
 | 14 | O Voo da Rita | [books/14-voo](books/14-voo/story.md) |
 | 15 | A Festa da Casa Nova | [books/15-festa](books/15-festa/story.md) |
 | 16 | Com os Pés no Chão | [books/16-golfe](books/16-golfe/story.md) |
+| 17 | O Presente | [books/17-presente](books/17-presente/story.md) |
 
 ## Layout
 
@@ -34,6 +35,9 @@ docs/            The reader: a static site, ready for GitHub Pages
   photos/        Real reference photos shown for word meanings, one bundle per book
 books/           Plain-text copy of each story with its highlighted words
 tools/           Helper scripts
+  core/          Full build toolkit for books 1–15 and the next book (see tools/core/README.md)
+  b16/, b17/     Per-book build files for books 16 and 17
+skills/          The book-writing, illustration, highlight and animation skills
 ```
 
 `docs/index.html` is the source of truth. The `books/*/story.md` files are generated from it — after changing the reader, refresh them with:
@@ -55,3 +59,7 @@ then visit http://localhost:8000. Reading progress (known words, last page) is k
 ## Publishing
 
 To put the reader online, turn on GitHub Pages for this repo (Settings → Pages → Deploy from a branch → `main`, folder `/docs`).
+
+## Making new books
+
+The build toolkit is in `tools/core`. To continue in a new Claude session, say: *"Continue the Histórias da Madeira library from my GitHub repo cmodgroot-git/madeira-books"*, and then run `bash tools/core/setup.sh` to recreate the workspace.

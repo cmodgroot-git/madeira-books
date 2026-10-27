@@ -1,0 +1,23 @@
+b10p2 https://app-uploads.krea.ai/c0d188ce-8c97-43b3-aef4-d59c0893f90f/1792810922736-753a0b85-f9e7-441b-a113-ed2da6f5027e-b10p2.jpeg
+b10p3 https://app-uploads.krea.ai/c0d188ce-8c97-43b3-aef4-d59c0893f90f/1792810923793-2f083301-be12-4feb-bc5f-80335010c93d-b10p3.jpeg
+b10p8 https://app-uploads.krea.ai/c0d188ce-8c97-43b3-aef4-d59c0893f90f/1792810924620-0eec5ca7-af13-4fad-9435-426a5d48bcb3-b10p8.jpeg
+p1a https://gen.krea.ai/images/563c582a-9173-4363-87f6-0c466faf04e9.png
+p2a https://gen.krea.ai/images/a9ff4821-2759-4de0-a6d6-3133855d1789.png
+p3a https://gen.krea.ai/images/75a8edfd-ecdd-4c5f-a44b-9f61d93031d2.png
+p4a https://gen.krea.ai/images/ea1f9736-cf11-4806-bd8f-f1749e21d57a.png
+p5a https://gen.krea.ai/images/ddec6f59-2f82-40f8-936b-de075783d82b.png
+p6a https://gen.krea.ai/images/43080167-ca4b-4e2c-9edd-e99b0a1497ea.png
+p7a https://gen.krea.ai/images/0fb53531-e168-4708-af3a-792f71400fe0.png
+p8a https://gen.krea.ai/images/a0d08d46-4efb-4ffa-adfe-9bbf64532177.png
+p1b https://gen.krea.ai/images/8aecc2ad-b634-4a6f-84c3-d4827c06ed01.png
+p5b https://gen.krea.ai/images/41a30d68-468b-4aaa-9df7-bd2ed3b05788.png
+p3b 57c7505b-eb14-44b2-9277-e04bab46c0bd
+p3c 99d14c68-f128-4adb-b7ad-ff4936006ed5 (crates)
+p5c 943adf68-9118-4f4d-b323-a5904d28d30f
+p6b 9d514cba-8d70-4468-a8e5-e677d4fe1da1
+p3d db231b52-3e70-4833-993a-2563befb14d7 (one crate, 1L bottle)
+p5d 18d8456c-8516-4d3f-8166-911642d7dbd7
+p5e fcdc8886-3694-4a23-b200-a0edb0bdc73f (one red crate)
+p5f ed7fc3a2-5edc-4bd5-9519-9e5c68c6b668 (both on customer side)
+p3e e71698bb-152a-4465-9a03-6ed6b1ece5e0 (Ana adds second Brisa)
+p3g 672b9cf5-c899-4457-ba09-f6a1a74350d6 (Ana same size, adds 2nd Brisa)

@@ -1,0 +1,19 @@
+import re
+pages=[
+"No sábado de manhã, no [sofá|sofa], com uma [chávena|chavena] de café, a [Ana|ana] mostrou à Rita uma [fotografia|fotografia] no [telemóvel|telemovel]: as piscinas de Porto Moniz. — Vamos voltar lá? A [Rita|rita] [riu-se|riu]. — Às piscinas... ou ao empregado? A Ana ficou [vermelha|vermelha].",
+"Ao meio-dia, chegaram ao [restaurante|restaurante], mas o João não estava. Um [senhor|senhor] [simpático|simpatico] disse que ele estava de folga. — Aos sábados, o João faz surf no Seixal! A [Ana|ana] ficou [desiludida|desiludida]... mas só por um minuto.",
+"A [praia|praia] do Seixal tem [areia|areia] preta, [montanhas|montanha] [verdes|verdes] e uma [cascata|cascata]. No mar havia muitos [surfistas|surfistas] em cima das [pranchas|prancha]. Um deles [acenou|acenou]: era o [João|joao]!",
+"O João saiu da [água|agua] com a prancha debaixo do [braço|braco] e o [cabelo|cabelo] [molhado|molhado]. Vestia um [fato de surf|fatosurf] preto. Contou que, quando era pequeno, vinha à praia todos os dias com o pai, que era pescador.",
+"— Queres experimentar? — perguntou ele. Primeiro, na [areia|areia], a Ana deitou-se na [prancha|prancha] e aprendeu a [remar|remar] com os braços. A Rita tirava fotografias e o [cão|cao] [ladrava|ladrava] para as [gaivotas|gaivotas].",
+"Depois, foram para o [mar|mar]. Na primeira [onda|ondas], a Ana caiu na [espuma|espuma]. Na segunda, caiu outra vez. Na terceira, [levantou-se|levantou] e ficou de [pé|pe] durante três segundos! O João [gritou|gritou]: — Muito bem!",
+"Mais tarde, beberam [poncha|poncha] de [limão|limao] ao [balcão|balcao] de um [bar|bar] ao pé da [praia|praia]. A [Rita|rita] contou que procurava um [apartamento|apartamento] novo em Funchal. — A minha amiga Marta vende casas! — disse o João, e deu-lhe o número dela.",
+"Ao [pôr do sol|pordosol], o [céu|ceu] estava [roxo|roxo]. No [carro|carro], a Rita conduzia e a Ana olhava para o [telemóvel|telemovel]. Era uma [mensagem|mensagem] do João. A Ana não disse nada, mas [sorria|sorria]. — Então... as piscinas, não é? — disse a Rita.",
+]
+known=set('abre acende acorda agua alho altas ana apanha arcoiris areia arvores autocarro aviso azul banana banco bebe bem binoculos bolo bom bonita botas branco cachecol cafe cafelocal cai calca cama caminhar canal cansadas cao carro carrodecesto casa casaco cascata cauda cesto ceu cha chapeu chocolate chover chuva cidade cinzento come comem compra conduziu conta copo corlaranja correu corrimao corrosa cozinha curvas da desce despertador dia dividem dois domingo dorme dourado ementa empregado empurram escada escuro espetada esplanada estacao estendem estrada estrelas euros falesias farois feliz floresta fotografia fria frio fruta funchal funcionario galao gato gelado gorro gosta graus guardachuva guardasol hoje homens horizonte janela jardins lago lanterna laranja levada limpaparabrisas livro lua luvas luzes manha manteiga mar maracuja mercado mesa miradouro mochila molhado montanha montra mora morango muro musgo nasceu navio nevoeiro noite norte nuvens obrigada oculos olha ondas ouvem palha pao paragem passa pastel pedaco pede pedra peixe pequeno perfeito pessoas picoarieiro piscinas pocas poe porta porto portomoniz praia pretas pudim quente radar restaurante rise rita rochas rua sabado sai sandes senhor sobe sobremesa sol sombra teleferico telemovel telhados tem termo termometro tira toalha tres trilho triste tshirt tunel vale ve vela vento viaduto viarapida vinho vista vizinha volante'.split())
+new=[];seen=set()
+for i,p in enumerate(pages):
+    ks=[k for _,k in re.findall(r'\[([^|\]]+)\|([^\]]+)\]',p)]; u=list(dict.fromkeys(ks))
+    nn=[k for k in u if k not in known and k not in seen]; kn=[k for k in u if k in known or (k in seen and k not in nn)]
+    seen|=set(u); new+=nn
+    print(i+1,len(re.findall(r'\w+',re.sub(r'\[([^|\]]+)\|[^\]]+\]',r'\1',p))),'words | new',nn,'| known',kn)
+print(len(new),'new')

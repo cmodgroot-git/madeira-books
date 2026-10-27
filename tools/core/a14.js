@@ -1,0 +1,4 @@
+const {chromium}=require('playwright');(async()=>{const b=await chromium.launch();const p=await b.newPage();const errs=[];p.on('pageerror',e=>errs.push(e.message));p.on('response',r=>{if(r.status()>=400)errs.push(r.status()+' '+r.url())});
+await p.goto('http://localhost:8765/_t.html');await p.waitForTimeout(1000);
+const r=await p.evaluate(()=>{const si=STORIES.findIndex(s=>s.id==='voo');const out=[];for(let pg=0;pg<8;pg++){go(si,pg);const n=document.querySelectorAll('#text [data-s]').length;const N=NARR['voo:'+pg];const ks=[...document.querySelectorAll('#text .w[data-k]')];const miss=ks.filter(e=>!GLOSS[e.dataset.k]||GLOSS[e.dataset.k].length!==6||!WCLIP[e.textContent.trim().toLowerCase()]).map(e=>e.textContent);out.push([pg,n,N&&N.length,miss.join(',')])}return out});
+console.log(JSON.stringify(r));console.log('errs',errs);await b.close()})();

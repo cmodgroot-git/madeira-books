@@ -1,0 +1,13 @@
+const {chromium}=require('playwright');(async()=>{const b=await chromium.launch({args:['--autoplay-policy=no-user-gesture-required']});const p=await b.newPage({viewport:{width:1100,height:800}});
+await p.goto('http://localhost:8765/_t.html');await p.waitForTimeout(1200);
+await p.evaluate(()=>go(0,7));await p.waitForTimeout(800);
+await p.click('#auto');console.log('pressed',await p.getAttribute('#auto','aria-pressed'));
+await p.click('#say');await p.waitForTimeout(1500);
+console.log('before',await p.evaluate(()=>[cur,view,!!narrA,narrA&&narrA.duration]));
+await p.evaluate(()=>{narrA.pause();narrA.onended()});await p.waitForTimeout(2600);
+console.log('after turn',await p.evaluate(()=>[cur,view,$('say').classList.contains('reading'),narrA.currentTime.toFixed(1)]));
+await p.screenshot({path:'/tmp/claude-0/-home-claude/c592c827-54c1-535b-90c3-a38173d9efc0/scratchpad/auto.png'});
+await p.evaluate(()=>{narrA.pause();narrA.onended()});await p.waitForTimeout(1800);
+console.log('end of book',await p.evaluate(()=>[cur,view]));
+await p.evaluate(()=>go(0,3));await p.click('#say');await p.waitForTimeout(800);await p.evaluate(()=>{narrA.pause();narrA.onended()});await p.waitForTimeout(500);await p.click('#prev');await p.waitForTimeout(2000);console.log('after manual prev',await p.evaluate(()=>[cur,$('say').classList.contains('reading')]));
+await b.close()})();

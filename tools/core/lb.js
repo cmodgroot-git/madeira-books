@@ -1,0 +1,10 @@
+const {chromium}=require('playwright');(async()=>{const b=await chromium.launch({args:['--autoplay-policy=no-user-gesture-required']});const p=await b.newPage({viewport:{width:1100,height:700}});
+await p.goto('http://localhost:8765/_t.html');await p.waitForTimeout(1000);
+console.log(await p.textContent('#gostartl'));
+await p.evaluate(()=>go(0,8));await p.waitForTimeout(700);
+const L=()=>p.evaluate(()=>[...document.querySelectorAll('.tools .btn')].map(b=>b.textContent.trim()).join(' | ')+' || next: '+$('next').textContent);
+console.log(await L());await p.click('#say');await p.waitForTimeout(1200);console.log(await L());
+await p.click('#say');await p.waitForTimeout(300);console.log(await L());
+await p.evaluate(()=>setLang('de'));await p.waitForTimeout(300);console.log(await L());
+await p.evaluate(()=>{quiz={s:0,qs:[],i:0,right:0,ans:null};renderStudy('q');drawQuiz()});await p.waitForTimeout(300);console.log(await p.textContent('#qagain'));
+await b.close()})();
