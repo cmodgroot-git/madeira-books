@@ -23,7 +23,7 @@ New friend: Bruno, firefighter and canyoning guide. Ends on Tiago asking Rita to
 ## Next steps
 1. User review of the contact sheet → fix only the pages they mark (regional edits ~150 units each).
 2. Build: `build18.py` (copy `tools/b16/build16.py`), highlights, action cues, animation, gloss (six languages).
-3. Audio after credits renew: 8 page narrations, the title, word clips for the new forms.
+3. Audio after credits renew, in the new voices (Marta narrates, Pedro for men's lines): book 18's pages, title and word clips, and the re-recording of books 1–17 (see `tools/voicetest/README.md`).
 
 Outfits: canyoning — black wetsuits, harness, gloves, boots; helmets Rita white, Ana mustard, João blue, Tiago red, Bruno orange (orange rope bag).
 Page 1: Rita terracotta hoodie, black leggings; Ana deep teal hoodie, jeans; João navy t-shirt, grey jeans; Tiago light grey t-shirt, jeans, red cap; Bruno dark-red t-shirt, khaki shorts.

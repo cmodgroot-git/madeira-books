@@ -14,7 +14,7 @@ Native voices were sent the plain text (no accent tag). More European Portuguese
 Vasco pjqwOzrEUZ3n3m4rMWWL (m), Diogo RlGHmE2fztwdBDat0jYf (m), Daniela IZipF5JhqPlWzpduTV0E (f), Adilson A26KfvFuSKaMzhhYkSlQ (m)
 (source: json2video.com ElevenLabs voice list, Portuguese · European).
 
-Result (Nov 1, 2026): the user found Joana, Marta and Pedro "very clearly more European" than Matilda and the two OmniVoice voices. Native European Portuguese ElevenLabs voices it is; which woman narrates is still open. Changing the narrator means re-recording all books' narration and word clips
+Result (Nov 1, 2026): the user found Joana, Marta and Pedro "very clearly more European" than Matilda and the two OmniVoice voices. Native European Portuguese ElevenLabs voices it is; Marta narrates, Pedro reads the men's lines, and books 1–17 will be re-recorded (user's decision, Nov 1, 2026). Changing the narrator means re-recording all books' narration and word clips
 for consistency (or using the new voice from book 19 on) — decide with the user.
 
 ## OmniVoice (free, local) — Nov 1, 2026
