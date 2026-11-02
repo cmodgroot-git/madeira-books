@@ -16,3 +16,17 @@ Vasco pjqwOzrEUZ3n3m4rMWWL (m), Diogo RlGHmE2fztwdBDat0jYf (m), Daniela IZipF5Jh
 
 Result: waiting for the user's choice. Changing the narrator means re-recording all books' narration and word clips
 for consistency (or using the new voice from book 19 on) — decide with the user.
+
+## OmniVoice (free, local) — Nov 1, 2026
+The engine behind VoiceStudio (github.com/debpalash/VoiceStudio): `pip install omnivoice`, weights `k2-fsa/OmniVoice`
+(Apache-2.0), Portuguese = one language `pt` (~16,900 training hours, likely mostly Brazilian).
+Voice design accepts only fixed items (female/male, age, pitch, a generic "portuguese accent"), not "European".
+
+| File | Settings |
+| --- | --- |
+| 5-OmniVoice-female.mp3 | `instruct='female, young adult, moderate pitch'`, `language='pt'` |
+| 6-OmniVoice-male.mp3 | `instruct='male, middle-aged, low pitch'`, `language='pt'` |
+
+Speed in the cloud workspace (2 CPU cores, no GPU): model load ~20 s, about 2¼ minutes per page.
+The way to a reliably European (or Madeiran) voice is cloning from a short, clean recording of a real speaker
+who gives permission (`ref_audio` + `ref_text`).
