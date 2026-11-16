@@ -13,7 +13,7 @@ on Saturday, no answer yet. Language step: *caso / para que / antes que* + prese
 - Not shown: *sobe* (p7: Tiago climbing back up; the picture is the jump) — in `NOT_SHOWN`.
 - Scene life (`life18.py`): waterfall + pool (p2, p3), water running down the chute + pool (p4), ferns (p5), pools (p6, p7).
 - Narration: Marta narrates, Pedro reads Bruno's and Tiago's lines (first book in the new voices); word clips and title in
-  Marta. Segments in `narr_segments.tsv`.
+  Marta. Segments in `narr_segments.tsv`. (Books 1–17 were re-recorded the same way on Nov 15: `tools/rerecord/`.)
 - Meanings: `gloss18.json` (six languages); *asas* widened to "wings", *corre* to "runs, flows".
 
 ## Rebuild
@@ -28,4 +28,3 @@ Book 19 should lean the other way: a practical-life story full of everyday words
 ## Still open (from the Oct review, unchanged)
 - The daily Review skips words without a region on their first page (beam words *vê*, *olha*, now *espreita*; and the
   not-shown actions). See the note in the stories skill.
-- Books 1–17 are still in the old narrator (Matilda); re-recording them in Marta/Pedro is planned.

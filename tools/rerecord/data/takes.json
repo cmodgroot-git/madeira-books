@@ -1,0 +1,4467 @@
+{
+"m01": {
+"voice": "bBNhdwrIjl4fcVYiRbT2",
+"items": [
+[
+"seg",
+"1.1.0",
+"A Rita mora no Funchal. É de manhã. O sol já está no céu, mas a Rita ainda está na cama."
+],
+[
+"seg",
+"1.2.0",
+"A Rita acorda e abre a janela. Lá fora, vê a cidade, o mar e um navio grande."
+],
+[
+"seg",
+"1.3.0",
+"Na cozinha, a Rita faz um café. Bebe o café devagar, porque está muito quente."
+],
+[
+"seg",
+"1.4.0",
+"Depois, come pão com manteiga. O pão da padaria aqui ao lado é muito bom. A Rita gosta destas manhãs calmas."
+],
+[
+"seg",
+"1.5.0",
+"Às nove, a Rita sai de casa. Na rua, um gato dorme ao sol, em cima do muro."
+],
+[
+"seg",
+"1.6.0",
+"Primeiro, vai ao Mercado dos Lavradores. Há fruta de todas as cores: bananas, maracujás e laranjas."
+],
+[
+"seg",
+"1.7.0",
+"A Rita compra três bananas."
+],
+[
+"seg",
+"1.7.2",
+"diz o senhor."
+],
+[
+"seg",
+"1.7.3",
+"Obrigada!"
+],
+[
+"seg",
+"1.7.4",
+"responde a Rita."
+],
+[
+"seg",
+"1.8.0",
+"Depois, apanha o autocarro. O autocarro sobe a rua devagar. Pela janela, a Rita vê o mar lá em baixo."
+],
+[
+"seg",
+"1.9.0",
+"À noite, a Rita está outra vez em casa. Come uma banana e olha para a lua. Foi um bom dia."
+],
+[
+"seg",
+"2.1.0",
+"É sábado e hoje a Rita não trabalha. Da janela, vê a praia e pensa: Vou à praia!"
+],
+[
+"seg",
+"2.2.0",
+"Põe o chapéu e os óculos de sol. Na mochila, põe uma toalha, uma garrafa de água e um livro."
+],
+[
+"seg",
+"2.3.0",
+"À porta, encontra a vizinha, a Ana. A Ana tem um cão pequeno e muito simpático. Vão juntas para a praia."
+],
+[
+"seg",
+"2.4.0",
+"Na praia há uma escada e areia preta. O mar está azul e calmo. As duas estendem a toalha."
+],
+[
+"seg",
+"2.5.0",
+"Um gato passa pela areia, sem pressa. Olha para a Rita e para a Ana, e continua."
+],
+[
+"seg",
+"2.6.0",
+"No quiosque, a Ana compra dois gelados: um de morango e outro de chocolate."
+],
+[
+"seg",
+"2.7.0",
+"À tarde, o sol está quente. As duas estão cansadas e ficam na toalha. O cão dorme à sombra."
+],
+[
+"seg",
+"2.8.0",
+"À noite, em casa, a Rita está feliz. Pensa no dia na praia. Foi um sábado perfeito."
+],
+[
+"seg",
+"3.1.0",
+"É domingo de manhã. A Rita calça as botas e põe um casaco na mochila. Hoje vai à montanha."
+],
+[
+"seg",
+"3.2.0",
+"A Ana e o cão esperam no carro. A estrada sobe a montanha devagar, com muitas curvas."
+]
+],
+"prompt": "A Rita mora no Funchal. É de manhã. O sol já está no céu, mas a Rita ainda está na cama.\n\nA Rita acorda e abre a janela. Lá fora, vê a cidade, o mar e um navio grande.\n\nNa cozinha, a Rita faz um café. Bebe o café devagar, porque está muito quente.\n\nDepois, come pão com manteiga. O pão da padaria aqui ao lado é muito bom. A Rita gosta destas manhãs calmas.\n\nÀs nove, a Rita sai de casa. Na rua, um gato dorme ao sol, em cima do muro.\n\nPrimeiro, vai ao Mercado dos Lavradores. Há fruta de todas as cores: bananas, maracujás e laranjas.\n\nA Rita compra três bananas.\n\ndiz o senhor.\n\nObrigada!\n\nresponde a Rita.\n\nDepois, apanha o autocarro. O autocarro sobe a rua devagar. Pela janela, a Rita vê o mar lá em baixo.\n\nÀ noite, a Rita está outra vez em casa. Come uma banana e olha para a lua. Foi um bom dia.\n\nÉ sábado e hoje a Rita não trabalha. Da janela, vê a praia e pensa: Vou à praia!\n\nPõe o chapéu e os óculos de sol. Na mochila, põe uma toalha, uma garrafa de água e um livro.\n\nÀ porta, encontra a vizinha, a Ana. A Ana tem um cão pequeno e muito simpático. Vão juntas para a praia.\n\nNa praia há uma escada e areia preta. O mar está azul e calmo. As duas estendem a toalha.\n\nUm gato passa pela areia, sem pressa. Olha para a Rita e para a Ana, e continua.\n\nNo quiosque, a Ana compra dois gelados: um de morango e outro de chocolate.\n\nÀ tarde, o sol está quente. As duas estão cansadas e ficam na toalha. O cão dorme à sombra.\n\nÀ noite, em casa, a Rita está feliz. Pensa no dia na praia. Foi um sábado perfeito.\n\nÉ domingo de manhã. A Rita calça as botas e põe um casaco na mochila. Hoje vai à montanha.\n\nA Ana e o cão esperam no carro. A estrada sobe a montanha devagar, com muitas curvas."
+},
+"m02": {
+"voice": "bBNhdwrIjl4fcVYiRbT2",
+"items": [
+[
+"seg",
+"3.3.0",
+"Começam a caminhar ao lado da levada. A água corre no canal, fria e limpa."
+],
+[
+"seg",
+"3.4.0",
+"Na floresta há árvores muito altas e musgo verde. Entre as árvores, há nevoeiro."
+],
+[
+"seg",
+"3.5.0",
+"No caminho há um túnel escuro. A Ana acende a lanterna. O cão não tem medo e entra primeiro."
+],
+[
+"seg",
+"3.6.0",
+"Depois do túnel, ouvem uma cascata. A água cai das rochas para um lago pequeno."
+],
+[
+"seg",
+"3.7.0",
+"Sentam-se numa pedra e comem sandes. A Ana dá um pedaço de pão ao cão."
+],
+[
+"seg",
+"3.8.0",
+"No fim do caminho há um miradouro. Lá em baixo, veem o vale e o mar. Estão cansadas, mas muito felizes."
+],
+[
+"seg",
+"4.1.0",
+"É sexta-feira à tarde. A Rita e a Ana vão de carro para o norte da ilha. A estrada passa entre falésias altas e o mar."
+],
+[
+"seg",
+"4.2.0",
+"Em Porto Moniz, há piscinas naturais nas rochas pretas. As ondas batem com força."
+],
+[
+"seg",
+"4.3.0",
+"Ao lado das piscinas há um restaurante com esplanada. Sentam-se numa mesa com vista para o mar."
+],
+[
+"seg",
+"4.4.0",
+"O empregado traz a ementa e um cesto de bolo do caco com manteiga de alho. Cheira muito bem."
+],
+[
+"seg",
+"4.5.0",
+"A Ana pede espetada. A Rita pede peixe-espada com banana. Para beber, um copo de vinho branco."
+],
+[
+"seg",
+"4.6.0",
+"Enquanto comem, o sol desce no mar. O céu fica cor-de-laranja e cor-de-rosa."
+],
+[
+"seg",
+"4.7.0",
+"Para a sobremesa, dividem um pudim de maracujá. Depois, bebem dois cafés."
+],
+[
+"seg",
+"4.8.0",
+"Já é noite. Há estrelas no céu e uma vela na mesa. A Rita pede a conta. Que noite bonita!, diz a Ana."
+],
+[
+"seg",
+"5.1.0",
+"Hoje é feriado e a Rita não trabalha. Ela e a Ana vão andar de teleférico até ao Monte. Mas quando a Rita abre a janela, o céu está cinzento e cheio de nuvens."
+],
+[
+"seg",
+"5.2.0",
+"Começa a chover. A Rita pega no guarda-chuva e liga à Ana pelo telemóvel."
+],
+[
+"seg",
+"5.2.1",
+"Vamos na mesma?"
+],
+[
+"seg",
+"5.2.2",
+"pergunta a Ana."
+],
+[
+"seg",
+"5.2.3",
+"Vamos! Depois da chuva vem o sol"
+],
+[
+"seg",
+"5.2.4",
+"responde a Rita."
+]
+],
+"prompt": "Começam a caminhar ao lado da levada. A água corre no canal, fria e limpa.\n\nNa floresta há árvores muito altas e musgo verde. Entre as árvores, há nevoeiro.\n\nNo caminho há um túnel escuro. A Ana acende a lanterna. O cão não tem medo e entra primeiro.\n\nDepois do túnel, ouvem uma cascata. A água cai das rochas para um lago pequeno.\n\nSentam-se numa pedra e comem sandes. A Ana dá um pedaço de pão ao cão.\n\nNo fim do caminho há um miradouro. Lá em baixo, veem o vale e o mar. Estão cansadas, mas muito felizes.\n\nÉ sexta-feira à tarde. A Rita e a Ana vão de carro para o norte da ilha. A estrada passa entre falésias altas e o mar.\n\nEm Porto Moniz, há piscinas naturais nas rochas pretas. As ondas batem com força.\n\nAo lado das piscinas há um restaurante com esplanada. Sentam-se numa mesa com vista para o mar.\n\nO empregado traz a ementa e um cesto de bolo do caco com manteiga de alho. Cheira muito bem.\n\nA Ana pede espetada. A Rita pede peixe-espada com banana. Para beber, um copo de vinho branco.\n\nEnquanto comem, o sol desce no mar. O céu fica cor-de-laranja e cor-de-rosa.\n\nPara a sobremesa, dividem um pudim de maracujá. Depois, bebem dois cafés.\n\nJá é noite. Há estrelas no céu e uma vela na mesa. A Rita pede a conta. Que noite bonita!, diz a Ana.\n\nHoje é feriado e a Rita não trabalha. Ela e a Ana vão andar de teleférico até ao Monte. Mas quando a Rita abre a janela, o céu está cinzento e cheio de nuvens.\n\nComeça a chover. A Rita pega no guarda-chuva e liga à Ana pelo telemóvel.\n\nVamos na mesma?\n\npergunta a Ana.\n\nVamos! Depois da chuva vem o sol.\n\nresponde a Rita."
+},
+"m03": {
+"voice": "bBNhdwrIjl4fcVYiRbT2",
+"items": [
+[
+"seg",
+"5.3.0",
+"Encontram-se na paragem do autocarro. Enquanto esperam, a chuva cai com força e há poças na rua. O cão está todo molhado, mas abana a cauda."
+],
+[
+"seg",
+"5.4.0",
+"Quando chegam à estação do teleférico, há um aviso na porta: Fechado por causa do vento. A Ana fica triste."
+],
+[
+"seg",
+"5.4.1",
+"E agora?"
+],
+[
+"seg",
+"5.5.0",
+"Vão a um café ao lado. A Rita pede um galão e a Ana um chá. Enquanto bebem, comem dois pastéis de nata e olham para a chuva na montra."
+],
+[
+"seg",
+"5.6.0",
+"Meia hora depois, a chuva para. O sol aparece entre as nuvens e há um arco-íris sobre o mar. Na estação, o funcionário tira o aviso."
+],
+[
+"seg",
+"5.7.0",
+"Finalmente, sobem no teleférico. Lá em baixo, veem os telhados vermelhos, os jardins e o porto com os navios. A Ana tira uma fotografia com o telemóvel."
+],
+[
+"seg",
+"5.8.0",
+"No Monte, descem a rua num carro de cesto. Dois homens de chapéu de palha empurram o carro. A Rita ri-se:"
+],
+[
+"seg",
+"5.8.1",
+"Ainda bem que viemos!"
+],
+[
+"seg",
+"6.1.0",
+"Ontem, o despertador tocou às quatro da manhã. Lá fora estava escuro e havia estrelas no céu. A Rita vestiu um casaco quente e pôs um gorro e luvas na mochila."
+],
+[
+"seg",
+"6.2.0",
+"A Ana conduziu pela via rápida, com as mãos no volante, e o cão dormiu no banco de trás. Passaram por muitos túneis cheios de luzes amarelas."
+],
+[
+"seg",
+"6.2.1",
+"Acho que a Madeira tem mais túneis do que estradas!"
+],
+[
+"seg",
+"6.2.2",
+"disse a Ana."
+],
+[
+"seg",
+"6.3.0",
+"Do outro lado do túnel, o tempo mudou: nevoeiro e chuva fina! O carro atravessou um viaduto alto, com os limpa-para-brisas a trabalhar, e viram os faróis de outro carro."
+],
+[
+"seg",
+"6.3.1",
+"Em Funchal estava seco!"
+],
+[
+"seg",
+"6.3.2",
+"disse a Rita."
+],
+[
+"seg",
+"6.4.0",
+"A estrada subiu pela montanha, com muitas curvas. De repente, o carro passou por cima das nuvens e o céu ficou limpo. Lá em baixo, as nuvens pareciam um mar branco."
+]
+],
+"prompt": "Encontram-se na paragem do autocarro. Enquanto esperam, a chuva cai com força e há poças na rua. O cão está todo molhado, mas abana a cauda.\n\nQuando chegam à estação do teleférico, há um aviso na porta: Fechado por causa do vento. A Ana fica triste.\n\nE agora?\n\nVão a um café ao lado. A Rita pede um galão e a Ana um chá. Enquanto bebem, comem dois pastéis de nata e olham para a chuva na montra.\n\nMeia hora depois, a chuva para. O sol aparece entre as nuvens e há um arco-íris sobre o mar. Na estação, o funcionário tira o aviso.\n\nFinalmente, sobem no teleférico. Lá em baixo, veem os telhados vermelhos, os jardins e o porto com os navios. A Ana tira uma fotografia com o telemóvel.\n\nNo Monte, descem a rua num carro de cesto. Dois homens de chapéu de palha empurram o carro. A Rita ri-se:\n\nAinda bem que viemos!\n\nOntem, o despertador tocou às quatro da manhã. Lá fora estava escuro e havia estrelas no céu. A Rita vestiu um casaco quente e pôs um gorro e luvas na mochila.\n\nA Ana conduziu pela via rápida, com as mãos no volante, e o cão dormiu no banco de trás. Passaram por muitos túneis cheios de luzes amarelas.\n\nAcho que a Madeira tem mais túneis do que estradas!\n\ndisse a Ana.\n\nDo outro lado do túnel, o tempo mudou: nevoeiro e chuva fina! O carro atravessou um viaduto alto, com os limpa-para-brisas a trabalhar, e viram os faróis de outro carro.\n\nEm Funchal estava seco!\n\ndisse a Rita.\n\nA estrada subiu pela montanha, com muitas curvas. De repente, o carro passou por cima das nuvens e o céu ficou limpo. Lá em baixo, as nuvens pareciam um mar branco."
+},
+"m04": {
+"voice": "bBNhdwrIjl4fcVYiRbT2",
+"items": [
+[
+"seg",
+"6.5.0",
+"Chegaram ao Pico do Arieiro. Ao lado, viram a cúpula branca do radar. Estava muito frio: o termómetro marcava três graus! A Rita pôs o gorro e o cachecol."
+],
+[
+"seg",
+"6.5.1",
+"Prefiro o calor de Funchal!"
+],
+[
+"seg",
+"6.5.2",
+"disse ela."
+],
+[
+"seg",
+"6.6.0",
+"Às sete e um quarto, o sol nasceu no horizonte, por cima das nuvens. O céu ficou dourado e cor-de-rosa. Muitas pessoas tiraram fotografias."
+],
+[
+"seg",
+"6.6.1",
+"Nunca vi nada tão bonito"
+],
+[
+"seg",
+"6.6.2",
+"disse a Ana."
+],
+[
+"seg",
+"6.7.0",
+"Depois, caminharam pelo trilho entre as rochas, ao lado de um corrimão. O cão correu à frente. Num miradouro, beberam chá quente do termo. A Ana trouxe os binóculos."
+],
+[
+"seg",
+"6.8.0",
+"À tarde, em Funchal, o termómetro marcava vinte e cinco graus. A Rita, de t-shirt, comeu um gelado na esplanada, debaixo do guarda-sol."
+],
+[
+"seg",
+"6.8.1",
+"Gosto mais do pico"
+],
+[
+"seg",
+"6.8.2",
+"disse ela."
+],
+[
+"seg",
+"6.8.3",
+"Eu prefiro a praia!"
+],
+[
+"seg",
+"6.8.4",
+"respondeu a Ana. Inverno e verão no mesmo dia!"
+],
+[
+"seg",
+"7.1.0",
+"No sábado de manhã, no sofá, com uma chávena de café, a Ana enviou à Rita uma fotografia das piscinas de Porto Moniz:"
+],
+[
+"seg",
+"7.1.1",
+"Vamos voltar lá? A Rita olhou para o telemóvel e riu-se."
+],
+[
+"seg",
+"7.1.2",
+"Às piscinas... ou ao empregado? A Ana ficou vermelha."
+],
+[
+"seg",
+"7.2.0",
+"Ao meio-dia, chegaram ao restaurante, mas o João não estava. Um senhor simpático disse que ele estava de folga."
+],
+[
+"seg",
+"7.2.2",
+"A Ana ficou desiludida... mas só por um minuto."
+],
+[
+"seg",
+"7.3.0",
+"A praia do Seixal tem areia preta, montanhas verdes e uma cascata. No mar havia muitos surfistas em cima das pranchas. Um deles acenou: era o João!"
+],
+[
+"seg",
+"7.4.0",
+"O João saiu da água com a prancha debaixo do braço e o cabelo molhado. Vestia um fato de surf preto. Contou que, quando era pequeno, vinha à praia todos os dias com o pai, que era pescador."
+],
+[
+"seg",
+"7.5.1",
+"perguntou ele. Primeiro, na areia, a Ana deitou-se na prancha e aprendeu a remar com os braços. A Rita tirava fotografias e o cão ladrava para as gaivotas."
+]
+],
+"prompt": "Chegaram ao Pico do Arieiro. Ao lado, viram a cúpula branca do radar. Estava muito frio: o termómetro marcava três graus! A Rita pôs o gorro e o cachecol.\n\nPrefiro o calor de Funchal!\n\ndisse ela.\n\nÀs sete e um quarto, o sol nasceu no horizonte, por cima das nuvens. O céu ficou dourado e cor-de-rosa. Muitas pessoas tiraram fotografias.\n\nNunca vi nada tão bonito.\n\ndisse a Ana.\n\nDepois, caminharam pelo trilho entre as rochas, ao lado de um corrimão. O cão correu à frente. Num miradouro, beberam chá quente do termo. A Ana trouxe os binóculos.\n\nÀ tarde, em Funchal, o termómetro marcava vinte e cinco graus. A Rita, de t-shirt, comeu um gelado na esplanada, debaixo do guarda-sol.\n\nGosto mais do pico.\n\ndisse ela.\n\nEu prefiro a praia!\n\nrespondeu a Ana. Inverno e verão no mesmo dia!\n\nNo sábado de manhã, no sofá, com uma chávena de café, a Ana enviou à Rita uma fotografia das piscinas de Porto Moniz:\n\nVamos voltar lá? A Rita olhou para o telemóvel e riu-se.\n\nÀs piscinas... ou ao empregado? A Ana ficou vermelha.\n\nAo meio-dia, chegaram ao restaurante, mas o João não estava. Um senhor simpático disse que ele estava de folga.\n\nA Ana ficou desiludida... mas só por um minuto.\n\nA praia do Seixal tem areia preta, montanhas verdes e uma cascata. No mar havia muitos surfistas em cima das pranchas. Um deles acenou: era o João!\n\nO João saiu da água com a prancha debaixo do braço e o cabelo molhado. Vestia um fato de surf preto. Contou que, quando era pequeno, vinha à praia todos os dias com o pai, que era pescador.\n\nperguntou ele. Primeiro, na areia, a Ana deitou-se na prancha e aprendeu a remar com os braços. A Rita tirava fotografias e o cão ladrava para as gaivotas."
+},
+"m05": {
+"voice": "bBNhdwrIjl4fcVYiRbT2",
+"items": [
+[
+"seg",
+"7.6.0",
+"Depois, foram para o mar. Na primeira onda, a Ana caiu na espuma. Na segunda, caiu outra vez. Na terceira, levantou-se e ficou de pé durante três segundos! O João gritou e bateu palmas:"
+],
+[
+"seg",
+"7.7.0",
+"Mais tarde, beberam poncha de limão ao balcão de um bar ao pé da praia. A Rita contou que procurava um apartamento novo em Funchal."
+],
+[
+"seg",
+"7.7.2",
+"disse o João, e deu-lhe o número dela."
+],
+[
+"seg",
+"7.8.0",
+"Ao pôr do sol, o céu estava roxo. No carro, a Rita conduzia e a Ana olhava para o telemóvel. Era uma mensagem do João. A Ana não disse nada, mas sorria."
+],
+[
+"seg",
+"7.8.1",
+"Então... as piscinas, não é?"
+],
+[
+"seg",
+"7.8.2",
+"disse a Rita."
+],
+[
+"seg",
+"8.1.0",
+"A Rita mora num apartamento pequeno em Funchal. Hoje chegou uma carta: o prédio foi vendido e vai ser um bed and breakfast! A Rita tem de sair até ao fim do mês. Ela liga à Marta pelo telemóvel:"
+],
+[
+"seg",
+"8.1.1",
+"Gostaria de ver apartamentos. Podia ajudar-me?"
+],
+[
+"seg",
+"8.2.0",
+"No dia seguinte, a Marta espera-a à porta da agência, na avenida do mar. Tem o cabelo curto e um molho de chaves na mão."
+],
+[
+"seg",
+"8.2.1",
+"O João falou-me de ti"
+],
+[
+"seg",
+"8.2.2",
+"diz ela."
+],
+[
+"seg",
+"8.2.3",
+"E da Ana também... muitas vezes! Talvez ele goste mesmo dela, pensa a Rita."
+],
+[
+"seg",
+"8.3.0",
+"O primeiro apartamento fica no quinto andar, sem elevador. Quando chegam lá acima, a Rita está cansada. Ela abre a janela... e só vê uma parede cinzenta!"
+],
+[
+"seg",
+"8.3.1",
+"Bem, pelo menos é sossegado"
+],
+[
+"seg",
+"8.3.2",
+"diz a Marta, a rir."
+],
+[
+"seg",
+"8.4.0",
+"O segundo fica num prédio moderno, com elevador e uma cozinha nova. Mas, na varanda, há muito barulho do trânsito e dos táxis. A Rita tapa os ouvidos."
+],
+[
+"seg",
+"8.4.1",
+"Espero que o terceiro seja mais calmo!"
+],
+[
+"seg",
+"8.5.0",
+"Ao almoço, numa esplanada da marina, entre os barcos, a Rita come uma salada, um pouco desiludida. A Marta mostra-lhe no telemóvel fotografias do fundo do mar: peixes e uma tartaruga. Aos fins de semana, ela mergulha no Garajau."
+]
+],
+"prompt": "Depois, foram para o mar. Na primeira onda, a Ana caiu na espuma. Na segunda, caiu outra vez. Na terceira, levantou-se e ficou de pé durante três segundos! O João gritou e bateu palmas:\n\nMais tarde, beberam poncha de limão ao balcão de um bar ao pé da praia. A Rita contou que procurava um apartamento novo em Funchal.\n\ndisse o João, e deu-lhe o número dela.\n\nAo pôr do sol, o céu estava roxo. No carro, a Rita conduzia e a Ana olhava para o telemóvel. Era uma mensagem do João. A Ana não disse nada, mas sorria.\n\nEntão... as piscinas, não é?\n\ndisse a Rita.\n\nA Rita mora num apartamento pequeno em Funchal. Hoje chegou uma carta: o prédio foi vendido e vai ser um bed and breakfast! A Rita tem de sair até ao fim do mês. Ela liga à Marta pelo telemóvel:\n\nGostaria de ver apartamentos. Podia ajudar-me?\n\nNo dia seguinte, a Marta espera-a à porta da agência, na avenida do mar. Tem o cabelo curto e um molho de chaves na mão.\n\nO João falou-me de ti.\n\ndiz ela.\n\nE da Ana também... muitas vezes! Talvez ele goste mesmo dela, pensa a Rita.\n\nO primeiro apartamento fica no quinto andar, sem elevador. Quando chegam lá acima, a Rita está cansada. Ela abre a janela... e só vê uma parede cinzenta!\n\nBem, pelo menos é sossegado.\n\ndiz a Marta, a rir.\n\nO segundo fica num prédio moderno, com elevador e uma cozinha nova. Mas, na varanda, há muito barulho do trânsito e dos táxis. A Rita tapa os ouvidos.\n\nEspero que o terceiro seja mais calmo!\n\nAo almoço, numa esplanada da marina, entre os barcos, a Rita come uma salada, um pouco desiludida. A Marta mostra-lhe no telemóvel fotografias do fundo do mar: peixes e uma tartaruga. Aos fins de semana, ela mergulha no Garajau."
+},
+"m06": {
+"voice": "bBNhdwrIjl4fcVYiRbT2",
+"items": [
+[
+"seg",
+"8.6.0",
+"O terceiro fica na Zona Velha, numa rua estreita de pedra. As portas estão pintadas com cores alegres. A casa tem azulejos azuis à entrada e uma varanda cheia de vasos com flores."
+],
+[
+"seg",
+"8.7.0",
+"Da varanda, a Rita vê o mar, os telhados vermelhos e o teleférico a subir para o Monte. Ela fecha os olhos e imagina-se ali todas as manhãs, com um café."
+],
+[
+"seg",
+"8.7.1",
+"Gostaria de ficar com este!"
+],
+[
+"seg",
+"8.7.2",
+"Eu sabia"
+],
+[
+"seg",
+"8.7.3",
+"sorri a Marta."
+],
+[
+"seg",
+"8.8.0",
+"À noite, entre as caixas, a Rita liga à Ana por videochamada no portátil:"
+],
+[
+"seg",
+"8.8.1",
+"A Marta convidou-nos para mergulhar no Garajau, no sábado. O João também vai! A Ana tapa a cara. O cão, no sofá, abana a cauda."
+],
+[
+"seg",
+"9.1.0",
+"No sábado, a Rita, a Ana e a Marta vão ao Garajau. Ao lado da estação do teleférico, a estátua do Cristo Rei abre os braços sobre o mar. As três entram na cabine."
+],
+[
+"seg",
+"9.1.1",
+"Espero que a água não esteja muito fria"
+],
+[
+"seg",
+"9.1.2",
+"diz a Rita."
+],
+[
+"seg",
+"9.2.0",
+"Na praia há seixos em vez de areia. O João já está à espera com as garrafas, as máscaras e as barbatanas. Dá dois beijinhos à Ana, e a Ana fica vermelha outra vez. A Marta vai logo ver o equipamento."
+],
+[
+"seg",
+"9.3.0",
+"A Rita, já de fato de mergulho, está nervosa."
+],
+[
+"seg",
+"9.3.1",
+"E se eu não conseguir respirar? A Marta explica os sinais: o polegar para cima quer dizer subir, e um círculo com os dedos quer dizer está tudo bem."
+],
+[
+"seg",
+"9.3.2",
+"Vais adorar"
+],
+[
+"seg",
+"9.3.3",
+"diz ela."
+],
+[
+"seg",
+"9.4.0",
+"Debaixo de água, tudo fica silencioso e azul. Só se ouvem as bolhas. À volta da Rita nadam peixes de todas as cores, e um mero gordo olha para ela com cara de quem não está nada impressionado."
+],
+[
+"seg",
+"9.5.0",
+"De repente, o João aponta para uma tartaruga! Ela nada devagar entre as rochas. O João dá a mão à Ana para ela se aproximar. A Rita pensa: Talvez não seja só por causa da tartaruga…"
+]
+],
+"prompt": "O terceiro fica na Zona Velha, numa rua estreita de pedra. As portas estão pintadas com cores alegres. A casa tem azulejos azuis à entrada e uma varanda cheia de vasos com flores.\n\nDa varanda, a Rita vê o mar, os telhados vermelhos e o teleférico a subir para o Monte. Ela fecha os olhos e imagina-se ali todas as manhãs, com um café.\n\nGostaria de ficar com este!\n\nEu sabia.\n\nsorri a Marta.\n\nÀ noite, entre as caixas, a Rita liga à Ana por videochamada no portátil:\n\nA Marta convidou-nos para mergulhar no Garajau, no sábado. O João também vai! A Ana tapa a cara. O cão, no sofá, abana a cauda.\n\nNo sábado, a Rita, a Ana e a Marta vão ao Garajau. Ao lado da estação do teleférico, a estátua do Cristo Rei abre os braços sobre o mar. As três entram na cabine.\n\nEspero que a água não esteja muito fria.\n\ndiz a Rita.\n\nNa praia há seixos em vez de areia. O João já está à espera com as garrafas, as máscaras e as barbatanas. Dá dois beijinhos à Ana, e a Ana fica vermelha outra vez. A Marta vai logo ver o equipamento.\n\nA Rita, já de fato de mergulho, está nervosa.\n\nE se eu não conseguir respirar? A Marta explica os sinais: o polegar para cima quer dizer subir, e um círculo com os dedos quer dizer está tudo bem.\n\nVais adorar.\n\ndiz ela.\n\nDebaixo de água, tudo fica silencioso e azul. Só se ouvem as bolhas. À volta da Rita nadam peixes de todas as cores, e um mero gordo olha para ela com cara de quem não está nada impressionado.\n\nDe repente, o João aponta para uma tartaruga! Ela nada devagar entre as rochas. O João dá a mão à Ana para ela se aproximar. A Rita pensa: Talvez não seja só por causa da tartaruga…"
+},
+"m07": {
+"voice": "bBNhdwrIjl4fcVYiRbT2",
+"items": [
+[
+"seg",
+"9.6.0",
+"Numa fenda da rocha, a Rita descobre um polvo. Quando ela se aproxima, ele fica cor-de-laranja! A Rita esquece o medo e faz à Marta o sinal de está tudo bem."
+],
+[
+"seg",
+"9.7.0",
+"Mais tarde, sentados nas toalhas, bebem chocolate quente do termo. Os chinelos da Ana secam ao sol."
+],
+[
+"seg",
+"9.7.1",
+"Gostaria de voltar no próximo sábado"
+],
+[
+"seg",
+"9.7.2",
+"diz a Rita."
+],
+[
+"seg",
+"9.7.3",
+"Eu também"
+],
+[
+"seg",
+"9.7.4",
+"diz a Ana, a olhar para o João."
+],
+[
+"seg",
+"9.8.0",
+"Na estação, ao pôr do sol, o telemóvel da Rita vibra. É uma mensagem da agência: O apartamento da Zona Velha é seu! A Rita grita de alegria e a Ana abraça-a. O João bate palmas e a Marta sorri: ela já sabia."
+],
+[
+"seg",
+"10.1.0",
+"No sábado de manhã, uma carrinha branca para à porta do prédio velho da Rita. Quem conduz é o Tiago, um amigo do João: é mecânico e corre de karts aos domingos."
+],
+[
+"seg",
+"10.1.2",
+"pergunta ele, com o boné ao contrário."
+],
+[
+"seg",
+"10.2.0",
+"O João e o Tiago carregam o colchão pela escada. A Rita leva uma planta e a Ana, o espelho."
+],
+[
+"seg",
+"10.2.1",
+"Cuidado!"
+],
+[
+"seg",
+"10.2.2",
+"grita a Rita. Tarde demais: o espelho bate na parede e parte-se."
+],
+[
+"seg",
+"10.2.4",
+"ri-se o Tiago."
+],
+[
+"seg",
+"10.3.0",
+"Na Zona Velha, a rua é estreita demais para a carrinha, por isso têm de levar tudo à mão. Uma vizinha idosa espreita da janela e oferece-lhes água fresca."
+],
+[
+"seg",
+"10.3.1",
+"Bem-vinda ao bairro, menina!"
+],
+[
+"seg",
+"10.4.0",
+"Dentro de casa, o Tiago monta a estante com uma chave de fendas. Faltam dois parafusos."
+],
+[
+"seg",
+"10.4.1",
+"Talvez estejam no chão…"
+],
+[
+"seg",
+"10.4.2",
+"diz a Ana, de joelhos, à procura deles."
+],
+[
+"seg",
+"10.5.0",
+"A Rita pendura um quadro na parede: uma fotografia da praia do Seixal. O João segura a escada."
+],
+[
+"seg",
+"10.5.1",
+"Está torto!"
+],
+[
+"seg",
+"10.5.2",
+"dizem a Ana e o Tiago ao mesmo tempo."
+],
+[
+"seg",
+"10.6.0",
+"Ao fim da tarde, a casa está quase pronta: o sofá, o tapete azul e as cortinas brancas a dançar ao vento. A Rita arruma os livros na estante e pensa: Se não fossem os meus amigos, ainda estaria a carregar caixas!"
+]
+],
+"prompt": "Numa fenda da rocha, a Rita descobre um polvo. Quando ela se aproxima, ele fica cor-de-laranja! A Rita esquece o medo e faz à Marta o sinal de está tudo bem.\n\nMais tarde, sentados nas toalhas, bebem chocolate quente do termo. Os chinelos da Ana secam ao sol.\n\nGostaria de voltar no próximo sábado.\n\ndiz a Rita.\n\nEu também.\n\ndiz a Ana, a olhar para o João.\n\nNa estação, ao pôr do sol, o telemóvel da Rita vibra. É uma mensagem da agência: O apartamento da Zona Velha é seu! A Rita grita de alegria e a Ana abraça-a. O João bate palmas e a Marta sorri: ela já sabia.\n\nNo sábado de manhã, uma carrinha branca para à porta do prédio velho da Rita. Quem conduz é o Tiago, um amigo do João: é mecânico e corre de karts aos domingos.\n\npergunta ele, com o boné ao contrário.\n\nO João e o Tiago carregam o colchão pela escada. A Rita leva uma planta e a Ana, o espelho.\n\nCuidado!\n\ngrita a Rita. Tarde demais: o espelho bate na parede e parte-se.\n\nri-se o Tiago.\n\nNa Zona Velha, a rua é estreita demais para a carrinha, por isso têm de levar tudo à mão. Uma vizinha idosa espreita da janela e oferece-lhes água fresca.\n\nBem-vinda ao bairro, menina!\n\nDentro de casa, o Tiago monta a estante com uma chave de fendas. Faltam dois parafusos.\n\nTalvez estejam no chão…\n\ndiz a Ana, de joelhos, à procura deles.\n\nA Rita pendura um quadro na parede: uma fotografia da praia do Seixal. O João segura a escada.\n\nEstá torto!\n\ndizem a Ana e o Tiago ao mesmo tempo.\n\nAo fim da tarde, a casa está quase pronta: o sofá, o tapete azul e as cortinas brancas a dançar ao vento. A Rita arruma os livros na estante e pensa: Se não fossem os meus amigos, ainda estaria a carregar caixas!"
+},
+"m08": {
+"voice": "bBNhdwrIjl4fcVYiRbT2",
+"items": [
+[
+"seg",
+"10.7.0",
+"Ao jantar, pedem pizza pelo telemóvel e comem sentados no chão, entre as caixas vazias. O João dá a última fatia à Ana. O Tiago pisca o olho à Rita."
+],
+[
+"seg",
+"10.8.0",
+"À noite, na varanda, brindam com poncha à casa nova. Lá em baixo brilham as luzes da cidade e o porto."
+],
+[
+"seg",
+"10.8.1",
+"À casa nova!"
+],
+[
+"seg",
+"10.8.2",
+"E aos vizinhos simpáticos!"
+],
+[
+"seg",
+"10.8.3",
+"diz a senhora da janela ao lado, com o seu copo na mão."
+],
+[
+"seg",
+"11.1.0",
+"No domingo de manhã, o Tiago leva os amigos ao kartódromo do Faial, no norte da ilha. Por cima da pista ergue-se a Penha d'Águia, uma rocha enorme ao pé do mar."
+],
+[
+"seg",
+"11.1.2",
+"diz o Tiago."
+],
+[
+"seg",
+"11.2.0",
+"No balcão, um funcionário dá-lhes fatos de corrida, luvas e capacetes. A Rita escolhe um capacete vermelho."
+],
+[
+"seg",
+"11.2.2",
+"diz o Tiago. A Rita fica vermelha como o capacete, e a Ana ri-se."
+],
+[
+"seg",
+"11.3.0",
+"O Tiago mostra-lhes um kart: o pedal da direita é para acelerar e o da esquerda é para travar. A bandeira verde quer dizer partida e a bandeira de xadrez quer dizer fim."
+],
+[
+"seg",
+"11.3.1",
+"E se eu bater?"
+],
+[
+"seg",
+"11.3.2",
+"pergunta a Ana."
+],
+[
+"seg",
+"11.4.0",
+"Partida! Os karts arrancam com um barulho enorme e deixam fumo azul no ar. Na primeira curva, o João ultrapassa a Ana. Nas bancadas, o público grita e bate palmas."
+],
+[
+"seg",
+"11.5.0",
+"A meio da corrida começa a chover e a pista fica molhada. A viseira do capacete da Rita enche-se de gotas. Ela trava tarde demais e o kart dá um pião! Talvez devesse ter travado mais cedo, pensa ela, a rir."
+],
+[
+"seg",
+"11.6.0",
+"Mas a Rita não desiste. Na última volta, passa o João e o Tiago e cruza a meta em primeiro lugar! O Tiago tira o capacete e bate palmas."
+],
+[
+"seg",
+"11.7.0",
+"No pódio, o funcionário aperta-lhe a mão e dá-lhe uma taça pequena e uma medalha. A Ana tira-lhe uma fotografia com o telemóvel."
+],
+[
+"seg",
+"11.7.1",
+"Gostaria de agradecer ao meu mecânico"
+],
+[
+"seg",
+"11.7.2",
+"diz a Rita, muito séria. Todos se riem."
+],
+[
+"seg",
+"11.8.0",
+"No caminho para casa, na carrinha do Tiago, ele pergunta:"
+]
+],
+"prompt": "Ao jantar, pedem pizza pelo telemóvel e comem sentados no chão, entre as caixas vazias. O João dá a última fatia à Ana. O Tiago pisca o olho à Rita.\n\nÀ noite, na varanda, brindam com poncha à casa nova. Lá em baixo brilham as luzes da cidade e o porto.\n\nÀ casa nova!\n\nE aos vizinhos simpáticos!\n\ndiz a senhora da janela ao lado, com o seu copo na mão.\n\nNo domingo de manhã, o Tiago leva os amigos ao kartódromo do Faial, no norte da ilha. Por cima da pista ergue-se a Penha d'Águia, uma rocha enorme ao pé do mar.\n\ndiz o Tiago.\n\nNo balcão, um funcionário dá-lhes fatos de corrida, luvas e capacetes. A Rita escolhe um capacete vermelho.\n\ndiz o Tiago. A Rita fica vermelha como o capacete, e a Ana ri-se.\n\nO Tiago mostra-lhes um kart: o pedal da direita é para acelerar e o da esquerda é para travar. A bandeira verde quer dizer partida e a bandeira de xadrez quer dizer fim.\n\nE se eu bater?\n\npergunta a Ana.\n\nPartida! Os karts arrancam com um barulho enorme e deixam fumo azul no ar. Na primeira curva, o João ultrapassa a Ana. Nas bancadas, o público grita e bate palmas.\n\nA meio da corrida começa a chover e a pista fica molhada. A viseira do capacete da Rita enche-se de gotas. Ela trava tarde demais e o kart dá um pião! Talvez devesse ter travado mais cedo, pensa ela, a rir.\n\nMas a Rita não desiste. Na última volta, passa o João e o Tiago e cruza a meta em primeiro lugar! O Tiago tira o capacete e bate palmas.\n\nNo pódio, o funcionário aperta-lhe a mão e dá-lhe uma taça pequena e uma medalha. A Ana tira-lhe uma fotografia com o telemóvel.\n\nGostaria de agradecer ao meu mecânico.\n\ndiz a Rita, muito séria. Todos se riem.\n\nNo caminho para casa, na carrinha do Tiago, ele pergunta:"
+},
+"m09": {
+"voice": "bBNhdwrIjl4fcVYiRbT2",
+"items": [
+[
+"seg",
+"11.8.2",
+"A Rita olha para o mar e sorri. No banco de trás, a Ana adormece no ombro do João."
+],
+[
+"seg",
+"12.1.0",
+"Numa manhã de sábado, a Rita e o Tiago tomam um café numa esplanada. No portátil, ela vê anúncios de carros usados."
+],
+[
+"seg",
+"12.1.2",
+"diz o Tiago."
+],
+[
+"seg",
+"12.2.0",
+"No stand de carros usados, um vendedor de gravata mostra-lhes um carro vermelho a brilhar. O Tiago abre o capô e olha para o motor. Depois abana a cabeça."
+],
+[
+"seg",
+"12.2.2",
+"diz ele baixinho"
+],
+[
+"seg",
+"12.3.0",
+"O segundo carro parece novo, mas o painel mostra duzentos mil quilómetros."
+],
+[
+"seg",
+"12.3.2",
+"jura o vendedor, com a mão no peito. O Tiago ri-se. Se calhar não devia confiar em vendedores de gravata, pensa a Rita."
+],
+[
+"seg",
+"12.4.0",
+"Mesmo assim, a Rita quer experimentar. Senta-se ao volante, põe o cinto e mete a primeira mudança. Numa rua muito inclinada, o carro vai abaixo e um autocarro buzina atrás dela."
+],
+[
+"seg",
+"12.4.2",
+"diz o Tiago."
+],
+[
+"seg",
+"12.5.0",
+"Num semáforo vermelho, o telemóvel da Rita vibra. É uma mensagem da Ana: O João convidou-me para jantar. Hoje! O que é que eu visto? A Rita sorri."
+],
+[
+"seg",
+"12.5.2",
+"diz o Tiago, que também leu a mensagem."
+],
+[
+"seg",
+"12.6.0",
+"À tarde, vão ver o carro de uma senhora idosa, numa garagem com vasos de flores. É pequeno, azul e muito limpo."
+],
+[
+"seg",
+"12.6.1",
+"Só o conduzi para ir à igreja e ao mercado"
+],
+[
+"seg",
+"12.6.2",
+"explica ela. O Tiago olha para o motor e sorri."
+],
+[
+"seg",
+"12.7.0",
+"A Rita gostaria de pagar um pouco menos."
+],
+[
+"seg",
+"12.7.1",
+"Podia fazer-me um desconto? A senhora pensa um pouco."
+],
+[
+"seg",
+"12.7.2",
+"Desconto não, mas dou-lhe um bolo de mel. Riem-se todos, e a Rita assina o contrato com a caneta da senhora."
+],
+[
+"seg",
+"12.8.0",
+"Ao fim do dia, a Rita estaciona à porta da oficina do Tiago. Ela dá-lhe um beijinho na cara, e ele fica vermelho como um capacete. Depois olha para as chaves e pensa: Espero que a Ana também esteja a ter uma boa noite."
+],
+[
+"seg",
+"13.1.0",
+"No domingo de manhã, a Rita leva a Ana à marina no seu carro azul."
+],
+[
+"seg",
+"13.1.1",
+"Então, o jantar?"
+]
+],
+"prompt": "A Rita olha para o mar e sorri. No banco de trás, a Ana adormece no ombro do João.\n\nNuma manhã de sábado, a Rita e o Tiago tomam um café numa esplanada. No portátil, ela vê anúncios de carros usados.\n\ndiz o Tiago.\n\nNo stand de carros usados, um vendedor de gravata mostra-lhes um carro vermelho a brilhar. O Tiago abre o capô e olha para o motor. Depois abana a cabeça.\n\ndiz ele baixinho.\n\nO segundo carro parece novo, mas o painel mostra duzentos mil quilómetros.\n\njura o vendedor, com a mão no peito. O Tiago ri-se. Se calhar não devia confiar em vendedores de gravata, pensa a Rita.\n\nMesmo assim, a Rita quer experimentar. Senta-se ao volante, põe o cinto e mete a primeira mudança. Numa rua muito inclinada, o carro vai abaixo e um autocarro buzina atrás dela.\n\ndiz o Tiago.\n\nNum semáforo vermelho, o telemóvel da Rita vibra. É uma mensagem da Ana: O João convidou-me para jantar. Hoje! O que é que eu visto? A Rita sorri.\n\ndiz o Tiago, que também leu a mensagem.\n\nÀ tarde, vão ver o carro de uma senhora idosa, numa garagem com vasos de flores. É pequeno, azul e muito limpo.\n\nSó o conduzi para ir à igreja e ao mercado.\n\nexplica ela. O Tiago olha para o motor e sorri.\n\nA Rita gostaria de pagar um pouco menos.\n\nPodia fazer-me um desconto? A senhora pensa um pouco.\n\nDesconto não, mas dou-lhe um bolo de mel. Riem-se todos, e a Rita assina o contrato com a caneta da senhora.\n\nAo fim do dia, a Rita estaciona à porta da oficina do Tiago. Ela dá-lhe um beijinho na cara, e ele fica vermelho como um capacete. Depois olha para as chaves e pensa: Espero que a Ana também esteja a ter uma boa noite.\n\nNo domingo de manhã, a Rita leva a Ana à marina no seu carro azul.\n\nEntão, o jantar?"
+},
+"m10": {
+"voice": "bBNhdwrIjl4fcVYiRbT2",
+"items": [
+[
+"seg",
+"13.1.2",
+"pergunta a Rita. A Ana fica vermelha e encolhe os ombros."
+],
+[
+"seg",
+"13.1.3",
+"Foi… simpático. A Rita ri-se. Ninguém fica assim por causa de um jantar simpático."
+],
+[
+"seg",
+"13.2.0",
+"No cais, o João espera ao lado de um veleiro branco. Com ele está a Sofia, uma amiga médica que veleja desde pequena."
+],
+[
+"seg",
+"13.2.1",
+"Bem-vindas a bordo!"
+],
+[
+"seg",
+"13.2.2",
+"diz ela."
+],
+[
+"seg",
+"13.2.3",
+"Mas primeiro, os coletes salva-vidas."
+],
+[
+"seg",
+"13.3.0",
+"Saem do porto devagar e passam pelo farol. A Sofia está ao leme e o João iça a vela. O vento enche a vela e o barco inclina-se. A Ana agarra-se a uma corda e grita, meio a rir, meio com medo."
+],
+[
+"seg",
+"13.4.0",
+"Pouco depois, a Rita sente-se enjoada."
+],
+[
+"seg",
+"13.4.1",
+"Olha para o horizonte"
+],
+[
+"seg",
+"13.4.2",
+"diz a Sofia, como boa médica."
+],
+[
+"seg",
+"13.4.3",
+"E come umas bolachas. A Rita obedece, mas pensa: Se soubesse, tinha ficado em terra."
+],
+[
+"seg",
+"13.5.0",
+"De repente, o João aponta para o mar: golfinhos! Um grupo nada ao lado do barco e um deles salta por cima das ondas. A Rita esquece o enjoo e tira fotografias sem parar."
+],
+[
+"seg",
+"13.6.0",
+"Ao meio-dia param perto das ilhas Desertas, secas e castanhas. O João mergulha na água azul e os outros comem sandes no convés."
+],
+[
+"seg",
+"13.6.1",
+"Ali vivem lobos-marinhos"
+],
+[
+"seg",
+"13.6.2",
+"conta a Sofia."
+],
+[
+"seg",
+"13.6.3",
+"Talvez vejamos um, se tivermos sorte."
+],
+[
+"seg",
+"13.7.0",
+"Na volta, o João ensina a Ana a fazer um nó de marinheiro. As mãos deles tocam-se mais do que é preciso. A Rita e a Sofia trocam um olhar e sorriem. Estes dois…, pensa a Rita."
+],
+[
+"seg",
+"13.8.0",
+"Ao pôr do sol, entram na marina e a Sofia amarra o barco ao cais."
+],
+[
+"seg",
+"13.8.1",
+"Para a semana vamos à Calheta?"
+],
+[
+"seg",
+"13.8.2",
+"pergunta ela."
+],
+[
+"seg",
+"13.8.3",
+"Eu também faço parapente. A Rita olha para o céu, onde voa uma vela colorida, e engole em seco."
+],
+[
+"seg",
+"14.1.0",
+"No sábado seguinte, a Rita estaciona no alto do Arco da Calheta. Lá em baixo, muito longe, veem-se as bananeiras, os telhados e o mar. A Ana e o João saem do carro de mãos dadas."
+],
+[
+"seg",
+"14.1.1",
+"Então agora é oficial?"
+]
+],
+"prompt": "pergunta a Rita. A Ana fica vermelha e encolhe os ombros.\n\nFoi… simpático. A Rita ri-se. Ninguém fica assim por causa de um jantar simpático.\n\nNo cais, o João espera ao lado de um veleiro branco. Com ele está a Sofia, uma amiga médica que veleja desde pequena.\n\nBem-vindas a bordo!\n\ndiz ela.\n\nMas primeiro, os coletes salva-vidas.\n\nSaem do porto devagar e passam pelo farol. A Sofia está ao leme e o João iça a vela. O vento enche a vela e o barco inclina-se. A Ana agarra-se a uma corda e grita, meio a rir, meio com medo.\n\nPouco depois, a Rita sente-se enjoada.\n\nOlha para o horizonte.\n\ndiz a Sofia, como boa médica.\n\nE come umas bolachas. A Rita obedece, mas pensa: Se soubesse, tinha ficado em terra.\n\nDe repente, o João aponta para o mar: golfinhos! Um grupo nada ao lado do barco e um deles salta por cima das ondas. A Rita esquece o enjoo e tira fotografias sem parar.\n\nAo meio-dia param perto das ilhas Desertas, secas e castanhas. O João mergulha na água azul e os outros comem sandes no convés.\n\nAli vivem lobos-marinhos.\n\nconta a Sofia.\n\nTalvez vejamos um, se tivermos sorte.\n\nNa volta, o João ensina a Ana a fazer um nó de marinheiro. As mãos deles tocam-se mais do que é preciso. A Rita e a Sofia trocam um olhar e sorriem. Estes dois…, pensa a Rita.\n\nAo pôr do sol, entram na marina e a Sofia amarra o barco ao cais.\n\nPara a semana vamos à Calheta?\n\npergunta ela.\n\nEu também faço parapente. A Rita olha para o céu, onde voa uma vela colorida, e engole em seco.\n\nNo sábado seguinte, a Rita estaciona no alto do Arco da Calheta. Lá em baixo, muito longe, veem-se as bananeiras, os telhados e o mar. A Ana e o João saem do carro de mãos dadas.\n\nEntão agora é oficial?"
+},
+"m11": {
+"voice": "bBNhdwrIjl4fcVYiRbT2",
+"items": [
+[
+"seg",
+"14.1.2",
+"pergunta a Rita. Os dois só sorriem."
+],
+[
+"seg",
+"14.2.0",
+"Na rampa de descolagem há uma manga de vento laranja, e os pilotos tiram as asas coloridas das mochilas. Por cima deles, um francelho para no ar, quase sem mexer as asas."
+],
+[
+"seg",
+"14.2.1",
+"O vento está perfeito!"
+],
+[
+"seg",
+"14.2.2",
+"diz a Sofia. A Rita não acha nada perfeito."
+],
+[
+"seg",
+"14.3.0",
+"O instrutor, o Duarte, voa há trinta anos. Ajuda a Rita a vestir o arnês e aperta as fivelas uma a uma."
+],
+[
+"seg",
+"14.3.2",
+"explica ele."
+],
+[
+"seg",
+"14.3.3",
+"Mesmo que tenha medo?"
+],
+[
+"seg",
+"14.4.0",
+"A Sofia descola primeiro. Corre três passos, a asa enche-se de ar e ela sobe devagar, como um pássaro. A Ana bate palmas. A Rita respira fundo e pensa: Se a Sofia consegue, eu também consigo… acho eu."
+],
+[
+"seg",
+"14.5.0",
+"Chega a vez da Rita."
+],
+[
+"seg",
+"14.5.2",
+"grita o Duarte. A Rita corre pela rampa, fecha os olhos e, de repente, os pés já não tocam no chão."
+],
+[
+"seg",
+"14.6.0",
+"Quando abre os olhos, está a voar por cima das falésias. Ao lado deles, uma manta sobe em círculos."
+],
+[
+"seg",
+"14.6.2",
+"diz o Duarte."
+],
+[
+"seg",
+"14.6.4",
+"Se soubesse que era assim, tinha vindo há mais tempo!"
+],
+[
+"seg",
+"14.6.5",
+"grita a Rita, a rir."
+],
+[
+"seg",
+"14.7.0",
+"Meia hora depois, aterram na praia da Calheta. Junto ao muro, alguém acena com um cartaz: Rita, és uma heroína! É o Tiago, vermelho como sempre. A Rita ri-se tanto que quase cai na areia."
+],
+[
+"seg",
+"14.8.0",
+"À noite, jantam numa esplanada com lapas e bolo do caco. A Ana encosta a cabeça ao ombro do João. Sobre o mar passam as cagarras, a gritar como bebés."
+],
+[
+"seg",
+"14.8.1",
+"E para a semana?"
+],
+[
+"seg",
+"14.8.2",
+"pergunta a Sofia. A Rita olha para o Tiago:"
+],
+[
+"seg",
+"14.8.3",
+"Talvez uma coisa com os pés no chão."
+],
+[
+"seg",
+"15.1.0",
+"Uma semana depois, a Rita escreve no grupo dos amigos: Sábado à noite, festa na casa nova! Tragam só boa disposição. O telemóvel vibra sem parar. A Marta responde primeiro: Fui eu que te encontrei a casa, por isso vou de certeza!"
+]
+],
+"prompt": "pergunta a Rita. Os dois só sorriem.\n\nNa rampa de descolagem há uma manga de vento laranja, e os pilotos tiram as asas coloridas das mochilas. Por cima deles, um francelho para no ar, quase sem mexer as asas.\n\nO vento está perfeito!\n\ndiz a Sofia. A Rita não acha nada perfeito.\n\nO instrutor, o Duarte, voa há trinta anos. Ajuda a Rita a vestir o arnês e aperta as fivelas uma a uma.\n\nexplica ele.\n\nMesmo que tenha medo?\n\nA Sofia descola primeiro. Corre três passos, a asa enche-se de ar e ela sobe devagar, como um pássaro. A Ana bate palmas. A Rita respira fundo e pensa: Se a Sofia consegue, eu também consigo… acho eu.\n\nChega a vez da Rita.\n\ngrita o Duarte. A Rita corre pela rampa, fecha os olhos e, de repente, os pés já não tocam no chão.\n\nQuando abre os olhos, está a voar por cima das falésias. Ao lado deles, uma manta sobe em círculos.\n\ndiz o Duarte.\n\nSe soubesse que era assim, tinha vindo há mais tempo!\n\ngrita a Rita, a rir.\n\nMeia hora depois, aterram na praia da Calheta. Junto ao muro, alguém acena com um cartaz: Rita, és uma heroína! É o Tiago, vermelho como sempre. A Rita ri-se tanto que quase cai na areia.\n\nÀ noite, jantam numa esplanada com lapas e bolo do caco. A Ana encosta a cabeça ao ombro do João. Sobre o mar passam as cagarras, a gritar como bebés.\n\nE para a semana?\n\npergunta a Sofia. A Rita olha para o Tiago:\n\nTalvez uma coisa com os pés no chão.\n\nUma semana depois, a Rita escreve no grupo dos amigos: Sábado à noite, festa na casa nova! Tragam só boa disposição. O telemóvel vibra sem parar. A Marta responde primeiro: Fui eu que te encontrei a casa, por isso vou de certeza!"
+},
+"m12": {
+"voice": "bBNhdwrIjl4fcVYiRbT2",
+"items": [
+[
+"seg",
+"15.2.0",
+"No sábado de manhã, a Rita e a Ana vão ao supermercado com um carrinho e uma lista no telemóvel. A Ana empurra o carrinho entre as prateleiras."
+],
+[
+"seg",
+"15.2.1",
+"Quem me dera que as compras fossem sempre assim tão divertidas"
+],
+[
+"seg",
+"15.2.2",
+"diz a Rita."
+],
+[
+"seg",
+"15.3.0",
+"Na secção das bebidas, escolhem uma grade de Coral, a cerveja da Madeira, e duas garrafas de Brisa de maracujá."
+],
+[
+"seg",
+"15.3.1",
+"O Tiago disse que trazia o vinho"
+],
+[
+"seg",
+"15.3.2",
+"lembra a Ana."
+],
+[
+"seg",
+"15.3.3",
+"Então só falta o gelo."
+],
+[
+"seg",
+"15.4.0",
+"Depois enchem o carrinho de petiscos: queijo, presunto, azeitonas, tremoços e batatas fritas. A Ana ainda quer chouriço, mas a Rita abana a cabeça e ri-se:"
+],
+[
+"seg",
+"15.4.1",
+"Somos sete, não somos setenta!"
+],
+[
+"seg",
+"15.5.0",
+"Na caixa, a Rita paga com o telemóvel. Depois sobem a rua com três sacos pesados."
+],
+[
+"seg",
+"15.5.1",
+"Quem me dera que houvesse um elevador!"
+],
+[
+"seg",
+"15.5.2",
+"diz a Ana a meio das escadas."
+],
+[
+"seg",
+"15.6.0",
+"À noite, a campainha toca e os amigos chegam todos juntos. A Marta traz uma planta, a Sofia um bolo e o Tiago duas garrafas de vinho. A vizinha também aparece, com um prato de bolo do caco ainda quente."
+],
+[
+"seg",
+"15.7.0",
+"Na varanda, há música, petiscos e muitas gargalhadas. Embora a casa seja pequena, cabe toda a gente."
+],
+[
+"seg",
+"15.7.2",
+"diz o João, e todos brindam com Coral fresquinha."
+],
+[
+"seg",
+"15.8.0",
+"À meia-noite, os amigos vão embora e a cozinha parece um campo de batalha. O Tiago fica para ajudar a lavar a loiça. Embora já seja tarde, nenhum dos dois tem pressa."
+],
+[
+"seg",
+"16.1.0",
+"Dois dias depois da festa, o telemóvel da Rita vibra. É o Tiago: Querias uma coisa com os pés no chão? Sábado vamos jogar golfe no Santo da Serra. A minha amiga Inês vai ensinar-nos. A Rita lê a mensagem três vezes e sorri."
+],
+[
+"seg",
+"16.2.0",
+"Na sexta à noite, a Ana está deitada na cama da Rita com o cão."
+],
+[
+"seg",
+"16.2.1",
+"Então ele perguntou se querias uma coisa com os pés no chão?"
+],
+[
+"seg",
+"16.2.2",
+"Perguntou. E disse que a amiga dele nos ia ensinar"
+]
+],
+"prompt": "No sábado de manhã, a Rita e a Ana vão ao supermercado com um carrinho e uma lista no telemóvel. A Ana empurra o carrinho entre as prateleiras.\n\nQuem me dera que as compras fossem sempre assim tão divertidas.\n\ndiz a Rita.\n\nNa secção das bebidas, escolhem uma grade de Coral, a cerveja da Madeira, e duas garrafas de Brisa de maracujá.\n\nO Tiago disse que trazia o vinho.\n\nlembra a Ana.\n\nEntão só falta o gelo.\n\nDepois enchem o carrinho de petiscos: queijo, presunto, azeitonas, tremoços e batatas fritas. A Ana ainda quer chouriço, mas a Rita abana a cabeça e ri-se:\n\nSomos sete, não somos setenta!\n\nNa caixa, a Rita paga com o telemóvel. Depois sobem a rua com três sacos pesados.\n\nQuem me dera que houvesse um elevador!\n\ndiz a Ana a meio das escadas.\n\nÀ noite, a campainha toca e os amigos chegam todos juntos. A Marta traz uma planta, a Sofia um bolo e o Tiago duas garrafas de vinho. A vizinha também aparece, com um prato de bolo do caco ainda quente.\n\nNa varanda, há música, petiscos e muitas gargalhadas. Embora a casa seja pequena, cabe toda a gente.\n\ndiz o João, e todos brindam com Coral fresquinha.\n\nÀ meia-noite, os amigos vão embora e a cozinha parece um campo de batalha. O Tiago fica para ajudar a lavar a loiça. Embora já seja tarde, nenhum dos dois tem pressa.\n\nDois dias depois da festa, o telemóvel da Rita vibra. É o Tiago: Querias uma coisa com os pés no chão? Sábado vamos jogar golfe no Santo da Serra. A minha amiga Inês vai ensinar-nos. A Rita lê a mensagem três vezes e sorri.\n\nNa sexta à noite, a Ana está deitada na cama da Rita com o cão.\n\nEntão ele perguntou se querias uma coisa com os pés no chão?\n\nPerguntou. E disse que a amiga dele nos ia ensinar."
+},
+"m13": {
+"voice": "bBNhdwrIjl4fcVYiRbT2",
+"items": [
+[
+"seg",
+"16.2.3",
+"responde a Rita ao espelho, com um pólo branco e um boné."
+],
+[
+"seg",
+"16.3.0",
+"No sábado, o campo de golfe está coberto de nevoeiro. À porta do clube, uma mulher com um saco de golfe ao ombro acena-lhes. É a Inês, advogada e amiga do João desde a escola."
+],
+[
+"seg",
+"16.3.1",
+"Não se preocupem"
+],
+[
+"seg",
+"16.3.2",
+"diz ela."
+],
+[
+"seg",
+"16.3.3",
+"Aqui o nevoeiro vai e vem."
+],
+[
+"seg",
+"16.4.0",
+"A Inês dá um taco e uma luva à Rita e explica: as mãos juntas, os joelhos dobrados e os olhos sempre na bola. A Rita bate com toda a força. A bola não se mexe, mas um pedaço de relva voa pelo ar. O Tiago tenta não se rir."
+],
+[
+"seg",
+"16.5.0",
+"Depois é a vez do Tiago."
+],
+[
+"seg",
+"16.5.2",
+"confessa."
+],
+[
+"seg",
+"16.5.4",
+"A bola voa direita para o lago e os patos fogem a grasnar. Agora é a Rita que não consegue parar de rir."
+],
+[
+"seg",
+"16.6.0",
+"A meio da manhã, o nevoeiro abre de repente. Lá em baixo aparecem a baía de Machico e a Ponta de São Lourenço. Entre as hortênsias azuis, um tentilhão salta na relva."
+],
+[
+"seg",
+"16.6.1",
+"Agora percebo porque é que vocês jogam aqui"
+],
+[
+"seg",
+"16.6.2",
+"diz a Rita."
+],
+[
+"seg",
+"16.7.0",
+"No último buraco, a bola da Rita para perto da bandeira. Ela respira fundo e bate devagar. A bola rola, rola… e entra! A Rita salta de alegria e o Tiago abraça-a sem pensar. Depois afastam-se, os dois envergonhados."
+],
+[
+"seg",
+"16.8.0",
+"À saída, a Inês dá dois beijinhos à Rita e diz-lhe baixinho:"
+],
+[
+"seg",
+"16.8.1",
+"O Tiago disse-me que nunca tinha trazido ninguém aqui. A Rita olha para ele, que arruma os sacos no porta-bagagens. Está vermelho como sempre… e desta vez não é do sol."
+],
+[
+"seg",
+"17.1.0",
+"Na terça-feira, a Rita vai à baixa do Funchal comprar um presente: no sábado, o Tiago faz trinta e um anos. Estaciona o carro azul em frente a uma loja de molduras, ao lado de um sinal que nem lê. São só cinco minutos, pensa ela."
+],
+[
+"seg",
+"17.2.0",
+"Lá dentro, mostra ao vendedor uma fotografia do pódio do Faial, com as medalhas."
+],
+[
+"seg",
+"17.2.2",
+"diz ele."
+],
+[
+"seg",
+"17.2.4",
+"Conhece-o?"
+]
+],
+"prompt": "responde a Rita ao espelho, com um pólo branco e um boné.\n\nNo sábado, o campo de golfe está coberto de nevoeiro. À porta do clube, uma mulher com um saco de golfe ao ombro acena-lhes. É a Inês, advogada e amiga do João desde a escola.\n\nNão se preocupem.\n\ndiz ela.\n\nAqui o nevoeiro vai e vem.\n\nA Inês dá um taco e uma luva à Rita e explica: as mãos juntas, os joelhos dobrados e os olhos sempre na bola. A Rita bate com toda a força. A bola não se mexe, mas um pedaço de relva voa pelo ar. O Tiago tenta não se rir.\n\nDepois é a vez do Tiago.\n\nconfessa.\n\nA bola voa direita para o lago e os patos fogem a grasnar. Agora é a Rita que não consegue parar de rir.\n\nA meio da manhã, o nevoeiro abre de repente. Lá em baixo aparecem a baía de Machico e a Ponta de São Lourenço. Entre as hortênsias azuis, um tentilhão salta na relva.\n\nAgora percebo porque é que vocês jogam aqui.\n\ndiz a Rita.\n\nNo último buraco, a bola da Rita para perto da bandeira. Ela respira fundo e bate devagar. A bola rola, rola… e entra! A Rita salta de alegria e o Tiago abraça-a sem pensar. Depois afastam-se, os dois envergonhados.\n\nÀ saída, a Inês dá dois beijinhos à Rita e diz-lhe baixinho:\n\nO Tiago disse-me que nunca tinha trazido ninguém aqui. A Rita olha para ele, que arruma os sacos no porta-bagagens. Está vermelho como sempre… e desta vez não é do sol.\n\nNa terça-feira, a Rita vai à baixa do Funchal comprar um presente: no sábado, o Tiago faz trinta e um anos. Estaciona o carro azul em frente a uma loja de molduras, ao lado de um sinal que nem lê. São só cinco minutos, pensa ela.\n\nLá dentro, mostra ao vendedor uma fotografia do pódio do Faial, com as medalhas.\n\ndiz ele.\n\nConhece-o?"
+},
+"m14": {
+"voice": "bBNhdwrIjl4fcVYiRbT2",
+"items": [
+[
+"seg",
+"17.3.0",
+"Quinze minutos depois, a Rita sai com o embrulho debaixo do braço… e para. O carro azul desapareceu! No sinal há um camião desenhado: cargas e descargas. Se eu tivesse lido o sinal, não estava agora aqui, pensa."
+],
+[
+"seg",
+"17.4.0",
+"Da janela, uma senhora de idade chama-a."
+],
+[
+"seg",
+"17.4.1",
+"Levou-o o reboque, filha, há dez minutos. Se eu fosse a si, ia já à esquadra. Ao fundo da rua, a Rita ainda vê o carro azul a dobrar a esquina, preso atrás do reboque."
+],
+[
+"seg",
+"17.5.0",
+"Na esquadra, há uma fila comprida. Quando chega a vez dela, o agente procura a matrícula no computador."
+],
+[
+"seg",
+"17.5.2",
+"A Rita paga com o cartão e guarda o recibo como se fosse um bilhete de lotaria."
+],
+[
+"seg",
+"17.6.0",
+"No depósito, entre dezenas de carros, está uma carrinha conhecida: o Tiago veio buscar o carro de um cliente! A Rita esconde o embrulho atrás das costas."
+],
+[
+"seg",
+"17.6.2",
+"Eu? Nada… vim dar um passeio."
+],
+[
+"seg",
+"17.7.0",
+"O Tiago olha para o carro azul, com um papel amarelo no para-brisas, e depois para ela."
+],
+[
+"seg",
+"17.7.2",
+"diz ele, a rir."
+],
+[
+"seg",
+"17.7.3",
+"E se eu fosse tu, não fazia tantas perguntas"
+],
+[
+"seg",
+"17.7.4",
+"responde a Rita."
+],
+[
+"seg",
+"17.8.0",
+"No sábado, na oficina, os amigos cantam os parabéns e o Tiago sopra as velas. Depois abre o embrulho: é a fotografia do pódio, na moldura vermelha."
+],
+[
+"seg",
+"17.8.2",
+"A Rita encolhe os ombros… e desta vez é ela que fica vermelha."
+]
+],
+"prompt": "Quinze minutos depois, a Rita sai com o embrulho debaixo do braço… e para. O carro azul desapareceu! No sinal há um camião desenhado: cargas e descargas. Se eu tivesse lido o sinal, não estava agora aqui, pensa.\n\nDa janela, uma senhora de idade chama-a.\n\nLevou-o o reboque, filha, há dez minutos. Se eu fosse a si, ia já à esquadra. Ao fundo da rua, a Rita ainda vê o carro azul a dobrar a esquina, preso atrás do reboque.\n\nNa esquadra, há uma fila comprida. Quando chega a vez dela, o agente procura a matrícula no computador.\n\nA Rita paga com o cartão e guarda o recibo como se fosse um bilhete de lotaria.\n\nNo depósito, entre dezenas de carros, está uma carrinha conhecida: o Tiago veio buscar o carro de um cliente! A Rita esconde o embrulho atrás das costas.\n\nEu? Nada… vim dar um passeio.\n\nO Tiago olha para o carro azul, com um papel amarelo no para-brisas, e depois para ela.\n\ndiz ele, a rir.\n\nE se eu fosse tu, não fazia tantas perguntas.\n\nresponde a Rita.\n\nNo sábado, na oficina, os amigos cantam os parabéns e o Tiago sopra as velas. Depois abre o embrulho: é a fotografia do pódio, na moldura vermelha.\n\nA Rita encolhe os ombros… e desta vez é ela que fica vermelha."
+},
+"p01": {
+"voice": "XxTHUwWTW2conYBz0vvk",
+"items": [
+[
+"seg",
+"1.7.1",
+"São dois euros"
+],
+[
+"seg",
+"7.2.1",
+"Aos sábados, o João faz surf no Seixal!"
+],
+[
+"seg",
+"7.5.0",
+"Queres experimentar?"
+],
+[
+"seg",
+"7.6.1",
+"Muito bem!"
+],
+[
+"seg",
+"7.7.1",
+"A minha amiga Marta vende casas!"
+],
+[
+"seg",
+"10.1.1",
+"Bom dia! Onde estão as caixas?"
+],
+[
+"seg",
+"10.2.3",
+"Sete anos de azar"
+],
+[
+"seg",
+"11.1.1",
+"Hoje é dia de corrida!"
+],
+[
+"seg",
+"11.2.1",
+"Fica-te bem"
+],
+[
+"seg",
+"11.3.3",
+"Os pneus protegem-te."
+],
+[
+"seg",
+"11.6.1",
+"Se calhar devias ser piloto!"
+],
+[
+"seg",
+"11.8.1",
+"Rita, já pensaste em comprar um carro? Eu podia ajudar-te."
+],
+[
+"seg",
+"12.1.1",
+"Este preço é bom demais"
+],
+[
+"seg",
+"12.1.3",
+"Quando é bom demais, há sempre um problema."
+],
+[
+"seg",
+"12.2.1",
+"Brilha muito por fora"
+],
+[
+"seg",
+"12.2.3",
+"mas o motor está cansado."
+],
+[
+"seg",
+"12.3.1",
+"Está como novo!"
+],
+[
+"seg",
+"12.4.1",
+"Calma"
+],
+[
+"seg",
+"12.4.3",
+"Primeiro, o travão de mão."
+],
+[
+"seg",
+"12.5.1",
+"Finalmente!"
+],
+[
+"seg",
+"14.3.1",
+"Quando eu disser corre, tu corres e não paras"
+],
+[
+"seg",
+"14.3.4",
+"Sobretudo se tiveres medo."
+],
+[
+"seg",
+"14.5.1",
+"Agora! Corre!"
+],
+[
+"seg",
+"14.6.1",
+"É a águia da Madeira"
+],
+[
+"seg",
+"14.6.3",
+"Vai sempre onde o ar sobe. Segue-a!"
+],
+[
+"seg",
+"15.7.1",
+"À casa nova!"
+],
+[
+"seg",
+"16.5.1",
+"Na oficina, eu disse que já tinha jogado golfe muitas vezes"
+],
+[
+"seg",
+"16.5.3",
+"Era mentira."
+],
+[
+"seg",
+"17.2.1",
+"Se eu fosse a senhora, escolhia esta moldura vermelha"
+],
+[
+"seg",
+"17.2.3",
+"Combina com o kart do Tiago."
+],
+[
+"seg",
+"17.2.5",
+"No Funchal, toda a gente conhece o Tiago!"
+],
+[
+"seg",
+"17.5.1",
+"O carro está no depósito do porto. Primeiro paga a multa."
+],
+[
+"seg",
+"17.6.1",
+"Rita? O que estás aqui a fazer?"
+],
+[
+"seg",
+"17.7.1",
+"Se eu fosse tu, não estacionava em cargas e descargas"
+],
+[
+"seg",
+"17.8.1",
+"Então era isto que escondias no depósito!"
+],
+[
+"echo",
+"querias uma coisa com os pés no chão?",
+"Querias uma coisa com os pés no chão?"
+],
+[
+"echo",
+"a minha amiga inês vai ensinar-nos.",
+"A minha amiga Inês vai ensinar-nos."
+],
+[
+"echo",
+"já joguei golfe muitas vezes!",
+"Já joguei golfe muitas vezes!"
+],
+[
+"echo",
+"nunca trouxe ninguém aqui.",
+"Nunca trouxe ninguém aqui."
+],
+[
+"echo",
+"eu trago o vinho.",
+"Eu trago o vinho."
+]
+],
+"prompt": "São dois euros.\n\nAos sábados, o João faz surf no Seixal!\n\nQueres experimentar?\n\nMuito bem!\n\nA minha amiga Marta vende casas!\n\nBom dia! Onde estão as caixas?\n\nSete anos de azar.\n\nHoje é dia de corrida!\n\nFica-te bem.\n\nOs pneus protegem-te.\n\nSe calhar devias ser piloto!\n\nRita, já pensaste em comprar um carro? Eu podia ajudar-te.\n\nEste preço é bom demais.\n\nQuando é bom demais, há sempre um problema.\n\nBrilha muito por fora.\n\nmas o motor está cansado.\n\nEstá como novo!\n\nCalma.\n\nPrimeiro, o travão de mão.\n\nFinalmente!\n\nQuando eu disser corre, tu corres e não paras.\n\nSobretudo se tiveres medo.\n\nAgora! Corre!\n\nÉ a águia da Madeira.\n\nVai sempre onde o ar sobe. Segue-a!\n\nÀ casa nova!\n\nNa oficina, eu disse que já tinha jogado golfe muitas vezes.\n\nEra mentira.\n\nSe eu fosse a senhora, escolhia esta moldura vermelha.\n\nCombina com o kart do Tiago.\n\nNo Funchal, toda a gente conhece o Tiago!\n\nO carro está no depósito do porto. Primeiro paga a multa.\n\nRita? O que estás aqui a fazer?\n\nSe eu fosse tu, não estacionava em cargas e descargas.\n\nEntão era isto que escondias no depósito!\n\nQuerias uma coisa com os pés no chão?\n\nA minha amiga Inês vai ensinar-nos.\n\nJá joguei golfe muitas vezes!\n\nNunca trouxe ninguém aqui.\n\nEu trago o vinho."
+},
+"t01": {
+"voice": "bBNhdwrIjl4fcVYiRbT2",
+"items": [
+[
+"title",
+"manha",
+"A Manhã da Rita"
+],
+[
+"title",
+"sabado",
+"O Sábado da Rita"
+],
+[
+"title",
+"domingo",
+"O Domingo da Rita"
+],
+[
+"title",
+"jantar",
+"O Jantar da Rita"
+],
+[
+"title",
+"passeio",
+"O Passeio da Rita"
+],
+[
+"title",
+"pico",
+"A Madrugada da Rita"
+],
+[
+"title",
+"seixal",
+"A Ana Volta ao Norte"
+],
+[
+"title",
+"casa",
+"A Rita Procura Casa"
+],
+[
+"title",
+"garajau",
+"O Mergulho no Garajau"
+],
+[
+"title",
+"novacasa",
+"A Casa Nova"
+],
+[
+"title",
+"corridas",
+"O Dia das Corridas"
+],
+[
+"title",
+"carro",
+"O Carro da Rita"
+],
+[
+"title",
+"veleiro",
+"O Veleiro"
+],
+[
+"title",
+"voo",
+"O Voo da Rita"
+],
+[
+"title",
+"festa",
+"A Festa da Casa Nova"
+],
+[
+"title",
+"golfe",
+"Com os Pés no Chão"
+],
+[
+"title",
+"presente",
+"O Presente"
+]
+],
+"prompt": "A Manhã da Rita.\n\nO Sábado da Rita.\n\nO Domingo da Rita.\n\nO Jantar da Rita.\n\nO Passeio da Rita.\n\nA Madrugada da Rita.\n\nA Ana Volta ao Norte.\n\nA Rita Procura Casa.\n\nO Mergulho no Garajau.\n\nA Casa Nova.\n\nO Dia das Corridas.\n\nO Carro da Rita.\n\nO Veleiro.\n\nO Voo da Rita.\n\nA Festa da Casa Nova.\n\nCom os Pés no Chão.\n\nO Presente."
+},
+"w01": {
+"voice": "bBNhdwrIjl4fcVYiRbT2",
+"items": [
+[
+"word",
+"abana",
+"abana"
+],
+[
+"word",
+"abraça",
+"abraça"
+],
+[
+"word",
+"abre",
+"abre"
+],
+[
+"word",
+"acende",
+"acende"
+],
+[
+"word",
+"acenou",
+"acenou"
+],
+[
+"word",
+"acorda",
+"acorda"
+],
+[
+"word",
+"adormece",
+"adormece"
+],
+[
+"word",
+"agência",
+"agência"
+],
+[
+"word",
+"altas",
+"altas"
+],
+[
+"word",
+"ana",
+"ana"
+],
+[
+"word",
+"apanha",
+"apanha"
+],
+[
+"word",
+"aperta",
+"aperta"
+],
+[
+"word",
+"arco-íris",
+"arco-íris"
+],
+[
+"word",
+"areia",
+"areia"
+],
+[
+"word",
+"arrancam",
+"arrancam"
+]
+],
+"prompt": "abana, abraça, abre, acende, acenou, acorda, adormece, agência, altas, ana, apanha, aperta, arco-íris, areia, arrancam."
+},
+"w02": {
+"voice": "bBNhdwrIjl4fcVYiRbT2",
+"items": [
+[
+"word",
+"arruma",
+"arruma"
+],
+[
+"word",
+"autocarro",
+"autocarro"
+],
+[
+"word",
+"avenida",
+"avenida"
+],
+[
+"word",
+"aviso",
+"aviso"
+],
+[
+"word",
+"azul",
+"azul"
+],
+[
+"word",
+"azulejos",
+"azulejos"
+],
+[
+"word",
+"balcão",
+"balcão"
+],
+[
+"word",
+"banana",
+"banana"
+],
+[
+"word",
+"bananas",
+"bananas"
+],
+[
+"word",
+"bancadas",
+"bancadas"
+],
+[
+"word",
+"banco",
+"banco"
+],
+[
+"word",
+"bandeira",
+"bandeira"
+],
+[
+"word",
+"bar",
+"bar"
+],
+[
+"word",
+"barbatanas",
+"barbatanas"
+],
+[
+"word",
+"barcos",
+"barcos"
+]
+],
+"prompt": "arruma, autocarro, avenida, aviso, azul, azulejos, balcão, banana, bananas, bancadas, banco, bandeira, bar, barbatanas, barcos."
+},
+"w03": {
+"voice": "bBNhdwrIjl4fcVYiRbT2",
+"items": [
+[
+"word",
+"bateu palmas",
+"bateu palmas"
+],
+[
+"word",
+"bebe",
+"bebe"
+],
+[
+"word",
+"bebem",
+"bebem"
+],
+[
+"word",
+"beber",
+"beber"
+],
+[
+"word",
+"beijinhos",
+"beijinhos"
+],
+[
+"word",
+"bem",
+"bem"
+],
+[
+"word",
+"binóculos",
+"binóculos"
+],
+[
+"word",
+"bolhas",
+"bolhas"
+],
+[
+"word",
+"bolo do caco",
+"bolo do caco"
+],
+[
+"word",
+"bom",
+"bom"
+],
+[
+"word",
+"bonita",
+"bonita"
+],
+[
+"word",
+"boné",
+"boné"
+],
+[
+"word",
+"botas",
+"botas"
+],
+[
+"word",
+"branco",
+"branco"
+],
+[
+"word",
+"braço",
+"braço"
+]
+],
+"prompt": "bateu palmas, bebe, bebem, beber, beijinhos, bem, binóculos, bolhas, bolo do caco, bom, bonita, boné, botas, branco, braço."
+},
+"w04": {
+"voice": "bBNhdwrIjl4fcVYiRbT2",
+"items": [
+[
+"word",
+"braços",
+"braços"
+],
+[
+"word",
+"brindam",
+"brindam"
+],
+[
+"word",
+"cabelo",
+"cabelo"
+],
+[
+"word",
+"cabine",
+"cabine"
+],
+[
+"word",
+"cachecol",
+"cachecol"
+],
+[
+"word",
+"café",
+"café"
+],
+[
+"word",
+"cafés",
+"cafés"
+],
+[
+"word",
+"cai",
+"cai"
+],
+[
+"word",
+"caixas",
+"caixas"
+],
+[
+"word",
+"calça",
+"calça"
+],
+[
+"word",
+"cama",
+"cama"
+],
+[
+"word",
+"caminhar",
+"caminhar"
+],
+[
+"word",
+"canal",
+"canal"
+],
+[
+"word",
+"cansada",
+"cansada"
+],
+[
+"word",
+"cansadas",
+"cansadas"
+]
+],
+"prompt": "braços, brindam, cabelo, cabine, cachecol, café, cafés, cai, caixas, calça, cama, caminhar, canal, cansada, cansadas."
+},
+"w05": {
+"voice": "bBNhdwrIjl4fcVYiRbT2",
+"items": [
+[
+"word",
+"capacetes",
+"capacetes"
+],
+[
+"word",
+"cara",
+"cara"
+],
+[
+"word",
+"carregam",
+"carregam"
+],
+[
+"word",
+"carrinha",
+"carrinha"
+],
+[
+"word",
+"carro",
+"carro"
+],
+[
+"word",
+"carro de cesto",
+"carro de cesto"
+],
+[
+"word",
+"carta",
+"carta"
+],
+[
+"word",
+"casa",
+"casa"
+],
+[
+"word",
+"casaco",
+"casaco"
+],
+[
+"word",
+"cascata",
+"cascata"
+],
+[
+"word",
+"cauda",
+"cauda"
+],
+[
+"word",
+"cesto",
+"cesto"
+],
+[
+"word",
+"chapéu",
+"chapéu"
+],
+[
+"word",
+"chave de fendas",
+"chave de fendas"
+],
+[
+"word",
+"chaves",
+"chaves"
+]
+],
+"prompt": "capacetes, cara, carregam, carrinha, carro, carro de cesto, carta, casa, casaco, cascata, cauda, cesto, chapéu, chave de fendas, chaves."
+},
+"w06": {
+"voice": "bBNhdwrIjl4fcVYiRbT2",
+"items": [
+[
+"word",
+"chinelos",
+"chinelos"
+],
+[
+"word",
+"chocolate",
+"chocolate"
+],
+[
+"word",
+"chover",
+"chover"
+],
+[
+"word",
+"chuva",
+"chuva"
+],
+[
+"word",
+"chá",
+"chá"
+],
+[
+"word",
+"chávena",
+"chávena"
+],
+[
+"word",
+"chão",
+"chão"
+],
+[
+"word",
+"cidade",
+"cidade"
+],
+[
+"word",
+"cinzenta",
+"cinzenta"
+],
+[
+"word",
+"cinzento",
+"cinzento"
+],
+[
+"word",
+"colchão",
+"colchão"
+],
+[
+"word",
+"come",
+"come"
+],
+[
+"word",
+"comem",
+"comem"
+],
+[
+"word",
+"compra",
+"compra"
+],
+[
+"word",
+"conduziu",
+"conduziu"
+]
+],
+"prompt": "chinelos, chocolate, chover, chuva, chá, chávena, chão, cidade, cinzenta, cinzento, colchão, come, comem, compra, conduziu."
+},
+"w07": {
+"voice": "bBNhdwrIjl4fcVYiRbT2",
+"items": [
+[
+"word",
+"conta",
+"conta"
+],
+[
+"word",
+"copo",
+"copo"
+],
+[
+"word",
+"cor-de-laranja",
+"cor-de-laranja"
+],
+[
+"word",
+"cor-de-rosa",
+"cor-de-rosa"
+],
+[
+"word",
+"correu",
+"correu"
+],
+[
+"word",
+"corrimão",
+"corrimão"
+],
+[
+"word",
+"cortinas",
+"cortinas"
+],
+[
+"word",
+"cozinha",
+"cozinha"
+],
+[
+"word",
+"curto",
+"curto"
+],
+[
+"word",
+"curva",
+"curva"
+],
+[
+"word",
+"curvas",
+"curvas"
+],
+[
+"word",
+"cão",
+"cão"
+],
+[
+"word",
+"céu",
+"céu"
+],
+[
+"word",
+"dedos",
+"dedos"
+],
+[
+"word",
+"desce",
+"desce"
+]
+],
+"prompt": "conta, copo, cor-de-laranja, cor-de-rosa, correu, corrimão, cortinas, cozinha, curto, curva, curvas, cão, céu, dedos, desce."
+},
+"w08": {
+"voice": "bBNhdwrIjl4fcVYiRbT2",
+"items": [
+[
+"word",
+"desiludida",
+"desiludida"
+],
+[
+"word",
+"despertador",
+"despertador"
+],
+[
+"word",
+"dia",
+"dia"
+],
+[
+"word",
+"dividem",
+"dividem"
+],
+[
+"word",
+"dois",
+"dois"
+],
+[
+"word",
+"dois euros",
+"dois euros"
+],
+[
+"word",
+"domingo",
+"domingo"
+],
+[
+"word",
+"dorme",
+"dorme"
+],
+[
+"word",
+"dourado",
+"dourado"
+],
+[
+"word",
+"dá",
+"dá"
+],
+[
+"word",
+"dá um pião",
+"dá um pião"
+],
+[
+"word",
+"elevador",
+"elevador"
+],
+[
+"word",
+"ementa",
+"ementa"
+],
+[
+"word",
+"empregado",
+"empregado"
+],
+[
+"word",
+"empurram",
+"empurram"
+]
+],
+"prompt": "desiludida, despertador, dia, dividem, dois, dois euros, domingo, dorme, dourado, dá, dá um pião, elevador, ementa, empregado, empurram."
+},
+"w09": {
+"voice": "bBNhdwrIjl4fcVYiRbT2",
+"items": [
+[
+"word",
+"entram",
+"entram"
+],
+[
+"word",
+"escada",
+"escada"
+],
+[
+"word",
+"escuro",
+"escuro"
+],
+[
+"word",
+"espelho",
+"espelho"
+],
+[
+"word",
+"espetada",
+"espetada"
+],
+[
+"word",
+"esplanada",
+"esplanada"
+],
+[
+"word",
+"espuma",
+"espuma"
+],
+[
+"word",
+"estante",
+"estante"
+],
+[
+"word",
+"estação",
+"estação"
+],
+[
+"word",
+"estendem",
+"estendem"
+],
+[
+"word",
+"estrada",
+"estrada"
+],
+[
+"word",
+"estradas",
+"estradas"
+],
+[
+"word",
+"estrelas",
+"estrelas"
+],
+[
+"word",
+"estátua",
+"estátua"
+],
+[
+"word",
+"falésias",
+"falésias"
+]
+],
+"prompt": "entram, escada, escuro, espelho, espetada, esplanada, espuma, estante, estação, estendem, estrada, estradas, estrelas, estátua, falésias."
+},
+"w10": {
+"voice": "bBNhdwrIjl4fcVYiRbT2",
+"items": [
+[
+"word",
+"faróis",
+"faróis"
+],
+[
+"word",
+"fatia",
+"fatia"
+],
+[
+"word",
+"fato de mergulho",
+"fato de mergulho"
+],
+[
+"word",
+"fato de surf",
+"fato de surf"
+],
+[
+"word",
+"fatos de corrida",
+"fatos de corrida"
+],
+[
+"word",
+"fecha os olhos",
+"fecha os olhos"
+],
+[
+"word",
+"feliz",
+"feliz"
+],
+[
+"word",
+"felizes",
+"felizes"
+],
+[
+"word",
+"fenda",
+"fenda"
+],
+[
+"word",
+"flores",
+"flores"
+],
+[
+"word",
+"floresta",
+"floresta"
+],
+[
+"word",
+"fotografia",
+"fotografia"
+],
+[
+"word",
+"fotografias",
+"fotografias"
+],
+[
+"word",
+"fria",
+"fria"
+],
+[
+"word",
+"frio",
+"frio"
+]
+],
+"prompt": "faróis, fatia, fato de mergulho, fato de surf, fatos de corrida, fecha os olhos, feliz, felizes, fenda, flores, floresta, fotografia, fotografias, fria, frio."
+},
+"w11": {
+"voice": "bBNhdwrIjl4fcVYiRbT2",
+"items": [
+[
+"word",
+"fruta",
+"fruta"
+],
+[
+"word",
+"fumo",
+"fumo"
+],
+[
+"word",
+"funchal",
+"funchal"
+],
+[
+"word",
+"funcionário",
+"funcionário"
+],
+[
+"word",
+"gaivotas",
+"gaivotas"
+],
+[
+"word",
+"galão",
+"galão"
+],
+[
+"word",
+"garrafas",
+"garrafas"
+],
+[
+"word",
+"gato",
+"gato"
+],
+[
+"word",
+"gelado",
+"gelado"
+],
+[
+"word",
+"gelados",
+"gelados"
+],
+[
+"word",
+"gordo",
+"gordo"
+],
+[
+"word",
+"gorro",
+"gorro"
+],
+[
+"word",
+"gosta",
+"gosta"
+],
+[
+"word",
+"gotas",
+"gotas"
+],
+[
+"word",
+"graus",
+"graus"
+]
+],
+"prompt": "fruta, fumo, funchal, funcionário, gaivotas, galão, garrafas, gato, gelado, gelados, gordo, gorro, gosta, gotas, graus."
+},
+"w12": {
+"voice": "bBNhdwrIjl4fcVYiRbT2",
+"items": [
+[
+"word",
+"grita",
+"grita"
+],
+[
+"word",
+"gritou",
+"gritou"
+],
+[
+"word",
+"guarda-chuva",
+"guarda-chuva"
+],
+[
+"word",
+"guarda-sol",
+"guarda-sol"
+],
+[
+"word",
+"hoje",
+"hoje"
+],
+[
+"word",
+"homens",
+"homens"
+],
+[
+"word",
+"horizonte",
+"horizonte"
+],
+[
+"word",
+"janela",
+"janela"
+],
+[
+"word",
+"jardins",
+"jardins"
+],
+[
+"word",
+"joão",
+"joão"
+],
+[
+"word",
+"kart",
+"kart"
+],
+[
+"word",
+"kartódromo",
+"kartódromo"
+],
+[
+"word",
+"ladrava",
+"ladrava"
+],
+[
+"word",
+"lago",
+"lago"
+],
+[
+"word",
+"lanterna",
+"lanterna"
+]
+],
+"prompt": "grita, gritou, guarda-chuva, guarda-sol, hoje, homens, horizonte, janela, jardins, joão, kart, kartódromo, ladrava, lago, lanterna."
+},
+"w13": {
+"voice": "bBNhdwrIjl4fcVYiRbT2",
+"items": [
+[
+"word",
+"laranjas",
+"laranjas"
+],
+[
+"word",
+"levada",
+"levada"
+],
+[
+"word",
+"levantou-se",
+"levantou-se"
+],
+[
+"word",
+"liga",
+"liga"
+],
+[
+"word",
+"limpa-para-brisas",
+"limpa-para-brisas"
+],
+[
+"word",
+"limão",
+"limão"
+],
+[
+"word",
+"livro",
+"livro"
+],
+[
+"word",
+"livros",
+"livros"
+],
+[
+"word",
+"lua",
+"lua"
+],
+[
+"word",
+"luvas",
+"luvas"
+],
+[
+"word",
+"luzes",
+"luzes"
+],
+[
+"word",
+"manhã",
+"manhã"
+],
+[
+"word",
+"manteiga",
+"manteiga"
+],
+[
+"word",
+"manteiga de alho",
+"manteiga de alho"
+],
+[
+"word",
+"mar",
+"mar"
+]
+],
+"prompt": "laranjas, levada, levantou-se, liga, limpa-para-brisas, limão, livro, livros, lua, luvas, luzes, manhã, manteiga, manteiga de alho, mar."
+},
+"w14": {
+"voice": "bBNhdwrIjl4fcVYiRbT2",
+"items": [
+[
+"word",
+"maracujá",
+"maracujá"
+],
+[
+"word",
+"maracujás",
+"maracujás"
+],
+[
+"word",
+"marina",
+"marina"
+],
+[
+"word",
+"marta",
+"marta"
+],
+[
+"word",
+"mecânico",
+"mecânico"
+],
+[
+"word",
+"medalha",
+"medalha"
+],
+[
+"word",
+"mensagem",
+"mensagem"
+],
+[
+"word",
+"mercado dos lavradores",
+"mercado dos lavradores"
+],
+[
+"word",
+"mero",
+"mero"
+],
+[
+"word",
+"mesa",
+"mesa"
+],
+[
+"word",
+"meta",
+"meta"
+],
+[
+"word",
+"miradouro",
+"miradouro"
+],
+[
+"word",
+"mochila",
+"mochila"
+],
+[
+"word",
+"molhada",
+"molhada"
+],
+[
+"word",
+"molhado",
+"molhado"
+]
+],
+"prompt": "maracujá, maracujás, marina, marta, mecânico, medalha, mensagem, mercado dos lavradores, mero, mesa, meta, miradouro, mochila, molhada, molhado."
+},
+"w15": {
+"voice": "bBNhdwrIjl4fcVYiRbT2",
+"items": [
+[
+"word",
+"monta",
+"monta"
+],
+[
+"word",
+"montanha",
+"montanha"
+],
+[
+"word",
+"montanhas",
+"montanhas"
+],
+[
+"word",
+"montra",
+"montra"
+],
+[
+"word",
+"mora",
+"mora"
+],
+[
+"word",
+"morango",
+"morango"
+],
+[
+"word",
+"muro",
+"muro"
+],
+[
+"word",
+"musgo",
+"musgo"
+],
+[
+"word",
+"máscaras",
+"máscaras"
+],
+[
+"word",
+"mão",
+"mão"
+],
+[
+"word",
+"nada",
+"nada"
+],
+[
+"word",
+"nasceu",
+"nasceu"
+],
+[
+"word",
+"navio",
+"navio"
+],
+[
+"word",
+"navios",
+"navios"
+],
+[
+"word",
+"nervosa",
+"nervosa"
+]
+],
+"prompt": "monta, montanha, montanhas, montra, mora, morango, muro, musgo, máscaras, mão, nada, nasceu, navio, navios, nervosa."
+},
+"w16": {
+"voice": "bBNhdwrIjl4fcVYiRbT2",
+"items": [
+[
+"word",
+"nevoeiro",
+"nevoeiro"
+],
+[
+"word",
+"noite",
+"noite"
+],
+[
+"word",
+"norte",
+"norte"
+],
+[
+"word",
+"nuvens",
+"nuvens"
+],
+[
+"word",
+"obrigada",
+"obrigada"
+],
+[
+"word",
+"olha",
+"olha"
+],
+[
+"word",
+"ombro",
+"ombro"
+],
+[
+"word",
+"onda",
+"onda"
+],
+[
+"word",
+"ondas",
+"ondas"
+],
+[
+"word",
+"ouvem",
+"ouvem"
+],
+[
+"word",
+"ouvidos",
+"ouvidos"
+],
+[
+"word",
+"palha",
+"palha"
+],
+[
+"word",
+"palmas",
+"palmas"
+],
+[
+"word",
+"parafusos",
+"parafusos"
+],
+[
+"word",
+"paragem",
+"paragem"
+]
+],
+"prompt": "nevoeiro, noite, norte, nuvens, obrigada, olha, ombro, onda, ondas, ouvem, ouvidos, palha, palmas, parafusos, paragem."
+},
+"w17": {
+"voice": "bBNhdwrIjl4fcVYiRbT2",
+"items": [
+[
+"word",
+"parede",
+"parede"
+],
+[
+"word",
+"parte-se",
+"parte-se"
+],
+[
+"word",
+"passa",
+"passa"
+],
+[
+"word",
+"pastéis de nata",
+"pastéis de nata"
+],
+[
+"word",
+"pedal",
+"pedal"
+],
+[
+"word",
+"pedaço",
+"pedaço"
+],
+[
+"word",
+"pede",
+"pede"
+],
+[
+"word",
+"pedra",
+"pedra"
+],
+[
+"word",
+"peixe-espada",
+"peixe-espada"
+],
+[
+"word",
+"peixes",
+"peixes"
+],
+[
+"word",
+"pendura",
+"pendura"
+],
+[
+"word",
+"penha d'águia",
+"penha d'águia"
+],
+[
+"word",
+"pequeno",
+"pequeno"
+],
+[
+"word",
+"perfeito",
+"perfeito"
+],
+[
+"word",
+"pessoas",
+"pessoas"
+]
+],
+"prompt": "parede, parte-se, passa, pastéis de nata, pedal, pedaço, pede, pedra, peixe-espada, peixes, pendura, penha d'águia, pequeno, perfeito, pessoas."
+},
+"w18": {
+"voice": "bBNhdwrIjl4fcVYiRbT2",
+"items": [
+[
+"word",
+"pico do arieiro",
+"pico do arieiro"
+],
+[
+"word",
+"piloto",
+"piloto"
+],
+[
+"word",
+"pintadas",
+"pintadas"
+],
+[
+"word",
+"pisca o olho",
+"pisca o olho"
+],
+[
+"word",
+"piscinas naturais",
+"piscinas naturais"
+],
+[
+"word",
+"pista",
+"pista"
+],
+[
+"word",
+"pizza",
+"pizza"
+],
+[
+"word",
+"planta",
+"planta"
+],
+[
+"word",
+"pneus",
+"pneus"
+],
+[
+"word",
+"polegar",
+"polegar"
+],
+[
+"word",
+"polvo",
+"polvo"
+],
+[
+"word",
+"poncha",
+"poncha"
+],
+[
+"word",
+"porta",
+"porta"
+],
+[
+"word",
+"portas",
+"portas"
+],
+[
+"word",
+"porto",
+"porto"
+]
+],
+"prompt": "pico do arieiro, piloto, pintadas, pisca o olho, piscinas naturais, pista, pizza, planta, pneus, polegar, polvo, poncha, porta, portas, porto."
+},
+"w19": {
+"voice": "bBNhdwrIjl4fcVYiRbT2",
+"items": [
+[
+"word",
+"porto moniz",
+"porto moniz"
+],
+[
+"word",
+"portátil",
+"portátil"
+],
+[
+"word",
+"poças",
+"poças"
+],
+[
+"word",
+"praia",
+"praia"
+],
+[
+"word",
+"prancha",
+"prancha"
+],
+[
+"word",
+"pranchas",
+"pranchas"
+],
+[
+"word",
+"preta",
+"preta"
+],
+[
+"word",
+"prédio",
+"prédio"
+],
+[
+"word",
+"pudim",
+"pudim"
+],
+[
+"word",
+"pão",
+"pão"
+],
+[
+"word",
+"pé",
+"pé"
+],
+[
+"word",
+"pódio",
+"pódio"
+],
+[
+"word",
+"pôr do sol",
+"pôr do sol"
+],
+[
+"word",
+"põe",
+"põe"
+],
+[
+"word",
+"público",
+"público"
+]
+],
+"prompt": "porto moniz, portátil, poças, praia, prancha, pranchas, preta, prédio, pudim, pão, pé, pódio, pôr do sol, põe, público."
+},
+"w20": {
+"voice": "bBNhdwrIjl4fcVYiRbT2",
+"items": [
+[
+"word",
+"quadro",
+"quadro"
+],
+[
+"word",
+"quente",
+"quente"
+],
+[
+"word",
+"radar",
+"radar"
+],
+[
+"word",
+"remar",
+"remar"
+],
+[
+"word",
+"restaurante",
+"restaurante"
+],
+[
+"word",
+"ri-se",
+"ri-se"
+],
+[
+"word",
+"rita",
+"rita"
+],
+[
+"word",
+"riu-se",
+"riu-se"
+],
+[
+"word",
+"rochas",
+"rochas"
+],
+[
+"word",
+"roxo",
+"roxo"
+],
+[
+"word",
+"rua",
+"rua"
+],
+[
+"word",
+"sai",
+"sai"
+],
+[
+"word",
+"salada",
+"salada"
+],
+[
+"word",
+"sandes",
+"sandes"
+],
+[
+"word",
+"secam",
+"secam"
+]
+],
+"prompt": "quadro, quente, radar, remar, restaurante, ri-se, rita, riu-se, rochas, roxo, rua, sai, salada, sandes, secam."
+},
+"w21": {
+"voice": "bBNhdwrIjl4fcVYiRbT2",
+"items": [
+[
+"word",
+"seixos",
+"seixos"
+],
+[
+"word",
+"senhor",
+"senhor"
+],
+[
+"word",
+"simpático",
+"simpático"
+],
+[
+"word",
+"sinais",
+"sinais"
+],
+[
+"word",
+"sinal",
+"sinal"
+],
+[
+"word",
+"sobe",
+"sobe"
+],
+[
+"word",
+"sobremesa",
+"sobremesa"
+],
+[
+"word",
+"sofá",
+"sofá"
+],
+[
+"word",
+"sol",
+"sol"
+],
+[
+"word",
+"sombra",
+"sombra"
+],
+[
+"word",
+"sorri",
+"sorri"
+],
+[
+"word",
+"sorria",
+"sorria"
+],
+[
+"word",
+"surfistas",
+"surfistas"
+],
+[
+"word",
+"sábado",
+"sábado"
+],
+[
+"word",
+"t-shirt",
+"t-shirt"
+]
+],
+"prompt": "seixos, senhor, simpático, sinais, sinal, sobe, sobremesa, sofá, sol, sombra, sorri, sorria, surfistas, sábado, t-shirt."
+},
+"w22": {
+"voice": "bBNhdwrIjl4fcVYiRbT2",
+"items": [
+[
+"word",
+"tapa",
+"tapa"
+],
+[
+"word",
+"tapete",
+"tapete"
+],
+[
+"word",
+"tartaruga",
+"tartaruga"
+],
+[
+"word",
+"taça",
+"taça"
+],
+[
+"word",
+"teleférico",
+"teleférico"
+],
+[
+"word",
+"telemóvel",
+"telemóvel"
+],
+[
+"word",
+"telhados",
+"telhados"
+],
+[
+"word",
+"tem",
+"tem"
+],
+[
+"word",
+"termo",
+"termo"
+],
+[
+"word",
+"termómetro",
+"termómetro"
+],
+[
+"word",
+"tiago",
+"tiago"
+],
+[
+"word",
+"tira",
+"tira"
+],
+[
+"word",
+"toalha",
+"toalha"
+],
+[
+"word",
+"toalhas",
+"toalhas"
+],
+[
+"word",
+"torto",
+"torto"
+]
+],
+"prompt": "tapa, tapete, tartaruga, taça, teleférico, telemóvel, telhados, tem, termo, termómetro, tiago, tira, toalha, toalhas, torto."
+},
+"w23": {
+"voice": "bBNhdwrIjl4fcVYiRbT2",
+"items": [
+[
+"word",
+"trilho",
+"trilho"
+],
+[
+"word",
+"triste",
+"triste"
+],
+[
+"word",
+"trânsito",
+"trânsito"
+],
+[
+"word",
+"três",
+"três"
+],
+[
+"word",
+"táxis",
+"táxis"
+],
+[
+"word",
+"túneis",
+"túneis"
+],
+[
+"word",
+"túnel",
+"túnel"
+],
+[
+"word",
+"ultrapassa",
+"ultrapassa"
+],
+[
+"word",
+"vale",
+"vale"
+],
+[
+"word",
+"varanda",
+"varanda"
+],
+[
+"word",
+"vasos",
+"vasos"
+],
+[
+"word",
+"veem",
+"veem"
+],
+[
+"word",
+"vela",
+"vela"
+],
+[
+"word",
+"vento",
+"vento"
+],
+[
+"word",
+"verdes",
+"verdes"
+]
+],
+"prompt": "trilho, triste, trânsito, três, táxis, túneis, túnel, ultrapassa, vale, varanda, vasos, veem, vela, vento, verdes."
+},
+"w24": {
+"voice": "bBNhdwrIjl4fcVYiRbT2",
+"items": [
+[
+"word",
+"vermelha",
+"vermelha"
+],
+[
+"word",
+"via rápida",
+"via rápida"
+],
+[
+"word",
+"viaduto",
+"viaduto"
+],
+[
+"word",
+"vibra",
+"vibra"
+],
+[
+"word",
+"videochamada",
+"videochamada"
+],
+[
+"word",
+"vinho",
+"vinho"
+],
+[
+"word",
+"viseira",
+"viseira"
+],
+[
+"word",
+"vista",
+"vista"
+],
+[
+"word",
+"vizinha",
+"vizinha"
+],
+[
+"word",
+"volante",
+"volante"
+],
+[
+"word",
+"vê",
+"vê"
+],
+[
+"word",
+"xadrez",
+"xadrez"
+],
+[
+"word",
+"água",
+"água"
+],
+[
+"word",
+"árvores",
+"árvores"
+],
+[
+"word",
+"óculos de sol",
+"óculos de sol"
+]
+],
+"prompt": "vermelha, via rápida, viaduto, vibra, videochamada, vinho, viseira, vista, vizinha, volante, vê, xadrez, água, árvores, óculos de sol."
+},
+"w25": {
+"voice": "bBNhdwrIjl4fcVYiRbT2",
+"items": [
+[
+"word",
+"anúncios",
+"anúncios"
+],
+[
+"word",
+"preço",
+"preço"
+],
+[
+"word",
+"stand",
+"stand"
+],
+[
+"word",
+"vendedor",
+"vendedor"
+],
+[
+"word",
+"gravata",
+"gravata"
+],
+[
+"word",
+"capô",
+"capô"
+],
+[
+"word",
+"motor",
+"motor"
+],
+[
+"word",
+"abana a cabeça",
+"abana a cabeça"
+],
+[
+"word",
+"painel",
+"painel"
+],
+[
+"word",
+"quilómetros",
+"quilómetros"
+],
+[
+"word",
+"jura",
+"jura"
+],
+[
+"word",
+"cinto",
+"cinto"
+],
+[
+"word",
+"mudança",
+"mudança"
+],
+[
+"word",
+"vai abaixo",
+"vai abaixo"
+],
+[
+"word",
+"buzina",
+"buzina"
+]
+],
+"prompt": "anúncios, preço, stand, vendedor, gravata, capô, motor, abana a cabeça, painel, quilómetros, jura, cinto, mudança, vai abaixo, buzina."
+},
+"w26": {
+"voice": "bBNhdwrIjl4fcVYiRbT2",
+"items": [
+[
+"word",
+"travão de mão",
+"travão de mão"
+],
+[
+"word",
+"semáforo",
+"semáforo"
+],
+[
+"word",
+"senhora",
+"senhora"
+],
+[
+"word",
+"garagem",
+"garagem"
+],
+[
+"word",
+"limpo",
+"limpo"
+],
+[
+"word",
+"bolo de mel",
+"bolo de mel"
+],
+[
+"word",
+"assina",
+"assina"
+],
+[
+"word",
+"contrato",
+"contrato"
+],
+[
+"word",
+"caneta",
+"caneta"
+],
+[
+"word",
+"estaciona",
+"estaciona"
+],
+[
+"word",
+"oficina",
+"oficina"
+],
+[
+"word",
+"beijinho",
+"beijinho"
+],
+[
+"word",
+"vermelho",
+"vermelho"
+],
+[
+"word",
+"encolhe os ombros",
+"encolhe os ombros"
+],
+[
+"word",
+"cais",
+"cais"
+]
+],
+"prompt": "travão de mão, semáforo, senhora, garagem, limpo, bolo de mel, assina, contrato, caneta, estaciona, oficina, beijinho, vermelho, encolhe os ombros, cais."
+},
+"w27": {
+"voice": "bBNhdwrIjl4fcVYiRbT2",
+"items": [
+[
+"word",
+"veleiro",
+"veleiro"
+],
+[
+"word",
+"sofia",
+"sofia"
+],
+[
+"word",
+"médica",
+"médica"
+],
+[
+"word",
+"coletes salva-vidas",
+"coletes salva-vidas"
+],
+[
+"word",
+"farol",
+"farol"
+],
+[
+"word",
+"leme",
+"leme"
+],
+[
+"word",
+"iça",
+"iça"
+],
+[
+"word",
+"inclina-se",
+"inclina-se"
+],
+[
+"word",
+"corda",
+"corda"
+],
+[
+"word",
+"enjoada",
+"enjoada"
+],
+[
+"word",
+"bolachas",
+"bolachas"
+],
+[
+"word",
+"aponta",
+"aponta"
+],
+[
+"word",
+"golfinhos",
+"golfinhos"
+],
+[
+"word",
+"salta",
+"salta"
+],
+[
+"word",
+"ilhas desertas",
+"ilhas desertas"
+]
+],
+"prompt": "veleiro, sofia, médica, coletes salva-vidas, farol, leme, iça, inclina-se, corda, enjoada, bolachas, aponta, golfinhos, salta, ilhas desertas."
+},
+"w28": {
+"voice": "bBNhdwrIjl4fcVYiRbT2",
+"items": [
+[
+"word",
+"mergulha",
+"mergulha"
+],
+[
+"word",
+"convés",
+"convés"
+],
+[
+"word",
+"nó",
+"nó"
+],
+[
+"word",
+"mãos",
+"mãos"
+],
+[
+"word",
+"amarra",
+"amarra"
+],
+[
+"word",
+"parapente",
+"parapente"
+],
+[
+"word",
+"bananeiras",
+"bananeiras"
+],
+[
+"word",
+"mãos dadas",
+"mãos dadas"
+],
+[
+"word",
+"sorriem",
+"sorriem"
+],
+[
+"word",
+"rampa",
+"rampa"
+],
+[
+"word",
+"manga de vento",
+"manga de vento"
+],
+[
+"word",
+"pilotos",
+"pilotos"
+],
+[
+"word",
+"asas",
+"asas"
+],
+[
+"word",
+"mochilas",
+"mochilas"
+],
+[
+"word",
+"francelho",
+"francelho"
+]
+],
+"prompt": "mergulha, convés, nó, mãos, amarra, parapente, bananeiras, mãos dadas, sorriem, rampa, manga de vento, pilotos, asas, mochilas, francelho."
+},
+"w29": {
+"voice": "bBNhdwrIjl4fcVYiRbT2",
+"items": [
+[
+"word",
+"para no ar",
+"para no ar"
+],
+[
+"word",
+"instrutor",
+"instrutor"
+],
+[
+"word",
+"arnês",
+"arnês"
+],
+[
+"word",
+"fivelas",
+"fivelas"
+],
+[
+"word",
+"enche-se",
+"enche-se"
+],
+[
+"word",
+"respira fundo",
+"respira fundo"
+],
+[
+"word",
+"corre",
+"corre"
+],
+[
+"word",
+"pés",
+"pés"
+],
+[
+"word",
+"voar",
+"voar"
+],
+[
+"word",
+"manta",
+"manta"
+],
+[
+"word",
+"sobe em círculos",
+"sobe em círculos"
+],
+[
+"word",
+"aterram",
+"aterram"
+],
+[
+"word",
+"acena",
+"acena"
+],
+[
+"word",
+"cartaz",
+"cartaz"
+],
+[
+"word",
+"lapas",
+"lapas"
+]
+],
+"prompt": "para no ar, instrutor, arnês, fivelas, enche-se, respira fundo, corre, pés, voar, manta, sobe em círculos, aterram, acena, cartaz, lapas."
+},
+"w30": {
+"voice": "bBNhdwrIjl4fcVYiRbT2",
+"items": [
+[
+"word",
+"encosta",
+"encosta"
+],
+[
+"word",
+"cagarras",
+"cagarras"
+],
+[
+"word",
+"olhos",
+"olhos"
+],
+[
+"word",
+"grupo",
+"grupo"
+],
+[
+"word",
+"supermercado",
+"supermercado"
+],
+[
+"word",
+"carrinho",
+"carrinho"
+],
+[
+"word",
+"lista",
+"lista"
+],
+[
+"word",
+"empurra",
+"empurra"
+],
+[
+"word",
+"prateleiras",
+"prateleiras"
+],
+[
+"word",
+"grade",
+"grade"
+],
+[
+"word",
+"coral",
+"coral"
+],
+[
+"word",
+"brisa",
+"brisa"
+],
+[
+"word",
+"gelo",
+"gelo"
+],
+[
+"word",
+"queijo",
+"queijo"
+],
+[
+"word",
+"presunto",
+"presunto"
+]
+],
+"prompt": "encosta, cagarras, olhos, grupo, supermercado, carrinho, lista, empurra, prateleiras, grade, coral, brisa, gelo, queijo, presunto."
+},
+"w31": {
+"voice": "bBNhdwrIjl4fcVYiRbT2",
+"items": [
+[
+"word",
+"azeitonas",
+"azeitonas"
+],
+[
+"word",
+"tremoços",
+"tremoços"
+],
+[
+"word",
+"batatas fritas",
+"batatas fritas"
+],
+[
+"word",
+"chouriço",
+"chouriço"
+],
+[
+"word",
+"caixa",
+"caixa"
+],
+[
+"word",
+"paga",
+"paga"
+],
+[
+"word",
+"sacos",
+"sacos"
+],
+[
+"word",
+"campainha",
+"campainha"
+],
+[
+"word",
+"bolo",
+"bolo"
+],
+[
+"word",
+"música",
+"música"
+],
+[
+"word",
+"gargalhadas",
+"gargalhadas"
+],
+[
+"word",
+"lavar a loiça",
+"lavar a loiça"
+],
+[
+"word",
+"pólo",
+"pólo"
+],
+[
+"word",
+"campo de golfe",
+"campo de golfe"
+],
+[
+"word",
+"clube",
+"clube"
+]
+],
+"prompt": "azeitonas, tremoços, batatas fritas, chouriço, caixa, paga, sacos, campainha, bolo, música, gargalhadas, lavar a loiça, pólo, campo de golfe, clube."
+},
+"w32": {
+"voice": "bBNhdwrIjl4fcVYiRbT2",
+"items": [
+[
+"word",
+"saco de golfe",
+"saco de golfe"
+],
+[
+"word",
+"inês",
+"inês"
+],
+[
+"word",
+"taco",
+"taco"
+],
+[
+"word",
+"luva",
+"luva"
+],
+[
+"word",
+"joelhos",
+"joelhos"
+],
+[
+"word",
+"bola",
+"bola"
+],
+[
+"word",
+"bate",
+"bate"
+],
+[
+"word",
+"relva",
+"relva"
+],
+[
+"word",
+"patos",
+"patos"
+],
+[
+"word",
+"fogem",
+"fogem"
+],
+[
+"word",
+"baía",
+"baía"
+],
+[
+"word",
+"machico",
+"machico"
+],
+[
+"word",
+"ponta de são lourenço",
+"ponta de são lourenço"
+],
+[
+"word",
+"hortênsias",
+"hortênsias"
+],
+[
+"word",
+"tentilhão",
+"tentilhão"
+]
+],
+"prompt": "saco de golfe, inês, taco, luva, joelhos, bola, bate, relva, patos, fogem, baía, machico, ponta de são lourenço, hortênsias, tentilhão."
+},
+"w33": {
+"voice": "bBNhdwrIjl4fcVYiRbT2",
+"items": [
+[
+"word",
+"buraco",
+"buraco"
+],
+[
+"word",
+"rola",
+"rola"
+],
+[
+"word",
+"abraça-a",
+"abraça-a"
+],
+[
+"word",
+"envergonhados",
+"envergonhados"
+],
+[
+"word",
+"porta-bagagens",
+"porta-bagagens"
+],
+[
+"word",
+"loja",
+"loja"
+],
+[
+"word",
+"moldura",
+"moldura"
+],
+[
+"word",
+"embrulho",
+"embrulho"
+],
+[
+"word",
+"camião",
+"camião"
+],
+[
+"word",
+"reboque",
+"reboque"
+],
+[
+"word",
+"esquadra",
+"esquadra"
+],
+[
+"word",
+"fila",
+"fila"
+],
+[
+"word",
+"agente",
+"agente"
+],
+[
+"word",
+"matrícula",
+"matrícula"
+],
+[
+"word",
+"computador",
+"computador"
+]
+],
+"prompt": "buraco, rola, abraça-a, envergonhados, porta-bagagens, loja, moldura, embrulho, camião, reboque, esquadra, fila, agente, matrícula, computador."
+},
+"w34": {
+"voice": "bBNhdwrIjl4fcVYiRbT2",
+"items": [
+[
+"word",
+"multa",
+"multa"
+],
+[
+"word",
+"cartão",
+"cartão"
+],
+[
+"word",
+"recibo",
+"recibo"
+],
+[
+"word",
+"depósito",
+"depósito"
+],
+[
+"word",
+"esconde",
+"esconde"
+],
+[
+"word",
+"costas",
+"costas"
+],
+[
+"word",
+"papel",
+"papel"
+],
+[
+"word",
+"para-brisas",
+"para-brisas"
+],
+[
+"word",
+"cantam",
+"cantam"
+],
+[
+"word",
+"sopra",
+"sopra"
+],
+[
+"word",
+"medalhas",
+"medalhas"
+],
+[
+"word",
+"velas",
+"velas"
+]
+],
+"prompt": "multa, cartão, recibo, depósito, esconde, costas, papel, para-brisas, cantam, sopra, medalhas, velas."
+}
+}
