@@ -26,7 +26,9 @@ TIAGO20 = "Tiago: Portuguese man, about 30, curly black hair, short black beard,
 RUI = ("Rui: Portuguese man about 35, lean and wiry, a narrow tanned face, clean-shaven, light-brown eyes, short neat dark-brown hair going slightly grey "
        "at the temples, small smile lines, an easy confident smile; a PE teacher who guides mountain-bike rides; " + GEAR
        + " a dark grey open-face bike helmet; his jersey is forest green.")
-BIKES = "The mountain bikes are all the same model: modern matte-black hardtail mountain bikes with front suspension forks, wide knobbly tyres and flat handlebars."
+HELMET = ("Every bike helmet sits LOW and SNUG on the head like a real helmet: the shell hugs the skull, down to just above the eyebrows and over the tops of the ears, "
+          "pressing the hair flat; only the ends of the hair show below the rim; the helmet is the same size on everyone and never grows to fit the hair: full hair is compressed under it; never perched on top of the hair.")
+BIKES = HELMET + " The mountain bikes are all the same model: modern matte-black hardtail mountain bikes with front suspension forks, wide knobbly tyres and flat handlebars."
 FANAL = ("Fanal in Madeira: a misty grassy upland clearing among huge ancient til trees (laurel-forest trees with massive gnarled trunks and twisting "
          "branches covered in green moss and ferns), soft white fog drifting between the trunks, damp green grass.")
 NEG = N.replace(', aged faces, wrinkles', '') + ", dog, corgi, logos, words, letters, numbers, glasses, spectacles, bun hairstyle, road bike, racing bike, lycra, full-face helmet"

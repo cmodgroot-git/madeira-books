@@ -186,6 +186,8 @@ Download the result (`curl` the gen.krea.ai URL) and check it yourself before th
 6. **Cuttable:** go through the page's words and confirm each thing is whole, separate and big enough to cut cleanly (the Step 1 list). A thing hidden or merged now means a bad highlight later — fix it with a regional edit before approval.
 Show the user the full picture and the check image, and tell them plainly what matches and what doesn't.
 
+- **Helmets (bike, climbing, canyoning):** write in every prompt that the helmet sits low and snug like a real one — the shell hugs the skull, down to just above the eyebrows and over the tops of the ears, pressing the hair flat, only the hair ends showing below the rim. The helmet never grows to fit the hair: it is the same size on everyone (compare with a short-haired rider's helmet), and full hair is compressed under it. Krea otherwise perches helmets on top of full hair or inflates them over it (Ana's bob, Tiago's curls) so they look like they float; the user noticed in book 20. Check every helmeted head at full size.
+
 ## Krea cost (checked Nov 16, 2026 with `preflight: true`)
 - A krea-3 picture or regional edit at 2K costs about 130 units with `thinking_mode` "high" **and** "fast" alike, so always use "high". 1K saves only about 14% and is below the 1600×898 master size: keep 2K.
 - Fix a flaw with a **regional edit** on the existing page (one region, the other approved page as a reference) rather than a new page; describe the result, not the fault.

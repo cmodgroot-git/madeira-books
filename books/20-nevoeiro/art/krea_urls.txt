@@ -1,10 +1,10 @@
 # Book 20 masters (https://gen.krea.ai/images/<id>.png); masters in this folder are 1600x898 copies. krea-3, 2K, thinking high.
 rui 92fba66a-e0ff-414a-91da-5229069dfde9  # Rui's design sheet (reference for every page with him)
 p1 92bcb76c-0880-468b-a033-b34b5e0f9a9a  # regional edit of 706d788a: João's face (was grey-haired)
-p2 f9aff2f0-2b3d-4b7f-9824-e62d2ea85644  # edits of b4735e57: Tiago's face (7182ff8e), then his helmet back instead of a cap
-p3 c962628b-cbb4-47cc-98fe-7c741571024f
-p4 79f15e23-536d-4d4f-99db-6486f8e2b2e5
-p5 1bad1ac2-d396-435d-98c7-890f873ce7f4
-p6 98d02637-5227-473a-8ef7-b89dcff3d560  # regional edit of 61db1cc4: Ana's face and bob (was a second Rita)
+p2 724a679d-2276-4fe0-950d-d4b0206d4cc2  # chain from b4735e57: Tiago face, helmet, Ana bob + long sleeves + Rui points (bf39749b), helmets snug (018756b8), Ana helmet normal size
+p3 c161c9c1-5deb-4002-b814-23d4e40e1cd8  # edit of c962628b: Tiago helmet snug
+p4 e50d6409-c596-424f-8d7c-ae764b188de3  # edits of 79f15e23: Rita falling (207cc87c), stray 2nd helmet removed + helmet snug
+p5 b25e2b60-6b9d-48b0-b443-a05c8746c64e  # edit of 1bad1ac2: helmets snug
+p6 99dde8d9-bf85-46c7-a216-8233bafb85c4  # chain from 61db1cc4: Ana face (98d02637), long sleeves (9f3c4993), helmets snug
 p7 12f5c781-5e9a-4f6e-a2ea-81ef84ed5b90
 p8 e05f53de-e6ca-4de1-8a25-964439b2cfa7  # page 1 as fourth reference (same van and clearing)
