@@ -1,0 +1,50 @@
+"""Book 19 «Um Jantar a Três» — Krea inputs. Style block and helpers from ../b16/prompts.py; refs from ../b17, ../b18 and refs.txt."""
+import json, os
+HERE = os.path.dirname(os.path.abspath(__file__))
+exec(open(os.path.join(HERE, '../b16/prompts.py')).read().split("P={}")[0])
+R = {}
+for f in ('../b17/refs.txt', '../b18/refs.txt', 'refs.txt'):
+    p = os.path.join(HERE, f)
+    if os.path.exists(p): R.update(dict(l.split() for l in open(p) if l.strip() and not l.startswith('#')))
+R['sheet'] = R['sheet4']
+ROWS = {'Rita': 'row 1 is Rita', 'Tiago': 'row 5 is Tiago'}
+def faces(names, mum=None):
+    s = ("The characters' faces and hair must match the character sheet (the second image) exactly: " + "; ".join(ROWS[n] for n in names)
+         + ". Same face shape, features, age and hair as in those tiles; ignore the clothes, caps, helmets and visors in the tiles (ignore the dog tiles: there is no dog in this picture).")
+    if mum: s += f" Rita's mother is the woman in the {mum} image: exactly the same face, hair, age and clothes."
+    return s
+RITA_H = RITA + "a soft cream cable-knit jumper, blue jeans and white trainers."
+RITA_D = RITA + "a simple knee-length cobalt-blue dress with short sleeves, small silver earrings, flat shoes."
+TIAGO_D = "Tiago: Portuguese man, about 30, curly black hair, short black beard, big friendly grin; a crisp white shirt with the sleeves rolled up, dark blue jeans, brown shoes; no cap."
+MUM = ("Rita's mother: Portuguese woman about 60, slim and elegant, the same warm brown eyes and soft oval face as Rita, a few soft laugh lines at the eyes, "
+       "short layered grey-brown hair with silver streaks, small gold earrings, a lively expressive smile; a camel-coloured wool coat over a cream blouse, "
+       "a burgundy scarf, dark grey trousers, low-heeled brown shoes, a small brown leather handbag.")
+NEG = N.replace(', aged faces, wrinkles', '') + ", dog, corgi, animals, logos, words, letters, numbers, glasses, spectacles, bun hairstyle"
+def mk(scene, refs, people, names, mum=None, neg="", light=None, think="fast"):
+    p = S if not light else S.replace("Soft natural daylight, gentle shadows.", light)
+    return dict(prompt=p + " " + faces(names, mum) + " " + " ".join(people) + " Scene: " + scene + " No text.",
+                negative_prompt=NEG + neg, image_urls=[R[r] for r in refs], aspect_ratio="16:9", resolution="2K", thinking_mode=think)
+P = {}
+P['mum'] = dict(prompt=S + " The new character is Rita's mother, so she has a clear family likeness to Rita (the top row of the second image): same warm brown eyes and soft oval face, thirty years older. " + MUM
+    + " Scene: a character design sheet on a plain warm cream paper background, no setting: the same woman drawn three times side by side at the same scale — on the left full-length from the front, standing, holding her handbag; in the middle head and shoulders in three-quarter view, smiling; on the right head and shoulders in profile. Plenty of empty space around each. No text.",
+    negative_prompt=NEG + ", background scenery, furniture, other people, young woman", image_urls=[R['b1p7'], R['sheet']], aspect_ratio="16:9", resolution="2K", thinking_mode="fast")
+
+NIGHT = "Night: soft, transparent deep-navy washes, still light enough that the clean outlines read clearly, lit by warm lamps."
+FLAT = "Rita's flat in the Zona Velha of Funchal, exactly the room in the third image: white walls, a sage-green two-seat sofa, a blue patterned rug on honey-brown wooden floorboards, white curtains beside tall French doors open onto a small balcony with a black iron railing, red roofs and the sea beyond, a tall wooden bookcase full of books."
+P['p1'] = mk(FLAT + " Monday morning, soft sunlight. Seen close, over Rita's shoulder from slightly behind and to the side: Rita stands by the open French doors in her cream jumper holding her smartphone up in front of her in one hand for a video call; the phone is large and clear in the foreground, its screen showing her mother's face and shoulders (exactly the woman in the fourth image) smiling excitedly and holding up a printed airline boarding pass next to her face; Rita's face, seen in three-quarter view, is surprised. The phone screen big enough to see the mother and the boarding pass clearly.",
+    ['b1p7','sheet','b10p6','mum'], [RITA_H], ['Rita'], mum='fourth', neg=", two phones, tablet")
+P['p2'] = mk(FLAT + " Monday morning. Rita sits on the sage-green sofa in her cream jumper, legs tucked up, thinking, typing a message on her smartphone with both thumbs. In the foreground, a large clear close-up inset of the phone screen beside her: a simple messaging app with one large yellow thumbs-up emoji in a grey reply bubble and, next to it, an empty white speech bubble. The sofa, the phone and the thumbs-up clearly visible.",
+    ['b1p7','sheet','b10p6'], [RITA_H], ['Rita'], neg=", letters on the screen, words on the screen")
+P['p3'] = mk("Saturday evening in the baggage reclaim hall of Madeira airport in Funchal: a modern bright hall with a long grey baggage carousel (a rubber-slatted conveyor belt) in the middle, now empty and still moving; tall glass windows behind it showing a white passenger plane parked on the apron, the sea and green hills in warm evening light. The other passengers walk away towards the exit on the right with their suitcases, a few already far off. In the foreground by the empty carousel, Rita's mother (exactly the woman in the fourth image) stands with her small handbag, looking at the empty belt, puzzled and worried; Rita, in her cream jumper and jeans, and Tiago stand beside her, looking too. The belt is completely empty. The plane, the empty carousel and the leaving passengers clearly visible and separate.",
+    ['b1p7','sheet','mum'], [RITA_H, TIAGO_D, MUM], ['Rita','Tiago'], mum='third', light="Warm low evening light through the big windows, gentle shadows.", neg=", suitcase on the belt, text on signs")
+P['p4'] = mk("Madeira airport, the lost-luggage service desk next to the baggage hall: a simple counter with a desktop computer screen turned so we see it from the side, a printed form on the counter. Behind the counter, a friendly airport employee: a young Portuguese woman with a dark ponytail, navy uniform jacket and a white blouse, looking at her computer screen. In front of the counter, Rita's mother (exactly the woman in the fourth image) leans on the counter filling in the paper form with a pen that the employee has lent her, sighing; Rita in her cream jumper stands beside her mother with a hand on her shoulder; Tiago waits a step behind, patient. The counter, the computer, the form and the pen clearly visible.",
+    ['b1p7','sheet','mum'], [RITA_H, TIAGO_D, MUM], ['Rita','Tiago'], mum='third', light="Soft even indoor light, gentle shadows.", neg=", text on signs, logos on the uniform")
+P['p5'] = mk("Saturday evening in Rita's flat, warm lamp light. On the left, Rita's small bedroom: a tall wooden wardrobe with both doors wide open, full of Rita's clothes on hangers (blouses, jumpers, dresses in soft colours); a tall standing mirror beside it. Rita's mother (exactly the woman in the fourth image, still in her camel coat and scarf) holds a simple knee-length cobalt-blue dress on its hanger up in front of Rita, and both look at the mirror; Rita, in her cream jumper, laughs, a little embarrassed; we see both of them and their reflection. On the right, through the open bedroom door, the living room of the flat (exactly the room in the third image: the sage-green sofa, the blue rug, the bookcase): Tiago sits on the sofa holding an open book but looks over it towards them, smiling. The wardrobe, the clothes, the blue dress, the mirror and the living room with Tiago clearly visible.",
+    ['b1p7','sheet','b10p6','mum'], [RITA_H, TIAGO_D, MUM], ['Rita','Tiago'], mum='fourth', light="Warm evening lamp light, soft shadows.", think="high")
+P['p6'] = mk("Saturday at eight in the evening on the Rua de Santa Maria in the Zona Velha of Funchal: a narrow old cobbled pedestrian street, enclosed by old two-storey whitewashed houses on BOTH sides, the street receding into the distance between them; each front door painted with a different colourful artwork; warm lamps on the walls; no sea visible, no cars. Outside a small restaurant, a square table for three with a white tablecloth stands on the cobbles in the foreground: a candle in a glass, a bottle of wine, three glasses. All three are SEATED on wooden chairs around this one table, seen from the open fourth side: on the left Rita's mother (exactly the woman in the third image, in her camel coat and burgundy scarf) sits leaning forward, asking questions with a lively hand gesture; on the right Tiago sits facing her and answers calmly with a relaxed smile; in the middle, at the far side of the table facing us, Rita in the cobalt-blue dress sits between them, nervous, looking from one to the other; in front of Rita a full plate of grilled fish and potatoes almost untouched, her fork resting on it; the other two plates half eaten. The table, the three diners and Rita's full plate large and clear.",
+    ['b1p7','sheet','mum'], [RITA_D, TIAGO_D, MUM], ['Rita','Tiago'], mum='third', light=NIGHT, neg=", sea, ocean, beach, rocks, cars, text on the doors, standing woman", think="high")
+if __name__ == '__main__':
+    for k, v in P.items():   # the mother's reference is the third image when there is no scene reference
+        if len(v['image_urls']) == 3 and R['mum'] in v['image_urls']: v['prompt'] = v['prompt'].replace('(exactly the woman in the fourth image)', '(exactly the woman in the third image)')
+    json.dump(P, open(os.path.join(HERE, 'inputs19.json'), 'w'), ensure_ascii=False, indent=1)
+    print({k: len(v['prompt']) for k, v in P.items()})
