@@ -3,7 +3,9 @@
 Status (Nov 15, 2026): text approved; user reviewed the pictures and asked to fix the flagged pages
 (darker forest is fine). Fixed by regional edits: p1 Tiago's cap forwards; p5 pigeon smaller and farther;
 p7 João's face (short wavy hair, light stubble, no curls/beard); p8 towels as planned (João green, Rita cobalt)
-and flip-flops instead of bare feet. New contact sheet `books/18-ribeira/art/contact18.jpg` shown to the user;
+and flip-flops instead of bare feet. The user then spotted the car and van had swapped places between p1 and p8:
+p8 repainted from scratch with page 1 as the third reference (same camera, car left, van behind with doors open) —
+`inputs18.json` key `p8v3`, thinking high. New contact sheet `books/18-ribeira/art/contact18.jpg` shown to the user;
 on their OK, go to the build. Krea plan is now Individual Pro, 20,000 units a month (was Max, 54,000).
 `sobe` (p7) stays untagged-highlight: flagged as not shown.
 
