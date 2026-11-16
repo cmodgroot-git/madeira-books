@@ -1,0 +1,246 @@
+{
+ "m01": {
+  "voice": "bBNhdwrIjl4fcVYiRbT2",
+  "items": [
+   [
+    "seg",
+    "20.1.0",
+    "No domingo seguinte, a mãe da Rita já voltou para Lisboa. No Fanal, entre árvores muito velhas e nevoeiro, um homem tira bicicletas de uma carrinha. É o Rui, professor de Educação Física e amigo do João."
+   ],
+   [
+    "seg",
+    "20.2.0",
+    "O Rui mostra os travões no guiador."
+   ],
+   [
+    "seg",
+    "20.2.2",
+    "explica ele. A Ana aperta o capacete e ri-se:"
+   ],
+   [
+    "seg",
+    "20.2.3",
+    "Se eu soubesse andar de bicicleta, não estaria tão nervosa!"
+   ],
+   [
+    "seg",
+    "20.3.0",
+    "O caminho desce entre as árvores, cheio de raízes e pedras. A Rita segue o Tiago e sente a bicicleta a saltar debaixo do corpo."
+   ],
+   [
+    "seg",
+    "20.3.2",
+    "grita o Rui."
+   ],
+   [
+    "seg",
+    "20.4.0",
+    "De repente, uma vaca castanha aparece no meio do caminho e olha para eles, muito calma. Todos travam. A Rita trava tarde, a roda da frente escorrega na lama e ela cai devagar para o lado, em cima dos fetos."
+   ],
+   [
+    "seg",
+    "20.5.0",
+    "A Rita levanta-se com lama nas pernas, nos braços e até na cara."
+   ],
+   [
+    "seg",
+    "20.5.2",
+    "pergunta o Tiago."
+   ],
+   [
+    "seg",
+    "20.5.3",
+    "Atirava-te lama"
+   ],
+   [
+    "seg",
+    "20.5.4",
+    "responde ela. Ele tapa a boca com a mão, mas os olhos dele riem."
+   ],
+   [
+    "seg",
+    "20.6.0",
+    "Mais abaixo, param para comer. O Rui olha para o céu branco:"
+   ],
+   [
+    "seg",
+    "20.6.2",
+    "E, como num filme, o nevoeiro abre-se devagar. Lá em baixo aparecem o mar, a costa e a luz do sol na água."
+   ],
+   [
+    "seg",
+    "20.7.0",
+    "Na última descida, o pneu do Tiago fica vazio. Em dois minutos, ele tira a roda, muda a câmara de ar e enche-a com uma bomba pequena."
+   ],
+   [
+    "seg",
+    "20.7.2",
+    "diz o Rui."
+   ],
+   [
+    "seg",
+    "20.8.0",
+    "Ao fim da tarde, lavam as bicicletas com uma mangueira. A Ana puxa a Rita para o lado:"
+   ],
+   [
+    "seg",
+    "20.8.1",
+    "O João perguntou se eu queria viver com ele."
+   ],
+   [
+    "seg",
+    "20.8.2",
+    "E o que é que disseste?"
+   ],
+   [
+    "seg",
+    "20.8.3",
+    "Ainda não disse nada."
+   ]
+  ],
+  "prompt": "No domingo seguinte, a mãe da Rita já voltou para Lisboa. No Fanal, entre árvores muito velhas e nevoeiro, um homem tira bicicletas de uma carrinha. É o Rui, professor de Educação Física e amigo do João.\n\nO Rui mostra os travões no guiador.\n\nexplica ele. A Ana aperta o capacete e ri-se:\n\nSe eu soubesse andar de bicicleta, não estaria tão nervosa!\n\nO caminho desce entre as árvores, cheio de raízes e pedras. A Rita segue o Tiago e sente a bicicleta a saltar debaixo do corpo.\n\ngrita o Rui.\n\nDe repente, uma vaca castanha aparece no meio do caminho e olha para eles, muito calma. Todos travam. A Rita trava tarde, a roda da frente escorrega na lama e ela cai devagar para o lado, em cima dos fetos.\n\nA Rita levanta-se com lama nas pernas, nos braços e até na cara.\n\npergunta o Tiago.\n\nAtirava-te lama.\n\nresponde ela. Ele tapa a boca com a mão, mas os olhos dele riem.\n\nMais abaixo, param para comer. O Rui olha para o céu branco:\n\nE, como num filme, o nevoeiro abre-se devagar. Lá em baixo aparecem o mar, a costa e a luz do sol na água.\n\nNa última descida, o pneu do Tiago fica vazio. Em dois minutos, ele tira a roda, muda a câmara de ar e enche-a com uma bomba pequena.\n\ndiz o Rui.\n\nAo fim da tarde, lavam as bicicletas com uma mangueira. A Ana puxa a Rita para o lado:\n\nO João perguntou se eu queria viver com ele.\n\nE o que é que disseste?\n\nAinda não disse nada."
+ },
+ "p01": {
+  "voice": "XxTHUwWTW2conYBz0vvk",
+  "items": [
+   [
+    "seg",
+    "20.2.1",
+    "Se travassem só à frente, cairiam por cima da bicicleta"
+   ],
+   [
+    "seg",
+    "20.3.1",
+    "Olhem para o caminho, não para as raízes!"
+   ],
+   [
+    "seg",
+    "20.5.1",
+    "Se eu me risse agora, o que farias?"
+   ],
+   [
+    "seg",
+    "20.6.1",
+    "Se o nevoeiro levantasse, veríamos o mar daqui."
+   ],
+   [
+    "seg",
+    "20.7.1",
+    "Se todos os ciclistas fossem mecânicos, eu não teria trabalho"
+   ]
+  ],
+  "prompt": "Se travassem só à frente, cairiam por cima da bicicleta.\n\nOlhem para o caminho, não para as raízes!\n\nSe eu me risse agora, o que farias?\n\nSe o nevoeiro levantasse, veríamos o mar daqui.\n\nSe todos os ciclistas fossem mecânicos, eu não teria trabalho."
+ },
+ "w01": {
+  "voice": "bBNhdwrIjl4fcVYiRbT2",
+  "items": [
+   [
+    "word",
+    "bicicletas",
+    "bicicletas"
+   ],
+   [
+    "word",
+    "boca",
+    "boca"
+   ],
+   [
+    "word",
+    "bomba",
+    "bomba"
+   ],
+   [
+    "word",
+    "caminho",
+    "caminho"
+   ],
+   [
+    "word",
+    "capacete",
+    "capacete"
+   ],
+   [
+    "word",
+    "corpo",
+    "corpo"
+   ],
+   [
+    "word",
+    "costa",
+    "costa"
+   ],
+   [
+    "word",
+    "câmara de ar",
+    "câmara de ar"
+   ],
+   [
+    "word",
+    "guiador",
+    "guiador"
+   ],
+   [
+    "word",
+    "lama",
+    "lama"
+   ],
+   [
+    "word",
+    "luz",
+    "luz"
+   ],
+   [
+    "word",
+    "mangueira",
+    "mangueira"
+   ],
+   [
+    "word",
+    "pedras",
+    "pedras"
+   ],
+   [
+    "word",
+    "pneu",
+    "pneu"
+   ],
+   [
+    "word",
+    "professor",
+    "professor"
+   ],
+   [
+    "word",
+    "raízes",
+    "raízes"
+   ],
+   [
+    "word",
+    "roda",
+    "roda"
+   ],
+   [
+    "word",
+    "travões",
+    "travões"
+   ],
+   [
+    "word",
+    "vaca",
+    "vaca"
+   ]
+  ],
+  "prompt": "bicicletas, boca, bomba, caminho, capacete, corpo, costa, câmara de ar, guiador, lama, luz, mangueira, pedras, pneu, professor, raízes, roda, travões, vaca."
+ },
+ "t01": {
+  "voice": "bBNhdwrIjl4fcVYiRbT2",
+  "items": [
+   [
+    "title",
+    "nevoeiro",
+    "Se o Nevoeiro Levantasse"
+   ]
+  ],
+  "prompt": "Se o Nevoeiro Levantasse."
+ }
+}

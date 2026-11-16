@@ -1,0 +1,21 @@
+{
+ "bicicletas": ["bicycles, bikes", "Fahrräder", "vélos", "bicicletas", "fietsen", "rowery"],
+ "professor": ["teacher (a man)", "Lehrer", "professeur", "profesor", "leraar", "nauczyciel"],
+ "travoes": ["brakes", "Bremsen", "freins", "frenos", "remmen", "hamulce"],
+ "guiador": ["handlebars", "Lenker", "guidon", "manillar", "stuur", "kierownica"],
+ "caminho": ["path, trail, way", "Weg, Pfad", "chemin, sentier", "camino, sendero", "pad, weg", "ścieżka, droga"],
+ "raizes": ["roots", "Wurzeln", "racines", "raíces", "wortels", "korzenie"],
+ "pedras": ["stones", "Steine", "pierres", "piedras", "stenen", "kamienie"],
+ "corpo": ["body", "Körper", "corps", "cuerpo", "lichaam", "ciało"],
+ "vaca": ["cow", "Kuh", "vache", "vaca", "koe", "krowa"],
+ "roda": ["wheel", "Rad", "roue", "rueda", "wiel", "koło"],
+ "escorrega": ["slides, slips", "rutscht", "glisse, dérape", "resbala", "glijdt (weg)", "ślizga się"],
+ "lama": ["mud", "Schlamm", "boue", "barro, lodo", "modder", "błoto"],
+ "boca": ["mouth", "Mund", "bouche", "boca", "mond", "usta"],
+ "costa": ["coast", "Küste", "côte", "costa", "kust", "wybrzeże"],
+ "luz": ["light", "Licht", "lumière", "luz", "licht", "światło"],
+ "pneu": ["tyre", "Reifen", "pneu", "neumático, rueda", "band", "opona"],
+ "camaradear": ["inner tube (of a tyre)", "Schlauch", "chambre à air", "cámara (de aire)", "binnenband", "dętka"],
+ "bomba": ["pump (for air)", "Pumpe", "pompe", "bomba (de aire), inflador", "pomp", "pompka"],
+ "mangueira": ["hose (garden hose)", "Schlauch (Gartenschlauch)", "tuyau d'arrosage", "manguera", "tuinslang", "wąż ogrodowy"]
+}
