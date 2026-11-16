@@ -25,6 +25,6 @@ per process), `hlmask.py sheet`, `life18.py build`, `narr.py`, `cutwords.py`, `b
 readability 79% (rule ≥ 80%), recycling 36 (≥ 15), new tappable words in the top 2,000: 4 of 21 (rule: about half).
 Book 19 should lean the other way: a practical-life story full of everyday words.
 
-## Still open (from the Oct review, unchanged)
-- The daily Review skips words without a region on their first page (beam words *vê*, *olha*, now *espreita*; and the
-  not-shown actions). See the note in the stories skill.
+## Review (fixed Nov 16, 2026)
+The daily Review no longer drops words without a region on their first page: it uses another page with a region, a
+look-at beam's frame, or the whole picture (`cropOf(s,p,k,true)`); dropped words were restored. See the stories skill.

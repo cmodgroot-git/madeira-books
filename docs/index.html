@@ -266,6 +266,8 @@ body.spreadmode .wrap{max-width:min(1500px,100%)}
 .rvword svg{opacity:.55}
 .rvsent{margin:0;font:1.05rem/1.55 var(--f-read,Georgia,serif)}
 .rvsent b{color:var(--accent)}
+.rvsent .linkbtn{display:inline;font:inherit;color:inherit;text-align:left;letter-spacing:0;text-transform:none}
+.rvsent .linkbtn svg{width:18px;height:18px;vertical-align:-3px;margin-left:6px;color:var(--accent)}
 .quiz .crop{aspect-ratio:4/3;width:100%;border-radius:12px}
 .qopts{display:grid;grid-template-columns:1fr 1fr;gap:10px}
 .qopts .btn{justify-content:center;font:600 1.05rem var(--f-read,Georgia,serif);text-transform:none;letter-spacing:0;padding:12px}
@@ -1580,11 +1582,16 @@ const isFirst=k=>first[k].s===si&&first[k].p===cur;
 // ---------- study view: picture words + quiz ----------
 const photoOf=(sid,p)=>{const ph=PHOTOS[sid+':'+p];return ph?ph.svg():''};
 const CBOX={};
-function cropOf(s,p,k){
+function cropOf(s,p,k,loose){
   const svg=photoOf(STORIES[s].id,p);const im=(svg.match(/id="[^"]*ph" href="([^"]+)"/)||[])[1];if(!im)return null;
   let x0=1e9,y0=1e9,x1=-1e9,y1=-1e9;
   for(const m of svg.matchAll(/<g class="o ([^"]*)"><use[^>]*\/><rect class="bb" x="([\d.]+)" y="([\d.]+)" width="([\d.]+)" height="([\d.]+)"/g)){
     if(!m[1].split(' ').includes('k-'+k))continue;const x=+m[2],y=+m[3],w=+m[4],hh=+m[5];x0=Math.min(x0,x);y0=Math.min(y0,y);x1=Math.max(x1,x+w);y1=Math.max(y1,y+hh)}
+  if(x1<x0&&loose){   // a looking word: frame the eyes and what they look at; otherwise the whole picture
+    for(const m of svg.matchAll(/<g class="o ([^"]*)"><g class="gaze[^"]*">(.*?)<\/g><\/g>/g)){if(!m[1].split(' ').includes('k-'+k))continue;
+      for(const l of m[2].matchAll(/class="gz-line" x1="([\d.]+)" y1="([\d.]+)" x2="([\d.]+)" y2="([\d.]+)"/g)){x0=Math.min(x0,+l[1],+l[3]);y0=Math.min(y0,+l[2],+l[4]);x1=Math.max(x1,+l[1],+l[3]);y1=Math.max(y1,+l[2],+l[4])}
+      for(const c of m[2].matchAll(/class="gz-ring" cx="([\d.]+)" cy="([\d.]+)" r="([\d.]+)"/g)){x0=Math.min(x0,c[1]-c[3]);y0=Math.min(y0,c[2]-c[3]);x1=Math.max(x1,+c[1]+ +c[3]);y1=Math.max(y1,+c[2]+ +c[3])}}
+    if(x1<x0){x0=0;y0=0;x1=465.8;y1=260}}
   if(x1<x0)return null;
   const W=465.8,H=260;let w=x1-x0,hh=y1-y0,cx=(x0+x1)/2,cy=(y0+y1)/2;
   w=Math.max(w*1.35,60);hh=Math.max(hh*1.35,45);if(w/hh>4/3)hh=w*3/4;else w=hh*4/3;
@@ -1648,7 +1655,28 @@ function answer(k){
 // ---------- Review: spaced repetition of the words the reader has met ----------
 const RV_I=[1,3,7,14,30,60,120,240],RV_NEW=15;let rv=null;
 const rvDay=()=>{const d=new Date();return Math.floor((d.getTime()-d.getTimezoneOffset()*6e4)/864e5)};
+// Review contexts: every page a word appears on (seen pages only); after two correct answers the card moves to another page
+let RVP=null;
+function rvPages(k){if(!RVP){RVP={};STORIES.forEach((st,s)=>st.pages.forEach((pg,p)=>{for(const m of pg.matchAll(RX)){const a=RVP[m[2]]=RVP[m[2]]||[];if(!a.some(x=>x[0]===s&&x[1]===p))a.push([s,p])}}))}
+  return (RVP[k]||[]).filter(([s,p])=>(state.seen[STORIES[s].id]||[]).includes(p))}
+function rvCands(k){const r=(state.rev||{})[k],step=r?Math.max(0,r[1]):0,f=[first[k].s,first[k].p];
+  const oth=rvPages(k).filter(x=>x[0]!==f[0]||x[1]!==f[1]),pick=step>=2&&oth.length?oth[(step-2)%oth.length]:null;
+  return pick?[pick,f,...oth.filter(x=>x!==pick)]:[f,...oth]}
+// the sentence of page p that holds word k: its text and its [data-s] element range (for NARR)
+function rvSent(s,p,k){const t=STORIES[s].pages[p],els=[];let last=0;
+  t.replace(RX,(m,w,kk,off)=>{for(const x of t.slice(last,off).matchAll(WRX))els.push([last+x.index,null]);els.push([off,kk]);last=off+m.length;return m});
+  for(const x of t.slice(last).matchAll(WRX))els.push([last+x.index,null]);
+  const ki=Math.max(0,els.findIndex(e=>e[1]===k)),at=els[ki][0],B=[...t.matchAll(/[.!?…]+[»”"]?(?=\s|$)/g)].map(m=>m.index+m[0].length);
+  const st=Math.max(0,...B.filter(b=>b<=at)),en=Math.min(t.length,...B.filter(b=>b>at));
+  let i0=els.findIndex(e=>e[0]>=st),i1=els.length-1;while(i1>i0&&els[i1][0]>=en)i1--;
+  return {txt:t.slice(st,en).trim().replace(/^[—–-]\s*/,'').replace(/^«/,''),i0,i1}}
+function rvSentPlay(s,p,k){const id=STORIES[s].id,T=NARR[id+':'+p],P=typeof PACK!=='undefined'&&PACK&&PACK.narr&&PACK.narr[id],r=rvSent(s,p,k);
+  if(!T||!P||!T[r.i0]||!T[r.i1])return;if(!narrA)narrA=new Audio();readTok++;const tok=readTok;narrStop();try{speechSynthesis.cancel()}catch(e){}
+  narrLoad({src:P.src}).then(()=>{if(tok!==readTok)return;const a=P.off[p]+T[r.i0][0]/1000-.08,b=P.off[p]+T[r.i1][1]/1000+.15;
+    narrA.playbackRate=1;narrA.currentTime=Math.max(0,a);const pr=narrA.play();if(pr&&pr.catch)pr.catch(()=>{});
+    const chk=()=>{if(narrA.currentTime>=b||narrA.paused){narrA.pause();return}narrRAF=requestAnimationFrame(chk)};narrRAF=requestAnimationFrame(chk)},()=>{})}
 function revQueue(){const R=state.rev||{},d=rvDay(),due=[],fresh=[];
+  for(const k in R)if(R[k][0]>=1e9&&R[k][1]<0)delete R[k];   // words once dropped for want of a picture region come back as new
   for(const k of ALL){const f=first[k];if(!(state.seen[STORIES[f.s].id]||[]).includes(f.p))continue;const r=R[k];if(r){if(r[0]<=d)due.push(k)}else fresh.push(k)}
   const intro=Object.values(R).filter(r=>r[3]===d&&r[1]>=0).length;
   due.sort((a,b)=>R[a][0]-R[b][0]||first[a].s-first[b].s||first[a].p-first[b].p);
@@ -1656,20 +1684,24 @@ function revQueue(){const R=state.rev||{},d=rvDay(),due=[],fresh=[];
   return [...due,...fresh.slice(0,Math.max(0,RV_NEW-intro))]}
 function updRevBtn(){const n=revQueue().length,b=$('revn');if(!b)return;b.hidden=!n;b.textContent=n>99?'99+':String(n)}
 function renderReview(){echoHide();readTok++;narrStop();try{speechSynthesis.cancel()}catch(e){}
-  if(!rv||rv.day!==rvDay())rv={q:revQueue(),done:0,shown:false,day:rvDay()};
-  const need=[...new Set(rv.q.map(k=>STORIES[first[k].s].id))].filter(id=>typeof loadBook==='function'&&!PHOTOS[id+':0']);
-  if(need.length){Promise.all(need.map(loadBook)).then(renderReview,()=>{});return}
-  {const R=state.rev=state.rev||{},d=rvDay();let gone=0;rv.q=rv.q.filter(k=>{if(cropOf(first[k].s,first[k].p,k))return true;R[k]=[1e9,-1,Date.now(),d];gone++;return false});if(gone)save()}
+  if(!rv||rv.day!==rvDay())rv={q:revQueue(),done:0,shown:false,day:rvDay(),ctx:{}};rv.ctx=rv.ctx||{};
+  const ld=id=>typeof loadBook!=='function'||PHOTOS[id+':0'];
+  // pick each card's page: the first candidate with a picture region, else the first page (beam or whole picture)
+  const need=new Set();
+  for(const k of rv.q){if(rv.ctx[k])continue;const C=rvCands(k);let pick=null,wait=false;
+    for(const [s,p] of C){const id=STORIES[s].id;if(!ld(id)){need.add(id);wait=true;break}if(cropOf(s,p,k)){pick=[s,p];break}}
+    if(pick)rv.ctx[k]=pick;else if(!wait)rv.ctx[k]=C[0][0]===first[k].s&&C[0][1]===first[k].p?C[0]:[first[k].s,first[k].p]}
+  if(need.size){Promise.all([...need].map(loadBook)).then(renderReview,()=>{});return}
   view='review';$('lib').hidden=true;$('reader').hidden=true;$('study').hidden=false;$('study').classList.add('revmode');document.body.classList.remove('spreadmode');
   $('stitle').textContent=T().rev;$('slib').textContent=T().slib;drawReview();window.scrollTo({top:0})}
 function drawReview(){const t=T(),r=rv;
   if(!r.q.length){$('sbody').innerHTML=`<div class="quiz"><p class="qdone">${r.done?t.revDone(r.done):t.revNone}</p><p class="shint">${t.revHint}</p><div><button class="btn primary" type="button" id="rvlib">${t.slib}</button></div></div>`;return}
-  const k=r.q[0],f=first[k],crop=cropOf(f.s,f.p,k);
-  const sent=STORIES[f.s].pages[f.p].replace(RX,(m,w,kk)=>kk===k?`<b>${w}</b>`:w);
+  const k=r.q[0],c=r.ctx[k]||[first[k].s,first[k].p],f={s:c[0],p:c[1]},crop=cropOf(f.s,f.p,k,true);
+  const sent=rvSent(f.s,f.p,k).txt.replace(RX,(m,w,kk)=>kk===k?`<b>${w}</b>`:w);
   const spk=`<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M11 5 6 9H2v6h4l5 4z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M19 5a10 10 0 0 1 0 14"/></svg>`;
   $('sbody').innerHTML=`<div class="quiz"><div class="qbar"><span>${t.revLeft(r.q.length)}</span><span>${t.book(f.s+1)}</span></div>
    <p class="rvword" lang="pt-PT"><button type="button" class="linkbtn" id="rvsay">${label[k]}${spk}</button></p>
-   ${r.shown?`<span class="crop" style="${crop}"></span><p class="rvsent" lang="pt-PT">${sent}</p>
+   ${r.shown?`<span class="crop" style="${crop}"></span><p class="rvsent" lang="pt-PT"><button type="button" class="linkbtn" id="rvsent">${sent}${spk}</button></p>
    <div class="qopts"><button class="btn" type="button" data-rv="0">${t.revAgain}</button><button class="btn primary" type="button" data-rv="1">${t.revGood}</button></div>`
    :`<p class="shint">${t.revAsk}</p><div><button class="btn primary" type="button" id="rvshow">${t.revShow}</button></div>`}</div>`;
   if(!r.shown)clipPlay(f.s,f.p,k)}
@@ -1797,8 +1829,9 @@ document.addEventListener('click',e=>{
   const sc=e.target.closest('[data-sk]');if(sc){if(Date.now()-lpAt<700)return;document.querySelectorAll('.wcard.playing').forEach(x=>x.classList.remove('playing'));sc.classList.add('playing');clipPlay(si,+sc.dataset.sp,sc.dataset.sk);return}
   const qa=e.target.closest('[data-qa]');if(qa){answer(qa.dataset.qa);return}
   if(e.target.closest('#revbtn')){rv=null;renderReview();return}
-  if(e.target.closest('#rvshow')){rv.shown=true;drawReview();return}
-  if(e.target.closest('#rvsay')){const k=rv.q[0];if(k)clipPlay(first[k].s,first[k].p,k);return}
+  if(e.target.closest('#rvshow')){rv.shown=true;drawReview();const k=rv.q[0],c=k&&rv.ctx[k];if(c)rvSentPlay(c[0],c[1],k);return}
+  if(e.target.closest('#rvsay')){const k=rv.q[0],c=k&&(rv.ctx[k]||[first[k].s,first[k].p]);if(k)clipPlay(c[0],c[1],k);return}
+  if(e.target.closest('#rvsent')){const k=rv.q[0],c=k&&rv.ctx[k];if(c)rvSentPlay(c[0],c[1],k);return}
   const rg=e.target.closest('[data-rv]');if(rg){rvGrade(rg.dataset.rv==='1');return}
   if(e.target.closest('#rvlib')){renderLib();return}
   if(e.target.closest('#qnext')){quiz.i++;quiz.ans=null;drawQuiz();return}
