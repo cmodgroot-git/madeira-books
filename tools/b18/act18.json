@@ -1,0 +1,72 @@
+{
+"ribeira:0:distribui": {
+"t": "hold"
+},
+"ribeira:2:desce": {
+"t": "arrow",
+"x1": 211.0,
+"y1": 110.0,
+"x2": 211.0,
+"y2": 176.6
+},
+"ribeira:2:inclina": {
+"t": "hold"
+},
+"ribeira:2:tremem": {
+"t": "hold"
+},
+"ribeira:3:corre": {
+"t": "arrow",
+"x1": 131.0,
+"y1": 62.2,
+"x2": 158.6,
+"y2": 97.0
+},
+"ribeira:3:escorrega": {
+"t": "arrow",
+"x1": 167.4,
+"y1": 176.6,
+"x2": 214.0,
+"y2": 231.6
+},
+"ribeira:3:grita": {
+"t": "sound",
+"x": 197.9,
+"y": 84.0,
+"ang": -125,
+"spread": 28,
+"r1": 12,
+"r2": 20
+},
+"ribeira:3:rise": {
+"t": "sound",
+"x": 114.1,
+"y": 50.7,
+"ang": -35,
+"spread": 28,
+"r1": 8,
+"r2": 16
+},
+"ribeira:5:salta": {
+"t": "arrow",
+"x1": 320.2,
+"y1": 86.8,
+"x2": 320.2,
+"y2": 179.5
+},
+"ribeira:6:maosdadas": {
+"t": "hold"
+},
+"ribeira:6:rise": {
+"t": "sound",
+"x": 158.6,
+"y": 33.3,
+"ang": -145,
+"spread": 28,
+"r1": 8,
+"r2": 16
+},
+"ribeira:7:arruma": {
+"t": "hold"
+}
+}
