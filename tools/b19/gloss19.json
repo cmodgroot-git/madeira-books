@@ -1,0 +1,18 @@
+{
+ "mae": ["mother", "Mutter", "mère", "madre", "moeder", "matka"],
+ "bilhete": ["ticket", "Ticket, Fahrkarte", "billet", "billete", "ticket, kaartje", "bilet"],
+ "aeroporto": ["airport", "Flughafen", "aéroport", "aeropuerto", "luchthaven", "lotnisko"],
+ "aviao": ["plane", "Flugzeug", "avion", "avión", "vliegtuig", "samolot"],
+ "mala": ["suitcase", "Koffer", "valise", "maleta", "koffer", "walizka"],
+ "tapeterolante": ["baggage carousel (conveyor belt)", "Gepäckband", "tapis à bagages", "cinta de equipajes", "bagageband", "taśmociąg bagażowy"],
+ "passageiros": ["passengers", "Passagiere", "passagers", "pasajeros", "passagiers", "pasażerowie"],
+ "funcionaria": ["employee, clerk (a woman)", "Angestellte", "employée", "empleada", "medewerkster", "pracownica"],
+ "formulario": ["form (to fill in)", "Formular", "formulaire", "formulario", "formulier", "formularz"],
+ "armario": ["wardrobe, cupboard", "Kleiderschrank", "armoire", "armario", "kast, kledingkast", "szafa"],
+ "roupas": ["clothes", "Kleider, Kleidung", "vêtements", "ropa", "kleren", "ubrania"],
+ "vestido": ["dress", "Kleid", "robe", "vestido", "jurk", "sukienka"],
+ "sala": ["living room", "Wohnzimmer", "salon", "salón", "woonkamer", "salon, pokój dzienny"],
+ "prato": ["plate", "Teller", "assiette", "plato", "bord", "talerz"],
+ "cadeira": ["chair", "Stuhl", "chaise", "silla", "stoel", "krzesło"],
+ "balcao": ["counter (of a bar or a desk)", "Theke, Schalter", "comptoir, guichet", "barra, mostrador", "toog, balie", "lada, okienko"]
+}

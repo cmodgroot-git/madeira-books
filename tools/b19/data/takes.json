@@ -1,0 +1,216 @@
+{
+ "m01": {
+  "voice": "bBNhdwrIjl4fcVYiRbT2",
+  "items": [
+   [
+    "seg",
+    "19.1.0",
+    "Na segunda-feira de manhã, a Rita ainda não respondeu ao Tiago. De repente, o telemóvel toca: é uma videochamada da mãe, de Lisboa."
+   ],
+   [
+    "seg",
+    "19.1.1",
+    "Filha, tenho uma surpresa! Comprei um bilhete e chego no sábado às seis."
+   ],
+   [
+    "seg",
+    "19.2.0",
+    "No sábado? É o dia do jantar! A Rita senta-se no sofá, pensa um momento e escreve ao Tiago: Sim. Mas seria um problema se fôssemos três? A resposta chega logo: um polegar para cima e uma palavra: Claro!"
+   ],
+   [
+    "seg",
+    "19.3.0",
+    "No sábado, a Rita e o Tiago vão buscar a mãe ao aeroporto. O avião chegou a horas, mas a mala dela não aparece no tapete rolante. Os outros passageiros saem um a um."
+   ],
+   [
+    "seg",
+    "19.3.1",
+    "Onde é que está a minha mala?"
+   ],
+   [
+    "seg",
+    "19.3.2",
+    "pergunta a mãe."
+   ],
+   [
+    "seg",
+    "19.4.0",
+    "No balcão do aeroporto, uma funcionária procura no computador."
+   ],
+   [
+    "seg",
+    "19.4.1",
+    "A sua mala foi enviada para o Porto por engano"
+   ],
+   [
+    "seg",
+    "19.4.2",
+    "explica ela."
+   ],
+   [
+    "seg",
+    "19.4.3",
+    "Vai ser entregue amanhã em sua casa. A mãe preenche um formulário com a caneta da funcionária."
+   ],
+   [
+    "seg",
+    "19.4.4",
+    "As minhas roupas estão todas naquela mala!"
+   ],
+   [
+    "seg",
+    "19.5.0",
+    "Em casa da Rita, a mãe abre o armário, olha para as roupas da filha e escolhe um vestido azul."
+   ],
+   [
+    "seg",
+    "19.5.1",
+    "Se eu tivesse a tua idade, usava isto todos os dias"
+   ],
+   [
+    "seg",
+    "19.5.2",
+    "diz ela ao espelho. Na sala, o Tiago lê um livro, mas está a sorrir."
+   ],
+   [
+    "seg",
+    "19.6.0",
+    "Às oito, os três jantam num restaurante da Zona Velha. A mãe faz muitas perguntas: o nome dos pais do Tiago, o trabalho dele, quantos anos tem… O Tiago responde a tudo com calma. A Rita quase não toca no prato."
+   ],
+   [
+    "seg",
+    "19.7.0",
+    "Depois da sobremesa, o telemóvel da mãe toca e ela sai. A cadeira dela fica vazia. O Tiago pega na mão da Rita por cima da mesa."
+   ],
+   [
+    "seg",
+    "19.7.2",
+    "Poderíamos"
+   ],
+   [
+    "seg",
+    "19.7.3",
+    "diz a Rita."
+   ],
+   [
+    "seg",
+    "19.8.0",
+    "Quando a mãe volta, traz uma notícia:"
+   ],
+   [
+    "seg",
+    "19.8.1",
+    "A minha mala foi encontrada! Chega amanhã de manhã. Depois olha para os dois, ainda de mãos dadas, e sorri:"
+   ],
+   [
+    "seg",
+    "19.8.2",
+    "E eu que pensava que a surpresa era eu…"
+   ]
+  ],
+  "prompt": "Na segunda-feira de manhã, a Rita ainda não respondeu ao Tiago. De repente, o telemóvel toca: é uma videochamada da mãe, de Lisboa.\n\nFilha, tenho uma surpresa! Comprei um bilhete e chego no sábado às seis.\n\nNo sábado? É o dia do jantar! A Rita senta-se no sofá, pensa um momento e escreve ao Tiago: Sim. Mas seria um problema se fôssemos três? A resposta chega logo: um polegar para cima e uma palavra: Claro!\n\nNo sábado, a Rita e o Tiago vão buscar a mãe ao aeroporto. O avião chegou a horas, mas a mala dela não aparece no tapete rolante. Os outros passageiros saem um a um.\n\nOnde é que está a minha mala?\n\npergunta a mãe.\n\nNo balcão do aeroporto, uma funcionária procura no computador.\n\nA sua mala foi enviada para o Porto por engano.\n\nexplica ela.\n\nVai ser entregue amanhã em sua casa. A mãe preenche um formulário com a caneta da funcionária.\n\nAs minhas roupas estão todas naquela mala!\n\nEm casa da Rita, a mãe abre o armário, olha para as roupas da filha e escolhe um vestido azul.\n\nSe eu tivesse a tua idade, usava isto todos os dias.\n\ndiz ela ao espelho. Na sala, o Tiago lê um livro, mas está a sorrir.\n\nÀs oito, os três jantam num restaurante da Zona Velha. A mãe faz muitas perguntas: o nome dos pais do Tiago, o trabalho dele, quantos anos tem… O Tiago responde a tudo com calma. A Rita quase não toca no prato.\n\nDepois da sobremesa, o telemóvel da mãe toca e ela sai. A cadeira dela fica vazia. O Tiago pega na mão da Rita por cima da mesa.\n\nPoderíamos.\n\ndiz a Rita.\n\nQuando a mãe volta, traz uma notícia:\n\nA minha mala foi encontrada! Chega amanhã de manhã. Depois olha para os dois, ainda de mãos dadas, e sorri:\n\nE eu que pensava que a surpresa era eu…"
+ },
+ "p01": {
+  "voice": "XxTHUwWTW2conYBz0vvk",
+  "items": [
+   [
+    "seg",
+    "19.7.1",
+    "Gosto muito da tua mãe. Mas da próxima vez, poderíamos jantar só os dois?"
+   ]
+  ],
+  "prompt": "Gosto muito da tua mãe. Mas da próxima vez, poderíamos jantar só os dois?"
+ },
+ "w01": {
+  "voice": "bBNhdwrIjl4fcVYiRbT2",
+  "items": [
+   [
+    "word",
+    "aeroporto",
+    "aeroporto"
+   ],
+   [
+    "word",
+    "armário",
+    "armário"
+   ],
+   [
+    "word",
+    "avião",
+    "avião"
+   ],
+   [
+    "word",
+    "bilhete",
+    "bilhete"
+   ],
+   [
+    "word",
+    "cadeira",
+    "cadeira"
+   ],
+   [
+    "word",
+    "formulário",
+    "formulário"
+   ],
+   [
+    "word",
+    "funcionária",
+    "funcionária"
+   ],
+   [
+    "word",
+    "mala",
+    "mala"
+   ],
+   [
+    "word",
+    "mãe",
+    "mãe"
+   ],
+   [
+    "word",
+    "passageiros",
+    "passageiros"
+   ],
+   [
+    "word",
+    "prato",
+    "prato"
+   ],
+   [
+    "word",
+    "roupas",
+    "roupas"
+   ],
+   [
+    "word",
+    "sala",
+    "sala"
+   ],
+   [
+    "word",
+    "tapete rolante",
+    "tapete rolante"
+   ],
+   [
+    "word",
+    "vestido",
+    "vestido"
+   ]
+  ],
+  "prompt": "aeroporto, armário, avião, bilhete, cadeira, formulário, funcionária, mala, mãe, passageiros, prato, roupas, sala, tapete rolante, vestido."
+ },
+ "t01": {
+  "voice": "bBNhdwrIjl4fcVYiRbT2",
+  "items": [
+   [
+    "title",
+    "jantar3",
+    "Um Jantar a Três"
+   ]
+  ],
+  "prompt": "Um Jantar a Três."
+ }
+}

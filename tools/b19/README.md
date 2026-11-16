@@ -1,38 +1,29 @@
-# Book 19 (in progress): «Um Jantar a Três» — id `jantar3` (proposed)
+# Book 19: «Um Jantar a Três» — id `jantar3` (published Nov 16, 2026)
 
-Status (Nov 16, 2026): text APPROVED (checkpoint 1); all 8 pictures painted and self-checked, contact sheet
-`books/19-jantar/art/contact19.jpg` shown to the user — waiting for their picture review (checkpoint 2).
-Masters and Krea ids in `books/19-jantar/art/` (`krea_urls.txt`).
-
-Story: Rita's mother (from Lisbon, unnamed, about 60) announces by video call she arrives Saturday — the day of Rita's
-first dinner with Tiago. Rita writes «Sim. Mas seria um problema se fôssemos três?» — «Claro!». At the airport the
-mother's suitcase was sent to Porto by mistake (lost-luggage form); at home she picks a blue dress for Rita; dinner for
-three in the Zona Velha; Tiago: «da próxima vez, poderíamos jantar só os dois?»; the suitcase is found; the mother sees
-them holding hands: «E eu que pensava que a surpresa era eu…»
+Rita's mother flies in from Lisbon on the day of Rita's first dinner with Tiago. Rita asks «Sim. Mas seria um problema se
+fôssemos três?» — «Claro!». The mother's suitcase is sent to Porto by mistake (lost-luggage form at the desk); at home she
+picks a blue dress for Rita; dinner for three in the Zona Velha; Tiago holds Rita's hand: «da próxima vez, poderíamos
+jantar só os dois?»; the suitcase is found; the mother sees them holding hands: «E eu que pensava que a surpresa era eu…»
 Language step: passive with *ser* (foi enviada, vai ser entregue, foi encontrada) + conditional (seria, poderíamos).
-Ledger: readability 79% (rule 80), recycling 31, 27 of 50 new forms in the top 2,000; 15 new tappable words.
 
-- `pages19.json` — approved text with tags
-- `prompts19.py` — builds `inputs19.json` (Krea inputs); `refs.txt` — `mum` = the mother's design sheet
-- Outfits: Rita cream cable-knit jumper + jeans (p1–5), cobalt-blue knee-length dress (p6–8, chosen by her mother on p5);
-  Tiago white shirt, sleeves rolled, dark jeans, no cap; the mother: camel coat, cream blouse, burgundy scarf, grey
-  trousers, brown handbag (her clothes are in the lost suitcase), short grey-brown layered hair, gold earrings.
+## What is in the book
+- 8 pages, 15 new tappable keys (mãe, bilhete, aeroporto, avião, mala, tapete rolante, passageiros, funcionária,
+  formulário, armário, roupas, vestido, sala, prato, cadeira), 29 tappable words in all; `balcao` widened to "counter".
+- Pictures: Krea 3, reviewed as a set (`books/19-jantar3/art/krea_urls.txt`). After the review p7 was fixed by a regional
+  edit (one tablecloth, the table the size of p6/p8, the smudge gone).
+- Tap regions `hl_book19.py` (SAM, `hlmask.py`); action cues `act19.json`: *mãos dadas* hold, *sorri* sound.
+- Scene life `life19.py`: curtain in the breeze (p1, p2), lamps (p5), street lamps and a flickering candle (p6–p8).
+- Narration: Marta (narration, Rita, the mother, the clerk), Pedro (Tiago's line on p7). Recorded as one Marta take,
+  one Pedro take, one word batch and the title (`takes19.py`), cut with `tools/rerecord/cuttake.py`, assembled and aligned
+  with `audio19.py pages clips`. All 8 pages aligned with no gaps; all 15 word clips and the title checked.
+- Meanings: `gloss19.json`.
 
-## Krea results so far (https://gen.krea.ai/images/<id>.png)
-- mum design sheet: 4897ca87-b723-42ec-849c-056a166f07c4 (good)
-- p1: 7bc6a308-ee21-4630-847f-dc20e7135135 (good; Rita smiles rather than surprised — minor; an old moving box in the corner)
-- p2: 09bdd48f-c321-4c10-a3ba-83e56fcc0b15 (good; paint out the garbled status-bar characters on the phone inset and
-  write «Claro!» into the empty white bubble in code)
-- p3: c541b70b-c997-4e40-b49d-bf990043d911 (good)
-- p4: 2cae6881-3ca3-49e8-a0de-c5bfa6e67eab (good; regional edit to blank the garbled airport signs, top left and top right)
-- p5: 2d08e512-fd23-4dc1-9ab4-390808d46f1e (good)
-- p6 first try 84c01c74-db68-4c73-b51b-feb6bd23c69f REJECTED (mother standing; street beside the sea)
-- p6 retry 7e0091e2-6479-4699-9ec4-b32a744412d2 — NOT YET CHECKED (narrow street, all three seated)
+## Rebuild
+WORK=/home/claude/work/b19: masters/ (copy of `books/19-jantar3/art/b19p*.jpg`), hlcache/, seg/, audio/.
+`takes19.py` → record → `cuttake.py <take> <url>` (from tools/rerecord, WORK set) → `audio19.py pages clips` →
+`hlmask.py cut <0..7>` (one page per process) → `life19.py build` → `build19.py text media`.
+`data/` keeps narr19.json, clips19.json, life19.json, takes.json and segs.json (copy narr19/clips19 into WORK/audio and
+life19 into WORK to rebuild without re-recording; the segment wavs are not kept).
 
-## Next steps
-1. Check p6 retry; then write p7 and p8 in `prompts19.py` with the approved p6 as the third reference (same table and
-   street): p7 dessert plates, the mother's chair empty (she is a few steps away on her phone), Tiago holding Rita's
-   hand across the table; p8 the mother back with her phone, smiling at the two still holding hands.
-2. Fixes above (p2 screen, p4 signs); contact sheet → user review (checkpoint 2).
-3. Build as book 18 (`tools/b18/` working set; narration in Marta, Pedro for Tiago's lines; record in long takes,
-   cut with `tools/rerecord/cuttake.py`). GLOSS: widen `balcao` to "counter".
+## Ledger
+Book 19 text: readability 79% (rule ≥ 80%), recycling 31, 27 of 50 new forms in the top 2,000.
