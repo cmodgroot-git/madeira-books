@@ -1,10 +1,11 @@
 # Book 20 masters (https://gen.krea.ai/images/<id>.png); masters in this folder are 1600x898 copies. krea-3, 2K, thinking high.
 rui 92fba66a-e0ff-414a-91da-5229069dfde9  # Rui's design sheet (reference for every page with him)
-p1 92bcb76c-0880-468b-a033-b34b5e0f9a9a  # regional edit of 706d788a: João's face (was grey-haired)
-p2 724a679d-2276-4fe0-950d-d4b0206d4cc2  # chain from b4735e57: Tiago face, helmet, Ana bob + long sleeves + Rui points (bf39749b), helmets snug (018756b8), Ana helmet normal size
-p3 c161c9c1-5deb-4002-b814-23d4e40e1cd8  # edit of c962628b: Tiago helmet snug
-p4 e50d6409-c596-424f-8d7c-ae764b188de3  # edits of 79f15e23: Rita falling (207cc87c), stray 2nd helmet removed + helmet snug
-p5 b25e2b60-6b9d-48b0-b443-a05c8746c64e  # edit of 1bad1ac2: helmets snug
-p6 99dde8d9-bf85-46c7-a216-8233bafb85c4  # chain from 61db1cc4: Ana face (98d02637), long sleeves (9f3c4993), helmets snug
-p7 12f5c781-5e9a-4f6e-a2ea-81ef84ed5b90
+p1 cbabedf2-ece2-4316-928d-1c0cb8454992  # helmets repainted to the helmet sheet (9561d9d1); was 92bcb76c-0880-468b-a033-b34b5e0f9a9a
+p2 d9c04962-e3b0-4722-a90e-435f394eaa4a  # helmets repainted to the helmet sheet (9561d9d1); was 724a679d-2276-4fe0-950d-d4b0206d4cc2; then Rita's straight hair restored (be7ec596)
+p3 b6c9aeaf-d0a1-42d8-aeac-7cdb6972ed22  # helmets repainted to the helmet sheet (9561d9d1); was c161c9c1-5deb-4002-b814-23d4e40e1cd8
+p4 591aec34-d82e-402c-8e5f-b666ae7e1565  # helmets repainted to the helmet sheet (9561d9d1); was e50d6409-c596-424f-8d7c-ae764b188de3
+p5 299de083-7a4b-4a0c-89dd-d2c5c1a1e84b  # helmets repainted to the helmet sheet (9561d9d1); was b25e2b60-6b9d-48b0-b443-a05c8746c64e
+p6 7322255b-b821-4171-ad7a-5c14bf150759  # helmets repainted to the helmet sheet (9561d9d1); was 99dde8d9-bf85-46c7-a216-8233bafb85c4
+p7 26bbeed7-d751-43f0-bff0-0e040795e487  # helmets repainted to the helmet sheet (9561d9d1); was 12f5c781-5e9a-4f6e-a2ea-81ef84ed5b90
 p8 e05f53de-e6ca-4de1-8a25-964439b2cfa7  # page 1 as fourth reference (same van and clearing)
+helmets 9561d9d1-408a-4b1a-9ef8-48386cc5c9c1  # helmet model sheet: one model, one size, five colours (reference for every helmet)
