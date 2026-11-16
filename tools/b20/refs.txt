@@ -1,3 +1,9 @@
 rui https://gen.krea.ai/images/92fba66a-e0ff-414a-91da-5229069dfde9.png
 p1 https://gen.krea.ai/images/706d788a-09fe-4a7a-95ed-bbae8dfe5461.png
-helmets https://gen.krea.ai/images/9561d9d1-408a-4b1a-9ef8-48386cc5c9c1.png
+helmets https://gen.krea.ai/images/59c0f453-8275-4082-9672-cece3f2503b1.png
+c2 https://gen.krea.ai/images/23e5dc5c-ac1e-4253-88e1-de63d2bd2af2.png
+c3 https://gen.krea.ai/images/b8d57216-3b47-4340-bdfd-a360d48ad6cf.png
+c4 https://gen.krea.ai/images/4c8d80df-7f0b-4d79-85fa-b223135c27b7.png
+c5 https://gen.krea.ai/images/a1c754e1-6070-492b-83e3-bca6ccceba1a.png
+c6 https://gen.krea.ai/images/e6c559c9-f1ef-4b89-bfd6-9beef9e4b834.png
+c7 https://gen.krea.ai/images/ac3b3264-857f-4cb1-9478-648e9791cf44.png

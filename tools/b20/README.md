@@ -6,7 +6,7 @@ Masters and Krea ids in `books/20-nevoeiro/art/` (`krea_urls.txt`); prompts in `
 Outfits: MTB jerseys — Rita terracotta + white helmet, Ana teal + mustard, João navy + blue, Tiago light grey + red,
 Rui forest green + dark grey; dark grey baggy shorts, black knee pads, black gloves; five identical matte-black hardtails.
 Fixed after review (Nov 16): p2 Ana bob, long sleeves, Rui points at the lever; p4 Rita falling; p6 long sleeves; helmets
-snug and normal-sized on p2–p6 (user: "helmet size doesn't increase, hair gets compressed"). Then every helmet on p1–p7 was repainted to one model and size from the helmet sheet `helmet_design.jpg` (check: `helmet_check.jpg`).
+snug and normal-sized on p2–p6 (user: "helmet size doesn't increase, hair gets compressed"). Helmets: the user found them too big; pages 2–7 were repainted in full with the slim helmet sheet `helmet_design.jpg` (p5 then got mud on Rita's cheek). Page 1 keeps its small helmets.
 Story: mountain biking at the Fanal trail centre (old til trees, fog, free-range cows) with Rui, João's friend, a PE
 teacher who guides mountain-bike rides. Rita falls in the mud after a cow blocks the trail; the fog lifts over the
 north coast; Tiago fixes a puncture; Ana tells Rita that João asked her to move in with him — no answer yet.
