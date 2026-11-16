@@ -1,6 +1,8 @@
 # Book 19 (in progress): «Um Jantar a Três» — id `jantar3` (proposed)
 
-Status (Nov 15, 2026, paused at the user's request): text APPROVED (checkpoint 1); pictures in progress (checkpoint 2 not yet shown).
+Status (Nov 16, 2026): text APPROVED (checkpoint 1); all 8 pictures painted and self-checked, contact sheet
+`books/19-jantar/art/contact19.jpg` shown to the user — waiting for their picture review (checkpoint 2).
+Masters and Krea ids in `books/19-jantar/art/` (`krea_urls.txt`).
 
 Story: Rita's mother (from Lisbon, unnamed, about 60) announces by video call she arrives Saturday — the day of Rita's
 first dinner with Tiago. Rita writes «Sim. Mas seria um problema se fôssemos três?» — «Claro!». At the airport the

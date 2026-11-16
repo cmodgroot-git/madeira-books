@@ -1,0 +1,10 @@
+# Book 19 masters (https://gen.krea.ai/images/<id>.png); masters in this folder are 1600x898 copies
+mum 4897ca87-b723-42ec-849c-056a166f07c4  # the mother's design sheet (reference for every page)
+p1 7bc6a308-ee21-4630-847f-dc20e7135135
+p2 09bdd48f-c321-4c10-a3ba-83e56fcc0b15  # master: status-bar clock painted out and «Claro!» written into the white bubble in code (DejaVu Sans 58 px at 2736 px, ink #2b2118)
+p3 c541b70b-c997-4e40-b49d-bf990043d911
+p4 2a5a06ca-cb0a-46fa-885c-9cdfcb06d3ee  # signs to pictograms (edit of 2cae6881)
+p5 2d08e512-fd23-4dc1-9ab4-390808d46f1e
+p6 7e0091e2-6479-4699-9ec4-b32a744412d2  # thinking high (first try 84c01c74: mother standing, sea beside the street)
+p7 2bd2f954-6b56-4878-8691-aba5274ff4bb  # edit of 313c8b5a: seated duplicate mother removed, sea → houses (00e59c82 lost the empty chair)
+p8 c3e89baf-f585-4199-81ff-f4bc66482bfd  # dessert plates (edit of 9b290d6b)
