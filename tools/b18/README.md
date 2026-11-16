@@ -1,8 +1,11 @@
 # Book 18 (in progress): «Antes que Mudes de Ideias» — id `ribeira`
 
-Status (Oct 27, 2026): text approved; first set of 8 pictures painted and shown to the user
-(`books/18-ribeira/art/contact18.jpg`); waiting for the user's picture review. Paused for Krea credits
-(about 450 units left; the plan renews about Nov 15, 2026).
+Status (Nov 15, 2026): text approved; user reviewed the pictures and asked to fix the flagged pages
+(darker forest is fine). Fixed by regional edits: p1 Tiago's cap forwards; p5 pigeon smaller and farther;
+p7 João's face (short wavy hair, light stubble, no curls/beard); p8 towels as planned (João green, Rita cobalt)
+and flip-flops instead of bare feet. New contact sheet `books/18-ribeira/art/contact18.jpg` shown to the user;
+on their OK, go to the build. Krea plan is now Individual Pro, 20,000 units a month (was Max, 54,000).
+`sobe` (p7) stays untagged-highlight: flagged as not shown.
 
 Language step: *caso / para que / antes que* + present subjunctive (a canyoning safety briefing).
 New friend: Bruno, firefighter and canyoning guide. Ends on Tiago asking Rita to dinner, no answer yet.
