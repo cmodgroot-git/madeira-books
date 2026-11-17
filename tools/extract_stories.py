@@ -17,7 +17,7 @@ ROOT = Path(__file__).resolve().parent.parent
 HTML = ROOT / "docs" / "index.html"
 OUT = ROOT / "books"
 
-BOOK_RE = re.compile(r"id:'([a-z0-9]+)',title:'([^']+)',[^}]*?pages:pages(\d+)")
+BOOK_RE = re.compile(r"id:'([a-z0-9]+)',title:'([^']+)',[^}]*?pages:pages(\d+b?)")
 WORD_RE = re.compile(r"\[([^\]|]+)\|([^\]]+)\]")
 
 

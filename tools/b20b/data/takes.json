@@ -1,0 +1,90 @@
+{
+ "m01": {
+  "voice": "bBNhdwrIjl4fcVYiRbT2",
+  "items": [
+   [
+    "seg",
+    "20b.1.0",
+    "Domingo à noite. Hoje acordei muito cedo e estava nervosa, porque eu não ando de bicicleta desde pequena. No Fanal estava frio e havia nevoeiro entre as árvores. O Rui já estava lá com a carrinha. Eu tinha as luvas e o capacete na mão."
+   ],
+   [
+    "seg",
+    "20b.2.0",
+    "Antes de começar, o Rui explicou os travões. Eu ouvi tudo, mas não percebi nada! Quando apertei o capacete, os meus dedos estavam frios. O João olhava para mim e sorria. Ele sabe que eu sou assim."
+   ],
+   [
+    "seg",
+    "20b.3.0",
+    "Depois descemos pela floresta. O trilho tinha muitas curvas, raízes e pedras. Eu ia atrás de todos, muito devagar. Lá à frente, a Rita seguia o Tiago e não tinha medo de nada. Eu tinha medo de tudo!"
+   ],
+   [
+    "seg",
+    "20b.4.0",
+    "De repente, uma vaca apareceu no meio do caminho. Eu travei a tempo, mas a Rita não. A roda dela escorregou na lama e ela caiu devagar em cima dos fetos. O Tiago gritou:"
+   ],
+   [
+    "seg",
+    "20b.4.2",
+    "Mas ela estava bem."
+   ],
+   [
+    "seg",
+    "20b.5.0",
+    "Quando a Rita se levantou, tinha lama nas pernas, nos braços e no cabelo. O Tiago queria rir, mas tapou a boca com a mão. Eu ri-me tanto! Acho que ele gosta muito dela. E eu sei que ela também gosta dele."
+   ],
+   [
+    "seg",
+    "20b.6.0",
+    "Ao meio-dia, comemos em frente a uma vista enorme. Primeiro só se via o céu branco. Depois o nevoeiro levantou e apareceram o mar, as falésias e o horizonte. Foi perfeito. Esta ilha é a minha casa, e ainda é uma surpresa para mim."
+   ],
+   [
+    "seg",
+    "20b.7.0",
+    "Na última descida, o pneu do Tiago ficou vazio. Ele parece um mecânico: mudou a câmara de ar em dois minutos! A Rita olhava por cima do ombro dele, e o Rui, de braços cruzados, disse:"
+   ],
+   [
+    "seg",
+    "20b.8.0",
+    "Ao pôr do sol, enquanto os homens lavavam as bicicletas, contei tudo à Rita. O João perguntou se eu queria viver com ele. Eu quero… acho eu. Mas tenho medo. A Rita disse:"
+   ],
+   [
+    "seg",
+    "20b.8.1",
+    "Se eu fosse tu, dizia que sim. Agora estou cansada, mas feliz. Amanhã vou falar com ele."
+   ]
+  ],
+  "prompt": "Domingo à noite. Hoje acordei muito cedo e estava nervosa, porque eu não ando de bicicleta desde pequena. No Fanal estava frio e havia nevoeiro entre as árvores. O Rui já estava lá com a carrinha. Eu tinha as luvas e o capacete na mão.\n\nAntes de começar, o Rui explicou os travões. Eu ouvi tudo, mas não percebi nada! Quando apertei o capacete, os meus dedos estavam frios. O João olhava para mim e sorria. Ele sabe que eu sou assim.\n\nDepois descemos pela floresta. O trilho tinha muitas curvas, raízes e pedras. Eu ia atrás de todos, muito devagar. Lá à frente, a Rita seguia o Tiago e não tinha medo de nada. Eu tinha medo de tudo!\n\nDe repente, uma vaca apareceu no meio do caminho. Eu travei a tempo, mas a Rita não. A roda dela escorregou na lama e ela caiu devagar em cima dos fetos. O Tiago gritou:\n\nMas ela estava bem.\n\nQuando a Rita se levantou, tinha lama nas pernas, nos braços e no cabelo. O Tiago queria rir, mas tapou a boca com a mão. Eu ri-me tanto! Acho que ele gosta muito dela. E eu sei que ela também gosta dele.\n\nAo meio-dia, comemos em frente a uma vista enorme. Primeiro só se via o céu branco. Depois o nevoeiro levantou e apareceram o mar, as falésias e o horizonte. Foi perfeito. Esta ilha é a minha casa, e ainda é uma surpresa para mim.\n\nNa última descida, o pneu do Tiago ficou vazio. Ele parece um mecânico: mudou a câmara de ar em dois minutos! A Rita olhava por cima do ombro dele, e o Rui, de braços cruzados, disse:\n\nAo pôr do sol, enquanto os homens lavavam as bicicletas, contei tudo à Rita. O João perguntou se eu queria viver com ele. Eu quero… acho eu. Mas tenho medo. A Rita disse:\n\nSe eu fosse tu, dizia que sim. Agora estou cansada, mas feliz. Amanhã vou falar com ele."
+ },
+ "p01": {
+  "voice": "XxTHUwWTW2conYBz0vvk",
+  "items": [
+   [
+    "seg",
+    "20b.4.1",
+    "Rita!"
+   ],
+   [
+    "seg",
+    "20b.7.1",
+    "Assim eu não tenho trabalho!"
+   ]
+  ],
+  "prompt": "Rita!\n\nAssim eu não tenho trabalho!"
+ },
+ "w01": {
+  "voice": "bBNhdwrIjl4fcVYiRbT2",
+  "items": [],
+  "prompt": "."
+ },
+ "t01": {
+  "voice": "bBNhdwrIjl4fcVYiRbT2",
+  "items": [
+   [
+    "title",
+    "diario20",
+    "O Diário da Ana"
+   ]
+  ],
+  "prompt": "O Diário da Ana."
+ }
+}

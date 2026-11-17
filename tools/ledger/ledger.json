@@ -1,8 +1,8 @@
 {
-"books": 20,
+"books": 21,
 "forms": {
 "a": {
-"met": 362,
+"met": 375,
 "books": [
 1,
 2,
@@ -23,7 +23,8 @@
 17,
 18,
 19,
-20
+20,
+21
 ],
 "first": 1,
 "rank": 2
@@ -146,10 +147,11 @@
 "rank": 510
 },
 "acho": {
-"met": 2,
+"met": 4,
 "books": [
 6,
-14
+14,
+21
 ],
 "first": 6,
 "rank": 138
@@ -170,6 +172,14 @@
 ],
 "first": 1,
 "rank": 4429
+},
+"acordei": {
+"met": 1,
+"books": [
+21
+],
+"first": 21,
+"rank": null
 },
 "adorar": {
 "met": 1,
@@ -228,13 +238,14 @@
 "rank": 1735
 },
 "agora": {
-"met": 7,
+"met": 8,
 "books": [
 5,
 14,
 16,
 17,
-20
+20,
+21
 ],
 "first": 5,
 "rank": 66
@@ -257,7 +268,7 @@
 "rank": 1231
 },
 "ainda": {
-"met": 9,
+"met": 10,
 "books": [
 1,
 5,
@@ -265,7 +276,8 @@
 15,
 17,
 19,
-20
+20,
+21
 ],
 "first": 1,
 "rank": 58
@@ -381,9 +393,10 @@
 "rank": 482
 },
 "amanhã": {
-"met": 2,
+"met": 3,
 "books": [
-19
+19,
+21
 ],
 "first": 19,
 "rank": 511
@@ -485,6 +498,14 @@
 "first": 5,
 "rank": 1091
 },
+"ando": {
+"met": 1,
+"books": [
+21
+],
+"first": 21,
+"rank": 4692
+},
 "anos": {
 "met": 4,
 "books": [
@@ -497,9 +518,10 @@
 "rank": 62
 },
 "antes": {
-"met": 1,
+"met": 2,
 "books": [
-18
+18,
+21
 ],
 "first": 18,
 "rank": 141
@@ -513,7 +535,7 @@
 "rank": null
 },
 "ao": {
-"met": 59,
+"met": 61,
 "books": [
 1,
 3,
@@ -533,7 +555,8 @@
 17,
 18,
 19,
-20
+20,
+21
 ],
 "first": 1,
 "rank": 25
@@ -577,6 +600,22 @@
 "first": 16,
 "rank": 3028
 },
+"apareceram": {
+"met": 1,
+"books": [
+21
+],
+"first": 21,
+"rank": null
+},
+"apareceu": {
+"met": 1,
+"books": [
+21
+],
+"first": 21,
+"rank": 1469
+},
 "apartamento": {
 "met": 4,
 "books": [
@@ -610,6 +649,14 @@
 11
 ],
 "first": 11,
+"rank": null
+},
+"apertei": {
+"met": 1,
+"books": [
+21
+],
+"first": 21,
 "rank": null
 },
 "apitem": {
@@ -672,12 +719,13 @@
 "rank": 59
 },
 "ar": {
-"met": 6,
+"met": 7,
 "books": [
 11,
 14,
 16,
-20
+20,
+21
 ],
 "first": 11,
 "rank": 574
@@ -760,7 +808,7 @@
 "rank": null
 },
 "as": {
-"met": 48,
+"met": 52,
 "books": [
 1,
 2,
@@ -780,7 +828,8 @@
 17,
 18,
 19,
-20
+20,
+21
 ],
 "first": 1,
 "rank": 20
@@ -803,12 +852,13 @@
 "rank": 4514
 },
 "assim": {
-"met": 4,
+"met": 6,
 "books": [
 12,
 13,
 14,
-15
+15,
+21
 ],
 "first": 12,
 "rank": 71
@@ -846,11 +896,12 @@
 "rank": null
 },
 "atrás": {
-"met": 5,
+"met": 6,
 "books": [
 12,
 17,
-18
+18,
+21
 ],
 "first": 12,
 "rank": 409
@@ -1247,14 +1298,15 @@
 "rank": 2571
 },
 "bem": {
-"met": 7,
+"met": 8,
 "books": [
 4,
 5,
 7,
 8,
 9,
-11
+11,
+21
 ],
 "first": 4,
 "rank": 50
@@ -1276,17 +1328,19 @@
 "rank": null
 },
 "bicicleta": {
-"met": 3,
+"met": 4,
 "books": [
-20
+20,
+21
 ],
 "first": 20,
 "rank": 3219
 },
 "bicicletas": {
-"met": 2,
+"met": 3,
 "books": [
-20
+20,
+21
 ],
 "first": 20,
 "rank": null
@@ -1319,9 +1373,10 @@
 "rank": 153
 },
 "boca": {
-"met": 1,
+"met": 2,
 "books": [
-20
+20,
+21
 ],
 "first": 20,
 "rank": 691
@@ -1446,13 +1501,14 @@
 "rank": null
 },
 "branco": {
-"met": 5,
+"met": 6,
 "books": [
 4,
 6,
 13,
 16,
-20
+20,
+21
 ],
 "first": 4,
 "rank": 811
@@ -1467,12 +1523,13 @@
 "rank": 2014
 },
 "braços": {
-"met": 4,
+"met": 6,
 "books": [
 7,
 9,
 18,
-20
+20,
+21
 ],
 "first": 7,
 "rank": 2480
@@ -1568,10 +1625,11 @@
 "rank": 2722
 },
 "cabelo": {
-"met": 2,
+"met": 3,
 "books": [
 7,
-8
+8,
+21
 ],
 "first": 7,
 "rank": 877
@@ -1694,9 +1752,10 @@
 "rank": null
 },
 "caiu": {
-"met": 2,
+"met": 3,
 "books": [
-7
+7,
+21
 ],
 "first": 7,
 "rank": 1509
@@ -1813,11 +1872,12 @@
 "rank": null
 },
 "caminho": {
-"met": 6,
+"met": 7,
 "books": [
 3,
 11,
-20
+20,
+21
 ],
 "first": 3,
 "rank": 512
@@ -1865,9 +1925,10 @@
 "rank": null
 },
 "cansada": {
-"met": 1,
+"met": 2,
 "books": [
-8
+8,
+21
 ],
 "first": 8,
 "rank": 3718
@@ -1898,11 +1959,12 @@
 "rank": null
 },
 "capacete": {
-"met": 6,
+"met": 8,
 "books": [
 11,
 12,
-20
+20,
+21
 ],
 "first": 11,
 "rank": null
@@ -1960,13 +2022,14 @@
 "rank": 3223
 },
 "carrinha": {
-"met": 6,
+"met": 7,
 "books": [
 10,
 11,
 17,
 18,
-20
+20,
+21
 ],
 "first": 10,
 "rank": null
@@ -2032,7 +2095,7 @@
 "rank": 1673
 },
 "casa": {
-"met": 15,
+"met": 16,
 "books": [
 1,
 2,
@@ -2040,7 +2103,8 @@
 10,
 11,
 15,
-19
+19,
+21
 ],
 "first": 1,
 "rank": 86
@@ -2116,9 +2180,10 @@
 "rank": 313
 },
 "cedo": {
-"met": 1,
+"met": 2,
 "books": [
-11
+11,
+21
 ],
 "first": 11,
 "rank": 982
@@ -2350,7 +2415,7 @@
 "rank": 116
 },
 "cima": {
-"met": 13,
+"met": 15,
 "books": [
 1,
 6,
@@ -2360,7 +2425,8 @@
 13,
 14,
 19,
-20
+20,
+21
 ],
 "first": 1,
 "rank": 542
@@ -2472,7 +2538,7 @@
 "rank": null
 },
 "com": {
-"met": 62,
+"met": 66,
 "books": [
 1,
 3,
@@ -2491,7 +2557,8 @@
 16,
 17,
 19,
-20
+20,
+21
 ],
 "first": 1,
 "rank": null
@@ -2524,6 +2591,14 @@
 13
 ],
 "first": 3,
+"rank": null
+},
+"comemos": {
+"met": 1,
+"books": [
+21
+],
+"first": 21,
 "rank": null
 },
 "comer": {
@@ -2560,6 +2635,14 @@
 ],
 "first": 3,
 "rank": 2282
+},
+"começar": {
+"met": 1,
+"books": [
+21
+],
+"first": 21,
+"rank": 468
 },
 "comigo": {
 "met": 1,
@@ -2740,6 +2823,14 @@
 ],
 "first": 4,
 "rank": 204
+},
+"contei": {
+"met": 1,
+"books": [
+21
+],
+"first": 21,
+"rank": null
 },
 "continua": {
 "met": 1,
@@ -2969,6 +3060,14 @@
 "first": 11,
 "rank": null
 },
+"cruzados": {
+"met": 1,
+"books": [
+21
+],
+"first": 21,
+"rank": null
+},
 "cuidado": {
 "met": 1,
 "books": [
@@ -2994,18 +3093,20 @@
 "rank": null
 },
 "curvas": {
-"met": 2,
+"met": 3,
 "books": [
 3,
-6
+6,
+21
 ],
 "first": 3,
 "rank": null
 },
 "câmara": {
-"met": 1,
+"met": 2,
 "books": [
-20
+20,
+21
 ],
 "first": 20,
 "rank": 710
@@ -3025,7 +3126,7 @@
 "rank": 2917
 },
 "céu": {
-"met": 10,
+"met": 11,
 "books": [
 1,
 4,
@@ -3033,7 +3134,8 @@
 6,
 7,
 13,
-20
+20,
+21
 ],
 "first": 1,
 "rank": 1095
@@ -3147,7 +3249,7 @@
 "rank": 31
 },
 "de": {
-"met": 134,
+"met": 142,
 "books": [
 1,
 2,
@@ -3168,7 +3270,8 @@
 17,
 18,
 19,
-20
+20,
+21
 ],
 "first": 1,
 "rank": 1
@@ -3186,9 +3289,10 @@
 "rank": 3882
 },
 "dedos": {
-"met": 1,
+"met": 2,
 "books": [
-9
+9,
+21
 ],
 "first": 9,
 "rank": 3044
@@ -3218,24 +3322,26 @@
 "rank": 2533
 },
 "dela": {
-"met": 7,
+"met": 9,
 "books": [
 7,
 8,
 12,
 17,
 18,
-19
+19,
+21
 ],
 "first": 7,
 "rank": 270
 },
 "dele": {
-"met": 3,
+"met": 5,
 "books": [
 16,
 19,
-20
+20,
+21
 ],
 "first": 16,
 "rank": 241
@@ -3272,7 +3378,7 @@
 "rank": 225
 },
 "depois": {
-"met": 25,
+"met": 27,
 "books": [
 1,
 3,
@@ -3287,7 +3393,8 @@
 16,
 17,
 18,
-19
+19,
+21
 ],
 "first": 1,
 "rank": 72
@@ -3342,10 +3449,19 @@
 "first": 5,
 "rank": null
 },
-"descida": {
+"descemos": {
 "met": 1,
 "books": [
-20
+21
+],
+"first": 21,
+"rank": null
+},
+"descida": {
+"met": 2,
+"books": [
+20,
+21
 ],
 "first": 20,
 "rank": null
@@ -3383,10 +3499,11 @@
 "rank": null
 },
 "desde": {
-"met": 2,
+"met": 3,
 "books": [
 13,
-16
+16,
+21
 ],
 "first": 13,
 "rank": 145
@@ -3458,7 +3575,7 @@
 "rank": null
 },
 "devagar": {
-"met": 10,
+"met": 12,
 "books": [
 1,
 3,
@@ -3467,7 +3584,8 @@
 14,
 16,
 18,
-20
+20,
+21
 ],
 "first": 1,
 "rank": null
@@ -3563,13 +3681,14 @@
 "rank": 2982
 },
 "disse": {
-"met": 13,
+"met": 15,
 "books": [
 6,
 7,
 15,
 16,
-20
+20,
+21
 ],
 "first": 6,
 "rank": 162
@@ -3669,8 +3788,16 @@
 "first": 9,
 "rank": 181
 },
+"dizia": {
+"met": 1,
+"books": [
+21
+],
+"first": 21,
+"rank": 1900
+},
 "do": {
-"met": 70,
+"met": 74,
 "books": [
 1,
 3,
@@ -3690,7 +3817,8 @@
 17,
 18,
 19,
-20
+20,
+21
 ],
 "first": 1,
 "rank": null
@@ -3712,7 +3840,7 @@
 "rank": null
 },
 "dois": {
-"met": 18,
+"met": 19,
 "books": [
 1,
 2,
@@ -3726,19 +3854,21 @@
 16,
 18,
 19,
-20
+20,
+21
 ],
 "first": 1,
 "rank": 102
 },
 "domingo": {
-"met": 5,
+"met": 6,
 "books": [
 3,
 11,
 13,
 18,
-20
+20,
+21
 ],
 "first": 3,
 "rank": 836
@@ -3769,14 +3899,15 @@
 "rank": null
 },
 "dos": {
-"met": 7,
+"met": 8,
 "books": [
 1,
 8,
 15,
 18,
 19,
-20
+20,
+21
 ],
 "first": 1,
 "rank": 22
@@ -3863,7 +3994,7 @@
 "rank": null
 },
 "e": {
-"met": 202,
+"met": 215,
 "books": [
 1,
 2,
@@ -3884,7 +4015,8 @@
 17,
 18,
 19,
-20
+20,
+21
 ],
 "first": 1,
 "rank": 5
@@ -3898,7 +4030,7 @@
 "rank": 442
 },
 "ela": {
-"met": 32,
+"met": 35,
 "books": [
 5,
 6,
@@ -3911,13 +4043,14 @@
 16,
 17,
 19,
-20
+20,
+21
 ],
 "first": 5,
 "rank": 44
 },
 "ele": {
-"met": 19,
+"met": 24,
 "books": [
 7,
 8,
@@ -3930,7 +4063,8 @@
 16,
 17,
 18,
-20
+20,
+21
 ],
 "first": 7,
 "rank": 34
@@ -3953,7 +4087,7 @@
 "rank": null
 },
 "em": {
-"met": 32,
+"met": 35,
 "books": [
 1,
 2,
@@ -3973,7 +4107,8 @@
 17,
 18,
 19,
-20
+20,
+21
 ],
 "first": 1,
 "rank": 6
@@ -4150,18 +4285,20 @@
 "rank": null
 },
 "enorme": {
-"met": 2,
+"met": 3,
 "books": [
-11
+11,
+21
 ],
 "first": 11,
 "rank": 1315
 },
 "enquanto": {
-"met": 3,
+"met": 4,
 "books": [
 4,
-5
+5,
+21
 ],
 "first": 4,
 "rank": 185
@@ -4217,7 +4354,7 @@
 "rank": 4816
 },
 "entre": {
-"met": 15,
+"met": 16,
 "books": [
 3,
 4,
@@ -4230,7 +4367,8 @@
 16,
 17,
 18,
-20
+20,
+21
 ],
 "first": 3,
 "rank": 67
@@ -4383,6 +4521,14 @@
 "first": 18,
 "rank": null
 },
+"escorregou": {
+"met": 1,
+"books": [
+21
+],
+"first": 21,
+"rank": null
+},
 "escreve": {
 "met": 2,
 "books": [
@@ -4520,9 +4666,10 @@
 "rank": null
 },
 "esta": {
-"met": 1,
+"met": 2,
 "books": [
-17
+17,
+21
 ],
 "first": 17,
 "rank": 95
@@ -4563,14 +4710,23 @@
 "rank": 1780
 },
 "estava": {
-"met": 7,
+"met": 11,
 "books": [
 6,
 7,
-17
+17,
+21
 ],
 "first": 6,
 "rank": 154
+},
+"estavam": {
+"met": 1,
+"books": [
+21
+],
+"first": 21,
+"rank": 459
 },
 "estação": {
 "met": 4,
@@ -4638,6 +4794,14 @@
 ],
 "first": 13,
 "rank": 384
+},
+"estou": {
+"met": 1,
+"books": [
+21
+],
+"first": 21,
+"rank": 121
 },
 "estrada": {
 "met": 3,
@@ -4724,7 +4888,7 @@
 "rank": 77
 },
 "eu": {
-"met": 26,
+"met": 40,
 "books": [
 6,
 8,
@@ -4737,7 +4901,8 @@
 16,
 17,
 19,
-20
+20,
+21
 ],
 "first": 6,
 "rank": 18
@@ -4780,6 +4945,14 @@
 "first": 9,
 "rank": 1404
 },
+"explicou": {
+"met": 1,
+"books": [
+21
+],
+"first": 21,
+"rank": 3241
+},
 "faial": {
 "met": 2,
 "books": [
@@ -4788,6 +4961,14 @@
 ],
 "first": 11,
 "rank": null
+},
+"falar": {
+"met": 1,
+"books": [
+21
+],
+"first": 21,
+"rank": 147
 },
 "falem": {
 "met": 1,
@@ -4822,18 +5003,20 @@
 "rank": 3978
 },
 "falésias": {
-"met": 2,
+"met": 3,
 "books": [
 4,
-14
+14,
+21
 ],
 "first": 4,
 "rank": null
 },
 "fanal": {
-"met": 1,
+"met": 2,
 "books": [
-20
+20,
+21
 ],
 "first": 20,
 "rank": null
@@ -4951,9 +5134,10 @@
 "rank": 2587
 },
 "feliz": {
-"met": 1,
+"met": 2,
 "books": [
-2
+2,
+21
 ],
 "first": 2,
 "rank": 376
@@ -5000,10 +5184,11 @@
 "rank": 517
 },
 "fetos": {
-"met": 2,
+"met": 3,
 "books": [
 18,
-20
+20,
+21
 ],
 "first": 18,
 "rank": null
@@ -5059,10 +5244,11 @@
 "rank": 157
 },
 "ficou": {
-"met": 5,
+"met": 6,
 "books": [
 6,
-7
+7,
+21
 ],
 "first": 6,
 "rank": 327
@@ -5157,9 +5343,10 @@
 "rank": 1649
 },
 "floresta": {
-"met": 1,
+"met": 2,
 "books": [
-3
+3,
+21
 ],
 "first": 3,
 "rank": 1650
@@ -5173,13 +5360,14 @@
 "rank": null
 },
 "foi": {
-"met": 6,
+"met": 7,
 "books": [
 1,
 2,
 8,
 13,
-19
+19,
+21
 ],
 "first": 1,
 "rank": 24
@@ -5229,9 +5417,10 @@
 "rank": 386
 },
 "fosse": {
-"met": 5,
+"met": 6,
 "books": [
-17
+17,
+21
 ],
 "first": 17,
 "rank": 320
@@ -5278,12 +5467,13 @@
 "rank": null
 },
 "frente": {
-"met": 5,
+"met": 7,
 "books": [
 6,
 17,
 18,
-20
+20,
+21
 ],
 "first": 6,
 "rank": 254
@@ -5314,12 +5504,21 @@
 "rank": 3050
 },
 "frio": {
-"met": 1,
+"met": 2,
 "books": [
-6
+6,
+21
 ],
 "first": 6,
 "rank": 1351
+},
+"frios": {
+"met": 1,
+"books": [
+21
+],
+"first": 21,
+"rank": null
 },
 "fritas": {
 "met": 1,
@@ -5551,9 +5750,10 @@
 "rank": null
 },
 "gosta": {
-"met": 1,
+"met": 3,
 "books": [
-1
+1,
+21
 ],
 "first": 1,
 "rank": 668
@@ -5658,9 +5858,10 @@
 "rank": 3408
 },
 "gritou": {
-"met": 1,
+"met": 2,
 "books": [
-7
+7,
+21
 ],
 "first": 7,
 "rank": null
@@ -5707,10 +5908,11 @@
 "rank": null
 },
 "havia": {
-"met": 2,
+"met": 3,
 "books": [
 6,
-7
+7,
+21
 ],
 "first": 6,
 "rank": 288
@@ -5724,14 +5926,15 @@
 "rank": null
 },
 "hoje": {
-"met": 6,
+"met": 7,
 "books": [
 2,
 3,
 5,
 8,
 11,
-12
+12,
+21
 ],
 "first": 2,
 "rank": 109
@@ -5746,9 +5949,10 @@
 "rank": 228
 },
 "homens": {
-"met": 1,
+"met": 2,
 "books": [
-5
+5,
+21
 ],
 "first": 5,
 "rank": 378
@@ -5771,10 +5975,11 @@
 "rank": 238
 },
 "horizonte": {
-"met": 2,
+"met": 3,
 "books": [
 6,
-13
+13,
+21
 ],
 "first": 6,
 "rank": 2069
@@ -5815,10 +6020,11 @@
 "rank": 83
 },
 "ia": {
-"met": 2,
+"met": 3,
 "books": [
 16,
-17
+17,
+21
 ],
 "first": 16,
 "rank": 561
@@ -5858,10 +6064,11 @@
 "rank": 646
 },
 "ilha": {
-"met": 2,
+"met": 3,
 "books": [
 4,
-11
+11,
+21
 ],
 "first": 4,
 "rank": 953
@@ -6055,7 +6262,7 @@
 "rank": 865
 },
 "joão": {
-"met": 35,
+"met": 37,
 "books": [
 7,
 8,
@@ -6068,7 +6275,8 @@
 15,
 16,
 18,
-20
+20,
+21
 ],
 "first": 7,
 "rank": null
@@ -6109,7 +6317,7 @@
 "rank": null
 },
 "já": {
-"met": 12,
+"met": 13,
 "books": [
 1,
 4,
@@ -6120,7 +6328,8 @@
 16,
 17,
 18,
-20
+20,
+21
 ],
 "first": 1,
 "rank": 37
@@ -6195,9 +6404,10 @@
 "rank": null
 },
 "lama": {
-"met": 3,
+"met": 5,
 "books": [
-20
+20,
+21
 ],
 "first": 20,
 "rank": null
@@ -6249,6 +6459,14 @@
 ],
 "first": 15,
 "rank": 3180
+},
+"lavavam": {
+"met": 1,
+"books": [
+21
+],
+"first": 21,
+"rank": null
 },
 "lavradores": {
 "met": 1,
@@ -6315,6 +6533,14 @@
 20
 ],
 "first": 20,
+"rank": null
+},
+"levantou": {
+"met": 2,
+"books": [
+21
+],
+"first": 21,
 "rank": null
 },
 "levantou-se": {
@@ -6531,10 +6757,11 @@
 "rank": null
 },
 "luvas": {
-"met": 2,
+"met": 3,
 "books": [
 6,
-11
+11,
+21
 ],
 "first": 6,
 "rank": null
@@ -6557,7 +6784,7 @@
 "rank": 4560
 },
 "lá": {
-"met": 15,
+"met": 17,
 "books": [
 1,
 3,
@@ -6570,7 +6797,8 @@
 16,
 17,
 18,
-20
+20,
+21
 ],
 "first": 1,
 "rank": 135
@@ -6698,7 +6926,7 @@
 "rank": null
 },
 "mar": {
-"met": 22,
+"met": 23,
 "books": [
 1,
 2,
@@ -6712,7 +6940,8 @@
 11,
 13,
 14,
-20
+20,
+21
 ],
 "first": 1,
 "rank": 780
@@ -6771,7 +7000,7 @@
 "rank": null
 },
 "mas": {
-"met": 22,
+"met": 28,
 "books": [
 1,
 3,
@@ -6785,7 +7014,8 @@
 16,
 18,
 19,
-20
+20,
+21
 ],
 "first": 1,
 "rank": 23
@@ -6808,10 +7038,11 @@
 "rank": null
 },
 "mecânico": {
-"met": 2,
+"met": 3,
 "books": [
 10,
-11
+11,
+21
 ],
 "first": 10,
 "rank": null
@@ -6841,12 +7072,13 @@
 "rank": null
 },
 "medo": {
-"met": 5,
+"met": 8,
 "books": [
 3,
 9,
 13,
-14
+14,
+21
 ],
 "first": 3,
 "rank": 350
@@ -6869,23 +7101,25 @@
 "rank": null
 },
 "meio": {
-"met": 8,
+"met": 9,
 "books": [
 11,
 13,
 15,
 16,
 18,
-20
+20,
+21
 ],
 "first": 11,
 "rank": 176
 },
 "meio-dia": {
-"met": 2,
+"met": 3,
 "books": [
 7,
-13
+13,
+21
 ],
 "first": 7,
 "rank": null
@@ -7030,9 +7264,10 @@
 "rank": 42
 },
 "meus": {
-"met": 1,
+"met": 2,
 "books": [
-10
+10,
+21
 ],
 "first": 10,
 "rank": 220
@@ -7061,12 +7296,21 @@
 "first": 12,
 "rank": 243
 },
+"mim": {
+"met": 2,
+"books": [
+21
+],
+"first": 21,
+"rank": 106
+},
 "minha": {
-"met": 4,
+"met": 5,
 "books": [
 7,
 16,
-19
+19,
+21
 ],
 "first": 7,
 "rank": 61
@@ -7088,10 +7332,11 @@
 "rank": 1993
 },
 "minutos": {
-"met": 4,
+"met": 5,
 "books": [
 17,
-20
+20,
+21
 ],
 "first": 17,
 "rank": 435
@@ -7316,28 +7561,30 @@
 "rank": null
 },
 "mudou": {
-"met": 1,
+"met": 2,
 "books": [
-6
+6,
+21
 ],
 "first": 6,
 "rank": 1058
 },
 "muitas": {
-"met": 7,
+"met": 8,
 "books": [
 3,
 6,
 8,
 15,
 16,
-19
+19,
+21
 ],
 "first": 3,
 "rank": 256
 },
 "muito": {
-"met": 18,
+"met": 21,
 "books": [
 1,
 2,
@@ -7351,7 +7598,8 @@
 12,
 14,
 19,
-20
+20,
+21
 ],
 "first": 1,
 "rank": 35
@@ -7417,7 +7665,7 @@
 "rank": 158
 },
 "mão": {
-"met": 10,
+"met": 12,
 "books": [
 8,
 9,
@@ -7426,7 +7674,8 @@
 12,
 18,
 19,
-20
+20,
+21
 ],
 "first": 8,
 "rank": 419
@@ -7469,7 +7718,7 @@
 "rank": 231
 },
 "na": {
-"met": 70,
+"met": 73,
 "books": [
 1,
 2,
@@ -7490,13 +7739,14 @@
 17,
 18,
 19,
-20
+20,
+21
 ],
 "first": 1,
 "rank": 15
 },
 "nada": {
-"met": 8,
+"met": 10,
 "books": [
 6,
 7,
@@ -7504,7 +7754,8 @@
 13,
 14,
 17,
-20
+20,
+21
 ],
 "first": 6,
 "rank": 87
@@ -7526,13 +7777,14 @@
 "rank": 1830
 },
 "nas": {
-"met": 5,
+"met": 6,
 "books": [
 4,
 9,
 11,
 18,
-20
+20,
+21
 ],
 "first": 4,
 "rank": 70
@@ -7594,21 +7846,23 @@
 "rank": 398
 },
 "nervosa": {
-"met": 2,
+"met": 3,
 "books": [
 9,
-20
+20,
+21
 ],
 "first": 9,
 "rank": null
 },
 "nevoeiro": {
-"met": 8,
+"met": 10,
 "books": [
 3,
 6,
 16,
-20
+20,
+21
 ],
 "first": 3,
 "rank": null
@@ -7623,7 +7877,7 @@
 "rank": 187
 },
 "no": {
-"met": 89,
+"met": 92,
 "books": [
 1,
 2,
@@ -7644,13 +7898,14 @@
 17,
 18,
 19,
-20
+20,
+21
 ],
 "first": 1,
 "rank": 13
 },
 "noite": {
-"met": 11,
+"met": 12,
 "books": [
 1,
 2,
@@ -7660,7 +7915,8 @@
 12,
 14,
 15,
-16
+16,
+21
 ],
 "first": 1,
 "rank": 163
@@ -7683,10 +7939,11 @@
 "rank": 366
 },
 "nos": {
-"met": 2,
+"met": 3,
 "books": [
 16,
-20
+20,
+21
 ],
 "first": 16,
 "rank": 38
@@ -7773,7 +8030,7 @@
 "rank": null
 },
 "não": {
-"met": 35,
+"met": 40,
 "books": [
 2,
 3,
@@ -7789,7 +8046,8 @@
 17,
 18,
 19,
-20
+20,
+21
 ],
 "first": 2,
 "rank": 10
@@ -7811,7 +8069,7 @@
 "rank": 246
 },
 "o": {
-"met": 253,
+"met": 269,
 "books": [
 1,
 2,
@@ -7832,7 +8090,8 @@
 17,
 18,
 19,
-20
+20,
+21
 ],
 "first": 1,
 "rank": 3
@@ -7924,9 +8183,10 @@
 "rank": 660
 },
 "olhava": {
-"met": 1,
+"met": 3,
 "books": [
-7
+7,
+21
 ],
 "first": 7,
 "rank": null
@@ -7967,11 +8227,12 @@
 "rank": null
 },
 "ombro": {
-"met": 3,
+"met": 4,
 "books": [
 11,
 14,
-16
+16,
+21
 ],
 "first": 11,
 "rank": null
@@ -8023,7 +8284,7 @@
 "rank": 491
 },
 "os": {
-"met": 55,
+"met": 58,
 "books": [
 2,
 5,
@@ -8040,7 +8301,8 @@
 17,
 18,
 19,
-20
+20,
+21
 ],
 "first": 2,
 "rank": 17
@@ -8091,6 +8353,14 @@
 ],
 "first": 3,
 "rank": null
+},
+"ouvi": {
+"met": 1,
+"books": [
+21
+],
+"first": 21,
+"rank": 1694
 },
 "ouvidos": {
 "met": 1,
@@ -8193,7 +8463,7 @@
 "rank": 420
 },
 "para": {
-"met": 67,
+"met": 69,
 "books": [
 1,
 2,
@@ -8213,7 +8483,8 @@
 17,
 18,
 19,
-20
+20,
+21
 ],
 "first": 1,
 "rank": 9
@@ -8287,10 +8558,11 @@
 "rank": null
 },
 "parece": {
-"met": 2,
+"met": 3,
 "books": [
 12,
-15
+15,
+21
 ],
 "first": 12,
 "rank": 210
@@ -8464,10 +8736,11 @@
 "rank": 1562
 },
 "pedras": {
-"met": 2,
+"met": 3,
 "books": [
 18,
-20
+20,
+21
 ],
 "first": 18,
 "rank": 2557
@@ -8507,14 +8780,15 @@
 "rank": 2606
 },
 "pela": {
-"met": 7,
+"met": 8,
 "books": [
 1,
 2,
 6,
 10,
 14,
-18
+18,
+21
 ],
 "first": 1,
 "rank": 48
@@ -8590,12 +8864,13 @@
 "rank": 3996
 },
 "pequena": {
-"met": 4,
+"met": 5,
 "books": [
 11,
 13,
 15,
-20
+20,
+21
 ],
 "first": 11,
 "rank": 727
@@ -8612,6 +8887,14 @@
 "first": 2,
 "rank": 685
 },
+"percebi": {
+"met": 1,
+"books": [
+21
+],
+"first": 21,
+"rank": 2705
+},
 "percebo": {
 "met": 1,
 "books": [
@@ -8621,10 +8904,11 @@
 "rank": 4087
 },
 "perfeito": {
-"met": 3,
+"met": 4,
 "books": [
 2,
-14
+14,
+21
 ],
 "first": 2,
 "rank": 1063
@@ -8653,20 +8937,22 @@
 "rank": 1219
 },
 "perguntou": {
-"met": 4,
+"met": 5,
 "books": [
 7,
 16,
-20
+20,
+21
 ],
 "first": 7,
 "rank": 2308
 },
 "pernas": {
-"met": 2,
+"met": 3,
 "books": [
 18,
-20
+20,
+21
 ],
 "first": 18,
 "rank": 2364
@@ -8803,9 +9089,10 @@
 "rank": 2949
 },
 "pneu": {
-"met": 1,
+"met": 2,
 "books": [
-20
+20,
+21
 ],
 "first": 20,
 "rank": null
@@ -8879,7 +9166,7 @@
 "rank": 2215
 },
 "por": {
-"met": 19,
+"met": 20,
 "books": [
 5,
 6,
@@ -8894,16 +9181,18 @@
 15,
 18,
 19,
-20
+20,
+21
 ],
 "first": 5,
 "rank": 16
 },
 "porque": {
-"met": 2,
+"met": 3,
 "books": [
 1,
-16
+16,
+21
 ],
 "first": 1,
 "rank": 84
@@ -9174,7 +9463,7 @@
 "rank": 177
 },
 "primeiro": {
-"met": 12,
+"met": 13,
 "books": [
 1,
 3,
@@ -9186,7 +9475,8 @@
 14,
 15,
 17,
-18
+18,
+21
 ],
 "first": 1,
 "rank": 132
@@ -9337,11 +9627,12 @@
 "rank": null
 },
 "pôr": {
-"met": 3,
+"met": 4,
 "books": [
 7,
 9,
-13
+13,
+21
 ],
 "first": 7,
 "rank": 3072
@@ -9381,7 +9672,7 @@
 "rank": 1884
 },
 "quando": {
-"met": 11,
+"met": 13,
 "books": [
 5,
 7,
@@ -9391,7 +9682,8 @@
 14,
 17,
 18,
-19
+19,
+21
 ],
 "first": 5,
 "rank": 40
@@ -9431,7 +9723,7 @@
 "rank": 325
 },
 "que": {
-"met": 43,
+"met": 47,
 "books": [
 4,
 5,
@@ -9447,7 +9739,8 @@
 17,
 18,
 19,
-20
+20,
+21
 ],
 "first": 4,
 "rank": 4
@@ -9510,9 +9803,10 @@
 "rank": null
 },
 "queria": {
-"met": 1,
+"met": 3,
 "books": [
-20
+20,
+21
 ],
 "first": 20,
 "rank": 249
@@ -9524,6 +9818,14 @@
 ],
 "first": 16,
 "rank": null
+},
+"quero": {
+"met": 1,
+"books": [
+21
+],
+"first": 21,
+"rank": 105
 },
 "quilómetros": {
 "met": 1,
@@ -9574,9 +9876,10 @@
 "rank": null
 },
 "raízes": {
-"met": 2,
+"met": 3,
 "books": [
-20
+20,
+21
 ],
 "first": 20,
 "rank": 3557
@@ -9622,7 +9925,7 @@
 "rank": null
 },
 "repente": {
-"met": 7,
+"met": 8,
 "books": [
 6,
 9,
@@ -9630,7 +9933,8 @@
 14,
 16,
 19,
-20
+20,
+21
 ],
 "first": 6,
 "rank": 2661
@@ -9693,6 +9997,14 @@
 "first": 4,
 "rank": 2407
 },
+"ri-me": {
+"met": 1,
+"books": [
+21
+],
+"first": 21,
+"rank": null
+},
 "ri-se": {
 "met": 9,
 "books": [
@@ -9735,7 +10047,7 @@
 "rank": null
 },
 "rir": {
-"met": 8,
+"met": 9,
 "books": [
 8,
 11,
@@ -9743,7 +10055,8 @@
 14,
 16,
 17,
-18
+18,
+21
 ],
 "first": 8,
 "rank": 3076
@@ -9757,7 +10070,7 @@
 "rank": null
 },
 "rita": {
-"met": 136,
+"met": 143,
 "books": [
 1,
 2,
@@ -9778,7 +10091,8 @@
 17,
 18,
 19,
-20
+20,
+21
 ],
 "first": 1,
 "rank": 4252
@@ -9813,9 +10127,10 @@
 "rank": null
 },
 "roda": {
-"met": 2,
+"met": 3,
 "books": [
-20
+20,
+21
 ],
 "first": 20,
 "rank": 3482
@@ -9867,9 +10182,10 @@
 "rank": 389
 },
 "rui": {
-"met": 5,
+"met": 8,
 "books": [
-20
+20,
+21
 ],
 "first": 20,
 "rank": 4413
@@ -9881,6 +10197,14 @@
 ],
 "first": 6,
 "rank": 2047
+},
+"sabe": {
+"met": 1,
+"books": [
+21
+],
+"first": 21,
+"rank": 148
 },
 "sabia": {
 "met": 2,
@@ -10029,7 +10353,7 @@
 "rank": 1132
 },
 "se": {
-"met": 32,
+"met": 36,
 "books": [
 9,
 10,
@@ -10040,7 +10364,8 @@
 16,
 17,
 19,
-20
+20,
+21
 ],
 "first": 9,
 "rank": 14
@@ -10102,6 +10427,14 @@
 "first": 14,
 "rank": null
 },
+"seguia": {
+"met": 1,
+"books": [
+21
+],
+"first": 21,
+"rank": null
+},
 "seguinte": {
 "met": 3,
 "books": [
@@ -10152,6 +10485,14 @@
 ],
 "first": 10,
 "rank": 1842
+},
+"sei": {
+"met": 1,
+"books": [
+21
+],
+"first": 21,
+"rank": 110
 },
 "seis": {
 "met": 1,
@@ -10383,9 +10724,10 @@
 "rank": null
 },
 "sim": {
-"met": 1,
+"met": 2,
 "books": [
-19
+19,
+21
 ],
 "first": 19,
 "rank": 137
@@ -10495,7 +10837,7 @@
 "rank": 3640
 },
 "sol": {
-"met": 14,
+"met": 15,
 "books": [
 1,
 2,
@@ -10506,7 +10848,8 @@
 9,
 13,
 16,
-20
+20,
+21
 ],
 "first": 1,
 "rank": 718
@@ -10550,9 +10893,10 @@
 "rank": null
 },
 "sorria": {
-"met": 1,
+"met": 2,
 "books": [
-7
+7,
+21
 ],
 "first": 7,
 "rank": null
@@ -10589,6 +10933,14 @@
 ],
 "first": 8,
 "rank": null
+},
+"sou": {
+"met": 1,
+"books": [
+21
+],
+"first": 21,
+"rank": 100
 },
 "soubesse": {
 "met": 3,
@@ -10666,9 +11018,10 @@
 "rank": null
 },
 "surpresa": {
-"met": 2,
+"met": 3,
 "books": [
-19
+19,
+21
 ],
 "first": 19,
 "rank": 1566
@@ -10720,7 +11073,7 @@
 "rank": 4344
 },
 "só": {
-"met": 13,
+"met": 14,
 "books": [
 7,
 8,
@@ -10731,7 +11084,8 @@
 17,
 18,
 19,
-20
+20,
+21
 ],
 "first": 7,
 "rank": 46
@@ -10766,14 +11120,15 @@
 "rank": 423
 },
 "também": {
-"met": 8,
+"met": 9,
 "books": [
 8,
 9,
 12,
 13,
 14,
-15
+15,
+21
 ],
 "first": 8,
 "rank": 39
@@ -10787,9 +11142,10 @@
 "rank": 1632
 },
 "tanto": {
-"met": 1,
+"met": 2,
 "books": [
-14
+14,
+21
 ],
 "first": 14,
 "rank": 223
@@ -10810,6 +11166,14 @@
 19
 ],
 "first": 10,
+"rank": null
+},
+"tapou": {
+"met": 1,
+"books": [
+21
+],
+"first": 21,
 "rank": null
 },
 "tarde": {
@@ -10907,11 +11271,12 @@
 "rank": 29
 },
 "tempo": {
-"met": 3,
+"met": 4,
 "books": [
 6,
 10,
-14
+14,
+21
 ],
 "first": 6,
 "rank": 79
@@ -10925,9 +11290,10 @@
 "rank": 341
 },
 "tenho": {
-"met": 1,
+"met": 3,
 "books": [
-19
+19,
+21
 ],
 "first": 19,
 "rank": 85
@@ -11023,7 +11389,7 @@
 "rank": null
 },
 "tiago": {
-"met": 51,
+"met": 55,
 "books": [
 10,
 11,
@@ -11034,17 +11400,19 @@
 17,
 18,
 19,
-20
+20,
+21
 ],
 "first": 10,
 "rank": null
 },
 "tinha": {
-"met": 4,
+"met": 9,
 "books": [
 13,
 14,
-16
+16,
+21
 ],
 "first": 13,
 "rank": 149
@@ -11197,14 +11565,15 @@
 "rank": 104
 },
 "todos": {
-"met": 8,
+"met": 9,
 "books": [
 7,
 11,
 12,
 15,
 19,
-20
+20,
+21
 ],
 "first": 7,
 "rank": 63
@@ -11243,10 +11612,11 @@
 "rank": 537
 },
 "trabalho": {
-"met": 2,
+"met": 3,
 "books": [
 19,
-20
+20,
+21
 ],
 "first": 19,
 "rank": 122
@@ -11300,6 +11670,14 @@
 "first": 20,
 "rank": null
 },
+"travei": {
+"met": 1,
+"books": [
+21
+],
+"first": 21,
+"rank": null
+},
 "travão": {
 "met": 1,
 "books": [
@@ -11309,9 +11687,10 @@
 "rank": null
 },
 "travões": {
-"met": 1,
+"met": 2,
 "books": [
-20
+20,
+21
 ],
 "first": 20,
 "rank": null
@@ -11359,9 +11738,10 @@
 "rank": null
 },
 "trilho": {
-"met": 1,
+"met": 2,
 "books": [
-6
+6,
+21
 ],
 "first": 6,
 "rank": null
@@ -11434,10 +11814,11 @@
 "rank": 155
 },
 "tu": {
-"met": 3,
+"met": 4,
 "books": [
 14,
-17
+17,
+21
 ],
 "first": 14,
 "rank": 224
@@ -11451,11 +11832,12 @@
 "rank": 622
 },
 "tudo": {
-"met": 5,
+"met": 8,
 "books": [
 9,
 10,
-19
+19,
+21
 ],
 "first": 9,
 "rank": 57
@@ -11512,7 +11894,7 @@
 "rank": null
 },
 "um": {
-"met": 110,
+"met": 111,
 "books": [
 1,
 2,
@@ -11533,13 +11915,14 @@
 17,
 18,
 19,
-20
+20,
+21
 ],
 "first": 1,
 "rank": 11
 },
 "uma": {
-"met": 65,
+"met": 68,
 "books": [
 1,
 2,
@@ -11559,7 +11942,8 @@
 17,
 18,
 19,
-20
+20,
+21
 ],
 "first": 1,
 "rank": 12
@@ -11589,9 +11973,10 @@
 "rank": 4864
 },
 "vaca": {
-"met": 1,
+"met": 2,
 "books": [
-20
+20,
+21
 ],
 "first": 20,
 "rank": 4505
@@ -11676,9 +12061,10 @@
 "rank": null
 },
 "vazio": {
-"met": 1,
+"met": 2,
 "books": [
-20
+20,
+21
 ],
 "first": 20,
 "rank": 2671
@@ -11971,9 +12357,10 @@
 "rank": 312
 },
 "via": {
-"met": 1,
+"met": 2,
 "books": [
-6
+6,
+21
 ],
 "first": 6,
 "rank": 509
@@ -12072,9 +12459,10 @@
 "rank": null
 },
 "vista": {
-"met": 1,
+"met": 2,
 "books": [
-4
+4,
+21
 ],
 "first": 4,
 "rank": 523
@@ -12096,9 +12484,10 @@
 "rank": 2329
 },
 "viver": {
-"met": 1,
+"met": 2,
 "books": [
-20
+20,
+21
 ],
 "first": 20,
 "rank": 539
@@ -12194,10 +12583,11 @@
 "rank": 998
 },
 "vou": {
-"met": 2,
+"met": 3,
 "books": [
 2,
-15
+15,
+21
 ],
 "first": 2,
 "rank": 75
@@ -12248,7 +12638,7 @@
 "rank": 922
 },
 "à": {
-"met": 56,
+"met": 59,
 "books": [
 1,
 2,
@@ -12267,7 +12657,8 @@
 16,
 17,
 18,
-20
+20,
+21
 ],
 "first": 1,
 "rank": 33
@@ -12308,16 +12699,17 @@
 "rank": null
 },
 "árvores": {
-"met": 4,
+"met": 5,
 "books": [
 3,
-20
+20,
+21
 ],
 "first": 3,
 "rank": 2010
 },
 "é": {
-"met": 40,
+"met": 42,
 "books": [
 1,
 2,
@@ -12336,7 +12728,8 @@
 17,
 18,
 19,
-20
+20,
+21
 ],
 "first": 1,
 "rank": 8
@@ -12358,11 +12751,12 @@
 "rank": 3372
 },
 "última": {
-"met": 3,
+"met": 4,
 "books": [
 10,
 11,
-20
+20,
+21
 ],
 "first": 10,
 "rank": 381
@@ -12595,10 +12989,11 @@
 "shown": "arruma"
 },
 "arvores": {
-"met": 2,
+"met": 3,
 "books": [
 3,
-20
+20,
+21
 ],
 "shown": "árvores"
 },
@@ -12971,9 +13366,10 @@
 "shown": "cabeça"
 },
 "cabelo": {
-"met": 1,
+"met": 2,
 "books": [
-7
+7,
+21
 ],
 "shown": "cabelo"
 },
@@ -13290,13 +13686,14 @@
 "shown": "cesto"
 },
 "ceu": {
-"met": 5,
+"met": 6,
 "books": [
 1,
 4,
 5,
 6,
-7
+7,
+21
 ],
 "shown": "céu"
 },
@@ -13622,9 +14019,10 @@
 "shown": "dá"
 },
 "dedos": {
-"met": 1,
+"met": 2,
 "books": [
-9
+9,
+21
 ],
 "shown": "dedos"
 },
@@ -13939,10 +14337,11 @@
 "shown": "dois euros"
 },
 "falesias": {
-"met": 2,
+"met": 3,
 "books": [
 4,
-14
+14,
+21
 ],
 "shown": "falésias"
 },
@@ -14041,9 +14440,10 @@
 "shown": "flores"
 },
 "floresta": {
-"met": 1,
+"met": 2,
 "books": [
-3
+3,
+21
 ],
 "shown": "floresta"
 },
@@ -14312,10 +14712,11 @@
 "shown": "homens"
 },
 "horizonte": {
-"met": 2,
+"met": 3,
 "books": [
 6,
-13
+13,
+21
 ],
 "shown": "horizonte"
 },
@@ -14570,10 +14971,11 @@
 "shown": "luva"
 },
 "luvas": {
-"met": 2,
+"met": 3,
 "books": [
 6,
-11
+11,
+21
 ],
 "shown": "luvas"
 },
@@ -14671,7 +15073,7 @@
 "shown": "mãos dadas"
 },
 "mar": {
-"met": 12,
+"met": 13,
 "books": [
 1,
 2,
@@ -14683,7 +15085,8 @@
 8,
 11,
 14,
-20
+20,
+21
 ],
 "shown": "mar"
 },
@@ -14726,10 +15129,11 @@
 "shown": "matrícula"
 },
 "mecanico": {
-"met": 2,
+"met": 3,
 "books": [
 10,
-11
+11,
+21
 ],
 "shown": "mecânico"
 },
@@ -14945,12 +15349,13 @@
 "shown": "nervosa"
 },
 "nevoeiro": {
-"met": 4,
+"met": 5,
 "books": [
 3,
 6,
 16,
-20
+20,
+21
 ],
 "shown": "nevoeiro"
 },
@@ -15025,10 +15430,11 @@
 "shown": "fecha os olhos"
 },
 "ombro": {
-"met": 2,
+"met": 3,
 "books": [
 11,
-14
+14,
+21
 ],
 "shown": "ombro"
 },
@@ -15449,11 +15855,12 @@
 "shown": "Ponta de São Lourenço"
 },
 "pordosol": {
-"met": 3,
+"met": 4,
 "books": [
 7,
 9,
-13
+13,
+21
 ],
 "shown": "pôr do sol"
 },
@@ -16166,9 +16573,10 @@
 "shown": "três"
 },
 "trilho": {
-"met": 1,
+"met": 2,
 "books": [
-6
+6,
+21
 ],
 "shown": "trilho"
 },
@@ -16363,9 +16771,10 @@
 "shown": "viseira"
 },
 "vista": {
-"met": 1,
+"met": 2,
 "books": [
-4
+4,
+21
 ],
 "shown": "vista"
 },
@@ -16411,16 +16820,11 @@
 "melhor",
 "ano",
 "apenas",
-"sou",
 "suas",
-"quero",
-"mim",
 "parte",
-"sei",
 "nossa",
 "qual",
 "deus",
-"estou",
 "nós",
 "estado",
 "forma",
@@ -16429,8 +16833,6 @@
 "qualquer",
 "coisas",
 "sendo",
-"falar",
-"sabe",
 "alguns",
 "além",
 "nosso",
@@ -16608,13 +17010,11 @@
 "aquela",
 "coração",
 "cultura",
-"estavam",
 "junho",
 "nenhuma",
 "pena",
 "portugal",
 "viu",
-"começar",
 "espaço",
 "evento",
 "ouvir",
@@ -17412,7 +17812,6 @@
 "venha",
 "antiga",
 "anunciou",
-"apareceu",
 "artigos",
 "aumentar",
 "bebê",
@@ -17608,7 +18007,6 @@
 "meios",
 "máquina",
 "namorado",
-"ouvi",
 "palco",
 "parecer",
 "peças",
@@ -17790,7 +18188,6 @@
 "conseguem",
 "defender",
 "desempenho",
-"dizia",
 "encontrou",
 "engenharia",
 "fomos",
