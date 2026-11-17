@@ -43,11 +43,12 @@ def read_pages(src: str, n: str) -> list[str]:
 def main() -> None:
     src = HTML.read_text(encoding="utf-8")
     books = BOOK_RE.findall(src)
-    for old in OUT.glob("[0-9][0-9]-*/story.md"):  # keep other files (art, notes) in book folders
+    for old in OUT.glob("[0-9][0-9]*-*/story.md"):  # keep other files (art, notes) in book folders
         old.unlink()
-    for num, (book_id, title, n) in enumerate(books, 1):
+    for book_id, title, n in books:   # n = the pages number: "21", or "20b" for a retelling
         pages = read_pages(src, n)
-        folder = OUT / f"{num:02d}-{book_id}"
+        num = n
+        folder = OUT / f"{int(n.rstrip('b')):02d}{'b' if n.endswith('b') else ''}-{book_id}"
         folder.mkdir(parents=True, exist_ok=True)
         lines = [f"# {title}", "", f"Book {num} · id `{book_id}` · {len(pages)} pages", ""]
         for p, raw in enumerate(pages, 1):

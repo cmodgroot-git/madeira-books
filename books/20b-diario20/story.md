@@ -1,6 +1,6 @@
 # O Diário da Ana
 
-Book 21 · id `diario20` · 8 pages
+Book 20b · id `diario20` · 8 pages
 
 ## Page 1
 
