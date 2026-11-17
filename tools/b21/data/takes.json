@@ -1,0 +1,206 @@
+{
+ "m01": {
+  "voice": "bBNhdwrIjl4fcVYiRbT2",
+  "items": [
+   [
+    "seg",
+    "21.1.0",
+    "Na segunda-feira, a Ana e o João tomam um café no porto do Funchal."
+   ],
+   [
+    "seg",
+    "21.1.1",
+    "Sim"
+   ],
+   [
+    "seg",
+    "21.1.2",
+    "diz ela."
+   ],
+   [
+    "seg",
+    "21.1.3",
+    "Quero viver contigo. Mas o meu cão vem também. O João ri-se:"
+   ],
+   [
+    "seg",
+    "21.2.0",
+    "A Marta mostra-lhes um apartamento moderno no centro, com elevador e uma varanda enorme. É lindo, mas a renda é de mil e duzentos euros por mês."
+   ],
+   [
+    "seg",
+    "21.2.2",
+    "diz o João."
+   ],
+   [
+    "seg",
+    "21.3.0",
+    "A segunda casa fica em Câmara de Lobos, perto do mar. A cozinha é velha e o fogão também, mas da janela veem-se os barcos coloridos dos pescadores."
+   ],
+   [
+    "seg",
+    "21.3.2",
+    "diz o João, emocionado."
+   ],
+   [
+    "seg",
+    "21.4.0",
+    "À noite, sentados no muro do porto, discutem pela primeira vez."
+   ],
+   [
+    "seg",
+    "21.4.1",
+    "Fica longe do meu trabalho"
+   ],
+   [
+    "seg",
+    "21.4.2",
+    "diz a Ana."
+   ],
+   [
+    "seg",
+    "21.4.3",
+    "Para irmos os dois para o Funchal, precisamos de dois carros. Ficam calados. Lá em cima, a lua brilha sobre o mar. Depois, ela pega na mão dele:"
+   ],
+   [
+    "seg",
+    "21.4.4",
+    "Está bem. Vamos ver o contrato."
+   ],
+   [
+    "seg",
+    "21.5.0",
+    "No dia seguinte, a Inês lê o contrato no escritório dela."
+   ],
+   [
+    "seg",
+    "21.5.1",
+    "Antes de assinarem, leiam esta linha"
+   ],
+   [
+    "seg",
+    "21.5.2",
+    "diz ela. Está escrito: Não são aceites animais. A Ana fica triste. Sem o cão, não há casa."
+   ],
+   [
+    "seg",
+    "21.6.0",
+    "O João vai falar com a senhoria, uma senhora idosa que vive no rés-do-chão. Ela olha para ele:"
+   ],
+   [
+    "seg",
+    "21.6.1",
+    "Tu és o filho do Manuel? O teu pai trazia-me peixe todas as sextas! Nesse momento, o cão entra e deita-se aos pés dela."
+   ],
+   [
+    "seg",
+    "21.7.0",
+    "A senhora sorri e risca a linha com uma caneta. Assinam o contrato na mesa da cozinha dela, e ela dá-lhes as chaves."
+   ],
+   [
+    "seg",
+    "21.7.1",
+    "Para ficarem com a casa, só peço uma coisa"
+   ],
+   [
+    "seg",
+    "21.7.2",
+    "diz ela."
+   ],
+   [
+    "seg",
+    "21.7.3",
+    "Visitem-me ao domingo."
+   ],
+   [
+    "seg",
+    "21.8.0",
+    "Nessa noite, a casa ainda está vazia. A Rita e o Tiago trazem uma planta e uma pizza, e comem todos no chão, como no dia da mudança da Rita."
+   ],
+   [
+    "seg",
+    "21.8.1",
+    "E vocês, quando é que vêm viver juntos?"
+   ],
+   [
+    "seg",
+    "21.8.2",
+    "pergunta a Ana. A Rita fica vermelha."
+   ]
+  ],
+  "prompt": "Na segunda-feira, a Ana e o João tomam um café no porto do Funchal.\n\nSim.\n\ndiz ela.\n\nQuero viver contigo. Mas o meu cão vem também. O João ri-se:\n\nA Marta mostra-lhes um apartamento moderno no centro, com elevador e uma varanda enorme. É lindo, mas a renda é de mil e duzentos euros por mês.\n\ndiz o João.\n\nA segunda casa fica em Câmara de Lobos, perto do mar. A cozinha é velha e o fogão também, mas da janela veem-se os barcos coloridos dos pescadores.\n\ndiz o João, emocionado.\n\nÀ noite, sentados no muro do porto, discutem pela primeira vez.\n\nFica longe do meu trabalho.\n\ndiz a Ana.\n\nPara irmos os dois para o Funchal, precisamos de dois carros. Ficam calados. Lá em cima, a lua brilha sobre o mar. Depois, ela pega na mão dele:\n\nEstá bem. Vamos ver o contrato.\n\nNo dia seguinte, a Inês lê o contrato no escritório dela.\n\nAntes de assinarem, leiam esta linha.\n\ndiz ela. Está escrito: Não são aceites animais. A Ana fica triste. Sem o cão, não há casa.\n\nO João vai falar com a senhoria, uma senhora idosa que vive no rés-do-chão. Ela olha para ele:\n\nTu és o filho do Manuel? O teu pai trazia-me peixe todas as sextas! Nesse momento, o cão entra e deita-se aos pés dela.\n\nA senhora sorri e risca a linha com uma caneta. Assinam o contrato na mesa da cozinha dela, e ela dá-lhes as chaves.\n\nPara ficarem com a casa, só peço uma coisa.\n\ndiz ela.\n\nVisitem-me ao domingo.\n\nNessa noite, a casa ainda está vazia. A Rita e o Tiago trazem uma planta e uma pizza, e comem todos no chão, como no dia da mudança da Rita.\n\nE vocês, quando é que vêm viver juntos?\n\npergunta a Ana. A Rita fica vermelha."
+ },
+ "p01": {
+  "voice": "XxTHUwWTW2conYBz0vvk",
+  "items": [
+   [
+    "seg",
+    "21.1.4",
+    "Claro! Mas o meu quarto é pequeno demais para nós os três. Temos de procurar uma casa."
+   ],
+   [
+    "seg",
+    "21.2.1",
+    "Para pagarmos isto, tínhamos de trabalhar dia e noite"
+   ],
+   [
+    "seg",
+    "21.3.1",
+    "O meu pai trabalhou aqui quarenta anos"
+   ]
+  ],
+  "prompt": "Claro! Mas o meu quarto é pequeno demais para nós os três. Temos de procurar uma casa.\n\nPara pagarmos isto, tínhamos de trabalhar dia e noite.\n\nO meu pai trabalhou aqui quarenta anos."
+ },
+ "w01": {
+  "voice": "bBNhdwrIjl4fcVYiRbT2",
+  "items": [
+   [
+    "word",
+    "escritório",
+    "escritório"
+   ],
+   [
+    "word",
+    "filho",
+    "filho"
+   ],
+   [
+    "word",
+    "fogão",
+    "fogão"
+   ],
+   [
+    "word",
+    "linha",
+    "linha"
+   ],
+   [
+    "word",
+    "pescadores",
+    "pescadores"
+   ],
+   [
+    "word",
+    "renda",
+    "renda"
+   ],
+   [
+    "word",
+    "senhoria",
+    "senhoria"
+   ]
+  ],
+  "prompt": "escritório, filho, fogão, linha, pescadores, renda, senhoria."
+ },
+ "t01": {
+  "voice": "bBNhdwrIjl4fcVYiRbT2",
+  "items": [
+   [
+    "title",
+    "casa3",
+    "Uma Casa para Três"
+   ]
+  ],
+  "prompt": "Uma Casa para Três."
+ }
+}

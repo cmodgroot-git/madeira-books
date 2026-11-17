@@ -1,0 +1,9 @@
+{
+ "renda": ["rent", "Miete", "loyer", "alquiler", "huur", "czynsz"],
+ "fogao": ["stove, cooker", "Herd", "cuisinière", "cocina (fogón)", "fornuis", "kuchenka"],
+ "pescadores": ["fishermen", "Fischer", "pêcheurs", "pescadores", "vissers", "rybacy"],
+ "escritorio": ["office", "Büro", "bureau", "oficina", "kantoor", "biuro"],
+ "linha": ["line", "Zeile, Linie", "ligne", "línea", "regel, lijn", "linijka, wiersz"],
+ "senhoria": ["landlady", "Vermieterin", "propriétaire (bailleresse)", "casera", "huisbazin", "właścicielka mieszkania"],
+ "filho": ["son", "Sohn", "fils", "hijo", "zoon", "syn"]
+}
