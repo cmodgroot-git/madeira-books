@@ -40,7 +40,7 @@ def clips():
         subprocess.run(['ffmpeg','-v','error','-y','-f','concat','-safe','0','-i',lst,'-c','copy',f'{C}/{outname}'],check=True); return ent
     W=append(orig('words.mp3'),words,'words.mp3'); TC=append(orig('titles.mp3'),[('diario20',title)],'titles.mp3')
     w16=f'{A}/wav/title.wav'; subprocess.run(['ffmpeg','-v','error','-y','-i',title,'-ar','16000','-ac','1',w16],check=True)
-    tw=align.align(w16,['se','o','diario20','levantasse']); s0=TC['diario20'][0]*1000
+    tw=align.align(w16,['o','diário','da','ana']); s0=TC['diario20'][0]*1000
     TW={'diario20':[[int(s0+max(0,x)),int(s0+y)] for x,y in tw]}
     json.dump({'WCLIP':W,'TCLIP':TC,'TWORDS':TW},open(f'{A}/clips20b.json','w'),ensure_ascii=False); print(W,TC,TW)
 if __name__=='__main__':
