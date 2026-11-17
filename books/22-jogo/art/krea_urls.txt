@@ -1,7 +1,7 @@
 p1 af8af445-5053-4687-a61e-5f05850f0427 (car badge removed from c2f19d4d)
 p2 41749e57-6ba2-451f-80e3-83493139cfdf
 p3 7f02d365-a60c-4a68-a22d-547ae00902da (referee shirt logo removed from 59bf90a7)
-p4 4242c0f4-3860-456a-8e52-d9703dd8ef82
+p4 b487cec3-a8fc-4002-bc1e-73c53c489a3b (Rita moved behind the goal, edit of 4242c0f4)
 p5 22265c84-976b-45a0-8a16-658454aef185 (João's face fixed from 1d1b4160)
 p6 db29fccf-f4de-4052-b58c-66d6b3338952 (second painting: the handshake)
 p7 2caf3148-e27f-450a-a775-e28df55b68f0 (repainted 12bb1113 as a proper penalty; ball moved into the net by two edits)

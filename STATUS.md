@@ -1,6 +1,6 @@
 # Where we are (Nov 17, 2026)
 
-Library (artifact 87e1712e-5e90-4175-b828-2581544915d4, version 1794901257-b812): books 1–22 and retellings
+Library (artifact 87e1712e-5e90-4175-b828-2581544915d4, version 1794902890-24cc): books 1–22 and retellings
 1b–10b, 20b, 21b, 22b on the «Outra Vez» shelf. 328 of 511 published files (page pictures packed per book).
 Krea: ~340 units left this month (plan resets monthly).
 
