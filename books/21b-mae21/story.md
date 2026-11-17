@@ -32,7 +32,7 @@ Highlighted: `linha`
 
 ## Page 6
 
-Então fui falar com a senhoria. Mãe, é a senhora da casa azul, a Dona Graça! Ela conhecia bem o pai. Disse que eu tenho os olhos dele. E o cão, que não gosta de ninguém, entrou pela porta e deitou-se aos pés dela. Ela riu-se muito.
+Então fui falar com a senhoria. Mãe, é a senhora da casa azul, a Dona Graça! Ela conhecia bem o pai. Disse que eu tenho os olhos dele. E o cão, que nunca está quieto, entrou pela porta e deitou-se aos pés dela. Ela riu-se muito.
 
 Highlighted: `olhos`, `pes`
 

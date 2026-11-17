@@ -1,0 +1,91 @@
+{
+ "n01": {
+  "voice": "bBNhdwrIjl4fcVYiRbT2",
+  "items": [
+   [
+    "seg",
+    "1b.1.0",
+    "Ainda me lembro bem da minha primeira manhã no Funchal. Tinha chegado de Lisboa dois dias antes e não conhecia ninguém. O sol já estava alto no céu, mas eu fiquei na cama mais um bocado. Não tinha pressa nenhuma."
+   ],
+   [
+    "seg",
+    "1b.2.0",
+    "À janela, fiquei sem palavras. Lá em baixo estava a cidade, com os telhados vermelhos, e depois o mar, enorme. No porto havia um navio branco. Pensei: Se calhar, foi boa ideia vir para aqui."
+   ],
+   [
+    "seg",
+    "1b.3.0",
+    "Na cozinha pequena, fiz um café. Estava tão quente que tive de esperar. Bebi-o devagar, à janela. Em Lisboa eu bebia sempre o café a correr, de pé. Aqui, de repente, tinha tempo."
+   ],
+   [
+    "seg",
+    "1b.4.0",
+    "Depois comi pão com manteiga. O pão era da padaria ao lado, e ainda hoje é o melhor da ilha. Nesse dia eu ainda não sabia, mas ia gostar muito destas manhãs calmas."
+   ],
+   [
+    "seg",
+    "1b.5.0",
+    "Às nove saí de casa. Na rua, um gato dormia ao sol em cima do muro. Olhou para mim e voltou a dormir. Acho que foi o meu primeiro amigo no Funchal."
+   ]
+  ],
+  "prompt": "Ainda me lembro bem da minha primeira manhã no Funchal. Tinha chegado de Lisboa dois dias antes e não conhecia ninguém. O sol já estava alto no céu, mas eu fiquei na cama mais um bocado. Não tinha pressa nenhuma.\n\nÀ janela, fiquei sem palavras. Lá em baixo estava a cidade, com os telhados vermelhos, e depois o mar, enorme. No porto havia um navio branco. Pensei: Se calhar, foi boa ideia vir para aqui.\n\nNa cozinha pequena, fiz um café. Estava tão quente que tive de esperar. Bebi-o devagar, à janela. Em Lisboa eu bebia sempre o café a correr, de pé. Aqui, de repente, tinha tempo.\n\nDepois comi pão com manteiga. O pão era da padaria ao lado, e ainda hoje é o melhor da ilha. Nesse dia eu ainda não sabia, mas ia gostar muito destas manhãs calmas.\n\nÀs nove saí de casa. Na rua, um gato dormia ao sol em cima do muro. Olhou para mim e voltou a dormir. Acho que foi o meu primeiro amigo no Funchal."
+ },
+ "n02": {
+  "voice": "bBNhdwrIjl4fcVYiRbT2",
+  "items": [
+   [
+    "seg",
+    "1b.6.0",
+    "No Mercado dos Lavradores havia fruta de todas as cores. Eu nunca tinha visto maracujás assim, nem tantas bananas pequenas. Fiquei muito tempo a olhar. Ainda não sabia o nome de metade das coisas."
+   ],
+   [
+    "seg",
+    "1b.7.0",
+    "Comprei três bananas a um senhor de chapéu."
+   ],
+   [
+    "seg",
+    "1b.7.2",
+    "disse ele, a sorrir. Eu disse obrigada. Foi a minha primeira conversa na ilha! Hoje ele ainda me pergunta:"
+   ],
+   [
+    "seg",
+    "1b.8.0",
+    "Depois apanhei o autocarro. Subia tão devagar que eu podia ver tudo pela janela: as casas, as flores, o mar lá em baixo. Se alguém me dissesse nesse dia que eu ia ter tantos amigos aqui, eu não acreditaria."
+   ],
+   [
+    "seg",
+    "1b.9.0",
+    "À noite, com uma banana na mão, olhei para a lua. Estava um pouco sozinha, mas feliz. Hoje tenho a Ana, o Tiago e uma vida nova na ilha. Mas nunca me vou esquecer daquele primeiro dia."
+   ]
+  ],
+  "prompt": "No Mercado dos Lavradores havia fruta de todas as cores. Eu nunca tinha visto maracujás assim, nem tantas bananas pequenas. Fiquei muito tempo a olhar. Ainda não sabia o nome de metade das coisas.\n\nComprei três bananas a um senhor de chapéu.\n\ndisse ele, a sorrir. Eu disse obrigada. Foi a minha primeira conversa na ilha! Hoje ele ainda me pergunta:\n\nDepois apanhei o autocarro. Subia tão devagar que eu podia ver tudo pela janela: as casas, as flores, o mar lá em baixo. Se alguém me dissesse nesse dia que eu ia ter tantos amigos aqui, eu não acreditaria.\n\nÀ noite, com uma banana na mão, olhei para a lua. Estava um pouco sozinha, mas feliz. Hoje tenho a Ana, o Tiago e uma vida nova na ilha. Mas nunca me vou esquecer daquele primeiro dia."
+ },
+ "o01": {
+  "voice": "XxTHUwWTW2conYBz0vvk",
+  "items": [
+   [
+    "seg",
+    "1b.7.1",
+    "São dois euros"
+   ],
+   [
+    "seg",
+    "1b.7.3",
+    "Então, menina, as bananas de sempre?"
+   ]
+  ],
+  "prompt": "São dois euros.\n\nEntão, menina, as bananas de sempre?"
+ },
+ "t01": {
+  "voice": "bBNhdwrIjl4fcVYiRbT2",
+  "items": [
+   [
+    "title",
+    "rita1",
+    "A Primeira Manhã"
+   ]
+  ],
+  "prompt": "A Primeira Manhã."
+ }
+}
