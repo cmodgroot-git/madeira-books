@@ -1,0 +1,65 @@
+{
+ "n01": {
+  "voice": "bBNhdwrIjl4fcVYiRbT2",
+  "items": [
+   [
+    "seg",
+    "6b.1.0",
+    "Mãe, sou eu. Ontem o despertador tocou às quatro da manhã! Lá fora estava escuro e havia estrelas. Vesti o casaco quente e pus o gorro e as luvas na mochila. Sim, mãe, levei tudo. Eu sei que tu te preocupas."
+   ],
+   [
+    "seg",
+    "6b.2.0",
+    "A Ana conduziu pela via rápida e o cão dormiu no banco de trás. Passámos por tantos túneis com luzes amarelas que eu perdi a conta. A Ana diz que a Madeira tem mais túneis do que estradas. Acho que ela tem razão, porque eu já não sei quantos foram."
+   ],
+   [
+    "seg",
+    "6b.3.0",
+    "Depois de um túnel, apareceram nevoeiro e chuva. Atravessámos um viaduto muito alto, com os limpa-para-brisas a trabalhar. Eu tive medo, mas não disse nada à Ana. Ela conduz muito bem."
+   ],
+   [
+    "seg",
+    "6b.4.0",
+    "A estrada subiu com muitas curvas e, de repente, o carro passou por cima das nuvens. Mãe, as nuvens pareciam um mar branco! Nunca tinha visto uma coisa assim em Lisboa."
+   ]
+  ],
+  "prompt": "Mãe, sou eu. Ontem o despertador tocou às quatro da manhã! Lá fora estava escuro e havia estrelas. Vesti o casaco quente e pus o gorro e as luvas na mochila. Sim, mãe, levei tudo. Eu sei que tu te preocupas.\n\nA Ana conduziu pela via rápida e o cão dormiu no banco de trás. Passámos por tantos túneis com luzes amarelas que eu perdi a conta. A Ana diz que a Madeira tem mais túneis do que estradas. Acho que ela tem razão, porque eu já não sei quantos foram.\n\nDepois de um túnel, apareceram nevoeiro e chuva. Atravessámos um viaduto muito alto, com os limpa-para-brisas a trabalhar. Eu tive medo, mas não disse nada à Ana. Ela conduz muito bem.\n\nA estrada subiu com muitas curvas e, de repente, o carro passou por cima das nuvens. Mãe, as nuvens pareciam um mar branco! Nunca tinha visto uma coisa assim em Lisboa."
+ },
+ "n02": {
+  "voice": "bBNhdwrIjl4fcVYiRbT2",
+  "items": [
+   [
+    "seg",
+    "6b.5.0",
+    "No Pico do Arieiro estava muito frio: o termómetro marcava três graus! Ao lado havia um radar enorme, como uma bola branca. Pus o gorro e o cachecol, e mesmo assim tremia."
+   ],
+   [
+    "seg",
+    "6b.6.0",
+    "Às sete e um quarto, o sol nasceu no horizonte. O céu ficou dourado e cor-de-rosa. Todas as pessoas ficaram caladas, e depois tiraram fotografias. Mãe, se estivesses lá, ias chorar."
+   ],
+   [
+    "seg",
+    "6b.7.0",
+    "Depois caminhámos pelo trilho, entre as rochas, ao lado de um corrimão. O cão correu à frente. Num miradouro, bebemos chá quente do termo, e a Ana deu-me os binóculos."
+   ],
+   [
+    "seg",
+    "6b.8.0",
+    "À tarde, no Funchal, estavam vinte e cinco graus! Comi um gelado na esplanada, de t-shirt, debaixo do guarda-sol. Inverno e verão no mesmo dia. Beijinhos, mãe. Liga-me quando puderes."
+   ]
+  ],
+  "prompt": "No Pico do Arieiro estava muito frio: o termómetro marcava três graus! Ao lado havia um radar enorme, como uma bola branca. Pus o gorro e o cachecol, e mesmo assim tremia.\n\nÀs sete e um quarto, o sol nasceu no horizonte. O céu ficou dourado e cor-de-rosa. Todas as pessoas ficaram caladas, e depois tiraram fotografias. Mãe, se estivesses lá, ias chorar.\n\nDepois caminhámos pelo trilho, entre as rochas, ao lado de um corrimão. O cão correu à frente. Num miradouro, bebemos chá quente do termo, e a Ana deu-me os binóculos.\n\nÀ tarde, no Funchal, estavam vinte e cinco graus! Comi um gelado na esplanada, de t-shirt, debaixo do guarda-sol. Inverno e verão no mesmo dia. Beijinhos, mãe. Liga-me quando puderes."
+ },
+ "t01": {
+  "voice": "bBNhdwrIjl4fcVYiRbT2",
+  "items": [
+   [
+    "title",
+    "mae6",
+    "Bom Dia, Mãe"
+   ]
+  ],
+  "prompt": "Bom Dia, Mãe."
+ }
+}

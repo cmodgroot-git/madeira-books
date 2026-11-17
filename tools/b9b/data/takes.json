@@ -1,0 +1,65 @@
+{
+ "n01": {
+  "voice": "bBNhdwrIjl4fcVYiRbT2",
+  "items": [
+   [
+    "seg",
+    "9b.1.0",
+    "Confesso: eu tinha medo de mergulhar. No sábado, no Garajau, entrámos na cabine do teleférico, ao lado da estátua do Cristo Rei, e eu só pensava na água fria. A Marta e a Ana falavam e riam, mas eu estava calada."
+   ],
+   [
+    "seg",
+    "9b.2.0",
+    "Na praia de seixos, o João esperava-nos com as garrafas, as máscaras e as barbatanas. Deu dois beijinhos à Ana, e ela ficou vermelha. Eu olhei para a Marta e a Marta olhou para mim. Não foi preciso dizer nada."
+   ],
+   [
+    "seg",
+    "9b.3.0",
+    "Já de fato de mergulho, eu estava muito nervosa. A Marta explicou os sinais: o polegar para cima quer dizer subir e um círculo com os dedos quer dizer está tudo bem. Repeti os sinais dez vezes. Eu sou assim: preciso de saber tudo antes."
+   ],
+   [
+    "seg",
+    "9b.4.0",
+    "Debaixo de água, o mundo ficou azul e calado. Só ouvia as bolhas. Um mero gordo olhou para mim como um senhor aborrecido, e peixes de todas as cores passavam à minha volta. O medo foi-se embora devagar."
+   ]
+  ],
+  "prompt": "Confesso: eu tinha medo de mergulhar. No sábado, no Garajau, entrámos na cabine do teleférico, ao lado da estátua do Cristo Rei, e eu só pensava na água fria. A Marta e a Ana falavam e riam, mas eu estava calada.\n\nNa praia de seixos, o João esperava-nos com as garrafas, as máscaras e as barbatanas. Deu dois beijinhos à Ana, e ela ficou vermelha. Eu olhei para a Marta e a Marta olhou para mim. Não foi preciso dizer nada.\n\nJá de fato de mergulho, eu estava muito nervosa. A Marta explicou os sinais: o polegar para cima quer dizer subir e um círculo com os dedos quer dizer está tudo bem. Repeti os sinais dez vezes. Eu sou assim: preciso de saber tudo antes.\n\nDebaixo de água, o mundo ficou azul e calado. Só ouvia as bolhas. Um mero gordo olhou para mim como um senhor aborrecido, e peixes de todas as cores passavam à minha volta. O medo foi-se embora devagar."
+ },
+ "n02": {
+  "voice": "bBNhdwrIjl4fcVYiRbT2",
+  "items": [
+   [
+    "seg",
+    "9b.5.0",
+    "Depois vi a tartaruga a nadar entre as rochas. Mas o mais importante foi outra coisa: o João deu a mão à Ana, e ela não a largou. Debaixo de água ninguém fala, mas eu percebi tudo."
+   ],
+   [
+    "seg",
+    "9b.6.0",
+    "Numa fenda da rocha, descobri um polvo. Quando me aproximei, ele ficou cor-de-laranja! Fiz à Marta o sinal de está tudo bem. E estava mesmo: pela primeira vez, eu não tinha medo."
+   ],
+   [
+    "seg",
+    "9b.7.0",
+    "Mais tarde, sentados nas toalhas, bebemos chocolate quente do termo. Os chinelos da Ana secavam ao sol. A Ana e o João falavam baixinho, e eu fingia que não ouvia."
+   ],
+   [
+    "seg",
+    "9b.8.0",
+    "Ao pôr do sol, o meu telemóvel vibrou. Era uma mensagem da agência: a casa da Zona Velha era minha! Gritei, a Ana abraçou-me, e o João bateu palmas. A Marta só sorriu. Ela já sabia, claro. Ela sabe sempre tudo antes de nós."
+   ]
+  ],
+  "prompt": "Depois vi a tartaruga a nadar entre as rochas. Mas o mais importante foi outra coisa: o João deu a mão à Ana, e ela não a largou. Debaixo de água ninguém fala, mas eu percebi tudo.\n\nNuma fenda da rocha, descobri um polvo. Quando me aproximei, ele ficou cor-de-laranja! Fiz à Marta o sinal de está tudo bem. E estava mesmo: pela primeira vez, eu não tinha medo.\n\nMais tarde, sentados nas toalhas, bebemos chocolate quente do termo. Os chinelos da Ana secavam ao sol. A Ana e o João falavam baixinho, e eu fingia que não ouvia.\n\nAo pôr do sol, o meu telemóvel vibrou. Era uma mensagem da agência: a casa da Zona Velha era minha! Gritei, a Ana abraçou-me, e o João bateu palmas. A Marta só sorriu. Ela já sabia, claro. Ela sabe sempre tudo antes de nós."
+ },
+ "t01": {
+  "voice": "bBNhdwrIjl4fcVYiRbT2",
+  "items": [
+   [
+    "title",
+    "agua9",
+    "Debaixo de Água"
+   ]
+  ],
+  "prompt": "Debaixo de Água."
+ }
+}

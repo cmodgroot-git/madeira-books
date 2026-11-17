@@ -1,0 +1,80 @@
+{
+ "n01": {
+  "voice": "bBNhdwrIjl4fcVYiRbT2",
+  "items": [
+   [
+    "seg",
+    "5b.1.0",
+    "Era feriado, e a Rita queria andar de teleférico até ao Monte. Eu também, mas quando acordei e olhei para o céu, estava cinzento e cheio de nuvens. Pensei: hoje não vamos a lado nenhum. Ainda não conhecia bem a Rita."
+   ],
+   [
+    "seg",
+    "5b.2.0",
+    "Começou a chover. Liguei à Rita pelo telemóvel e perguntei se íamos na mesma."
+   ],
+   [
+    "seg",
+    "5b.2.1",
+    "Vamos! Depois da chuva vem o sol"
+   ],
+   [
+    "seg",
+    "5b.2.2",
+    "disse ela. A Rita é assim: quando decide uma coisa, nem a chuva muda a ideia dela."
+   ],
+   [
+    "seg",
+    "5b.3.0",
+    "Na paragem do autocarro, a chuva caía com força e havia poças na rua. O meu cão ficou todo molhado, mas abanava a cauda. Ele adora a chuva. Eu não."
+   ],
+   [
+    "seg",
+    "5b.4.0",
+    "Na estação havia um aviso na porta: fechado por causa do vento. Eu fiquei triste e quis voltar para casa. Mas a Rita olhou para o céu e disse:"
+   ],
+   [
+    "seg",
+    "5b.4.1",
+    "Vamos esperar. Ainda é cedo."
+   ]
+  ],
+  "prompt": "Era feriado, e a Rita queria andar de teleférico até ao Monte. Eu também, mas quando acordei e olhei para o céu, estava cinzento e cheio de nuvens. Pensei: hoje não vamos a lado nenhum. Ainda não conhecia bem a Rita.\n\nComeçou a chover. Liguei à Rita pelo telemóvel e perguntei se íamos na mesma.\n\nVamos! Depois da chuva vem o sol.\n\ndisse ela. A Rita é assim: quando decide uma coisa, nem a chuva muda a ideia dela.\n\nNa paragem do autocarro, a chuva caía com força e havia poças na rua. O meu cão ficou todo molhado, mas abanava a cauda. Ele adora a chuva. Eu não.\n\nNa estação havia um aviso na porta: fechado por causa do vento. Eu fiquei triste e quis voltar para casa. Mas a Rita olhou para o céu e disse:\n\nVamos esperar. Ainda é cedo."
+ },
+ "n02": {
+  "voice": "bBNhdwrIjl4fcVYiRbT2",
+  "items": [
+   [
+    "seg",
+    "5b.5.0",
+    "Fomos a um café ao lado. A Rita pediu um galão e eu um chá. Comemos dois pastéis de nata e ficámos a conversar, a olhar para a chuva na montra. Falámos do trabalho, da família e de rapazes."
+   ],
+   [
+    "seg",
+    "5b.6.0",
+    "Meia hora depois, o sol apareceu e havia um arco-íris sobre o mar. O funcionário da estação tirou o aviso. A Rita olhou para mim com cara de quem tinha razão. E tinha."
+   ],
+   [
+    "seg",
+    "5b.7.0",
+    "No teleférico, vimos os telhados vermelhos, os jardins e os navios no porto. Tirei uma fotografia com o telemóvel. Ainda a tenho: a Rita está a rir, com o cabelo molhado."
+   ],
+   [
+    "seg",
+    "5b.8.0",
+    "No Monte, descemos a rua num carro de cesto. Dois homens de chapéu de palha empurravam o carro, muito depressa. Eu gritei e a Rita riu-se. Nesse dia percebi que tinha uma amiga para a vida."
+   ]
+  ],
+  "prompt": "Fomos a um café ao lado. A Rita pediu um galão e eu um chá. Comemos dois pastéis de nata e ficámos a conversar, a olhar para a chuva na montra. Falámos do trabalho, da família e de rapazes.\n\nMeia hora depois, o sol apareceu e havia um arco-íris sobre o mar. O funcionário da estação tirou o aviso. A Rita olhou para mim com cara de quem tinha razão. E tinha.\n\nNo teleférico, vimos os telhados vermelhos, os jardins e os navios no porto. Tirei uma fotografia com o telemóvel. Ainda a tenho: a Rita está a rir, com o cabelo molhado.\n\nNo Monte, descemos a rua num carro de cesto. Dois homens de chapéu de palha empurravam o carro, muito depressa. Eu gritei e a Rita riu-se. Nesse dia percebi que tinha uma amiga para a vida."
+ },
+ "t01": {
+  "voice": "bBNhdwrIjl4fcVYiRbT2",
+  "items": [
+   [
+    "title",
+    "chuva5",
+    "Depois da Chuva"
+   ]
+  ],
+  "prompt": "Depois da Chuva."
+ }
+}

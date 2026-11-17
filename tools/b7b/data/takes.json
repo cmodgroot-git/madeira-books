@@ -1,0 +1,65 @@
+{
+ "n01": {
+  "voice": "XxTHUwWTW2conYBz0vvk",
+  "items": [
+   [
+    "seg",
+    "7b.1.0",
+    "Depois daquela noite em Porto Moniz, pensei muitas vezes na Ana. Mas ela não telefonou. Mais tarde, a Rita contou-me que, num sábado de manhã, a Ana estava no sofá a olhar para uma fotografia das piscinas, toda vermelha."
+   ],
+   [
+    "seg",
+    "7b.2.0",
+    "Ao meio-dia, as duas foram ao restaurante à minha procura. Mas era o meu dia de folga. O senhor simpático do restaurante, o meu chefe, disse-lhes onde eu estava. Ainda hoje lhe agradeço."
+   ],
+   [
+    "seg",
+    "7b.3.0",
+    "Aos sábados, faço surf no Seixal. Estava no mar com os outros surfistas quando vi duas raparigas na praia, entre a areia preta e a cascata. Conheci logo a Ana e acenei. O meu coração batia como uma onda."
+   ],
+   [
+    "seg",
+    "7b.4.0",
+    "Saí da água com o cabelo molhado e a prancha debaixo do braço. Falei-lhe do meu pai, que era pescador. Eu nunca falo disso, mas com a Ana foi fácil. Ela ouvia com muita atenção. Ainda hoje sei que foi nesse dia que tudo começou."
+   ]
+  ],
+  "prompt": "Depois daquela noite em Porto Moniz, pensei muitas vezes na Ana. Mas ela não telefonou. Mais tarde, a Rita contou-me que, num sábado de manhã, a Ana estava no sofá a olhar para uma fotografia das piscinas, toda vermelha.\n\nAo meio-dia, as duas foram ao restaurante à minha procura. Mas era o meu dia de folga. O senhor simpático do restaurante, o meu chefe, disse-lhes onde eu estava. Ainda hoje lhe agradeço.\n\nAos sábados, faço surf no Seixal. Estava no mar com os outros surfistas quando vi duas raparigas na praia, entre a areia preta e a cascata. Conheci logo a Ana e acenei. O meu coração batia como uma onda.\n\nSaí da água com o cabelo molhado e a prancha debaixo do braço. Falei-lhe do meu pai, que era pescador. Eu nunca falo disso, mas com a Ana foi fácil. Ela ouvia com muita atenção. Ainda hoje sei que foi nesse dia que tudo começou."
+ },
+ "n02": {
+  "voice": "XxTHUwWTW2conYBz0vvk",
+  "items": [
+   [
+    "seg",
+    "7b.5.0",
+    "Na areia, ensinei-lhe a remar em cima da prancha. A Rita tirava fotografias, e o cão ladrava às gaivotas. A Ana ria-se de nervosa. Eu também estava nervoso, mas sou bom a esconder."
+   ],
+   [
+    "seg",
+    "7b.6.0",
+    "Depois fomos para o mar. Ela caiu na espuma duas vezes, mas não desistiu. À terceira onda, levantou-se e ficou de pé três segundos! Eu gritei e bati palmas como um louco."
+   ],
+   [
+    "seg",
+    "7b.7.0",
+    "Mais tarde, bebemos poncha de limão ao balcão do bar. A Rita disse que procurava casa, e eu dei-lhe o número da minha amiga Marta. Assim, pensei, vou ter mais razões para ver a Ana."
+   ],
+   [
+    "seg",
+    "7b.8.0",
+    "Ao pôr do sol, o céu ficou roxo. Quando o carro delas partiu, escrevi uma mensagem à Ana. Apaguei-a três vezes. No fim, só escrevi: Foi o melhor sábado do ano. Ela respondeu: Para mim também."
+   ]
+  ],
+  "prompt": "Na areia, ensinei-lhe a remar em cima da prancha. A Rita tirava fotografias, e o cão ladrava às gaivotas. A Ana ria-se de nervosa. Eu também estava nervoso, mas sou bom a esconder.\n\nDepois fomos para o mar. Ela caiu na espuma duas vezes, mas não desistiu. À terceira onda, levantou-se e ficou de pé três segundos! Eu gritei e bati palmas como um louco.\n\nMais tarde, bebemos poncha de limão ao balcão do bar. A Rita disse que procurava casa, e eu dei-lhe o número da minha amiga Marta. Assim, pensei, vou ter mais razões para ver a Ana.\n\nAo pôr do sol, o céu ficou roxo. Quando o carro delas partiu, escrevi uma mensagem à Ana. Apaguei-a três vezes. No fim, só escrevi: Foi o melhor sábado do ano. Ela respondeu: Para mim também."
+ },
+ "t01": {
+  "voice": "bBNhdwrIjl4fcVYiRbT2",
+  "items": [
+   [
+    "title",
+    "surf7",
+    "O Sábado do Surf"
+   ]
+  ],
+  "prompt": "O Sábado do Surf."
+ }
+}
