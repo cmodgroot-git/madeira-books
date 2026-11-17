@@ -1,0 +1,8 @@
+{
+ "jogo": ["game, match", "Spiel", "match, jeu", "partido, juego", "wedstrijd, spel", "mecz, gra"],
+ "futebol": ["football (soccer); here: a football", "Fußball", "football", "fútbol", "voetbal", "piłka nożna"],
+ "campo": ["pitch, field", "Spielfeld, Platz", "terrain", "campo", "veld", "boisko"],
+ "golo": ["goal (a score)", "Tor (Treffer)", "but (marqué)", "gol", "doelpunt", "gol"],
+ "baliza": ["goal (the frame and net)", "Tor (Gehäuse)", "cage, but", "portería", "doel", "bramka"],
+ "arbitro": ["referee", "Schiedsrichter", "arbitre", "árbitro", "scheidsrechter", "sędzia"]
+}

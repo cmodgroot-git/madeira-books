@@ -1,0 +1,171 @@
+{
+ "m01": {
+  "voice": "bBNhdwrIjl4fcVYiRbT2",
+  "items": [
+   [
+    "seg",
+    "22.1.0",
+    "Na oficina, o Tiago mostra à Rita uma camisola azul."
+   ],
+   [
+    "seg",
+    "22.1.2",
+    "A Rita ri-se:"
+   ],
+   [
+    "seg",
+    "22.1.3",
+    "Ultimamente, tens falado mais de futebol do que de mim."
+   ],
+   [
+    "seg",
+    "22.2.0",
+    "No domingo de manhã, a Ana e o João visitam a Dona Graça, como prometeram. Ela tem um cachecol do Marítimo ao pescoço. Quando ouve falar do jogo, levanta-se logo:"
+   ],
+   [
+    "seg",
+    "22.2.1",
+    "Vou convosco! O meu marido jogou naquele campo trinta anos."
+   ],
+   [
+    "seg",
+    "22.3.0",
+    "O campo fica em Câmara de Lobos, entre as casas e o mar. Há vento e muitas pessoas. Nas bancadas, a Rita, a Ana e a Dona Graça sentam-se ao sol. O árbitro é o Bruno, o bombeiro. Ele tem um apito e um ar muito sério."
+   ],
+   [
+    "seg",
+    "22.4.0",
+    "Aos dez minutos, a bola vem alta e o Tiago salta. Marca golo de cabeça! Corre para as bancadas, com os braços no ar, e manda um beijo à Rita. Ela fica vermelha, mas bate palmas mais alto do que todos."
+   ],
+   [
+    "seg",
+    "22.5.0",
+    "Depois, o João recebe a bola e corre sozinho para a baliza. O Tiago empurra-o e ele cai na relva."
+   ],
+   [
+    "seg",
+    "22.5.2",
+    "grita o João."
+   ],
+   [
+    "seg",
+    "22.5.4",
+    "responde o Tiago. O Bruno apita e mostra um cartão amarelo ao Tiago."
+   ],
+   [
+    "seg",
+    "22.6.0",
+    "No intervalo, a Dona Graça desce ao campo e aponta para os dois:"
+   ],
+   [
+    "seg",
+    "22.6.1",
+    "No meu tempo, os homens jogavam com a cabeça, não com o mau feitio! Tenho visto muitos jogos, mas nunca vi tanta asneira. Os dois olham para o chão e dão um aperto de mão."
+   ],
+   [
+    "seg",
+    "22.7.0",
+    "No último minuto, o João marca de penálti: um a um. Toda a gente grita e abraça-se. O Bruno conta o dinheiro: o restaurante e a oficina deram oitocentos euros aos bombeiros."
+   ],
+   [
+    "seg",
+    "22.7.1",
+    "Assim, ganhámos todos"
+   ],
+   [
+    "seg",
+    "22.7.2",
+    "diz a Dona Graça."
+   ],
+   [
+    "seg",
+    "22.8.0",
+    "À noite, jantam todos na cozinha da Dona Graça. Ela mostra uma fotografia antiga do marido com a camisola do Marítimo. Lá fora, o Tiago pega na mão da Rita:"
+   ],
+   [
+    "seg",
+    "22.8.2",
+    "Eu também tenho pensado nisso"
+   ],
+   [
+    "seg",
+    "22.8.3",
+    "diz ela, baixinho."
+   ]
+  ],
+  "prompt": "Na oficina, o Tiago mostra à Rita uma camisola azul.\n\nA Rita ri-se:\n\nUltimamente, tens falado mais de futebol do que de mim.\n\nNo domingo de manhã, a Ana e o João visitam a Dona Graça, como prometeram. Ela tem um cachecol do Marítimo ao pescoço. Quando ouve falar do jogo, levanta-se logo:\n\nVou convosco! O meu marido jogou naquele campo trinta anos.\n\nO campo fica em Câmara de Lobos, entre as casas e o mar. Há vento e muitas pessoas. Nas bancadas, a Rita, a Ana e a Dona Graça sentam-se ao sol. O árbitro é o Bruno, o bombeiro. Ele tem um apito e um ar muito sério.\n\nAos dez minutos, a bola vem alta e o Tiago salta. Marca golo de cabeça! Corre para as bancadas, com os braços no ar, e manda um beijo à Rita. Ela fica vermelha, mas bate palmas mais alto do que todos.\n\nDepois, o João recebe a bola e corre sozinho para a baliza. O Tiago empurra-o e ele cai na relva.\n\ngrita o João.\n\nresponde o Tiago. O Bruno apita e mostra um cartão amarelo ao Tiago.\n\nNo intervalo, a Dona Graça desce ao campo e aponta para os dois:\n\nNo meu tempo, os homens jogavam com a cabeça, não com o mau feitio! Tenho visto muitos jogos, mas nunca vi tanta asneira. Os dois olham para o chão e dão um aperto de mão.\n\nNo último minuto, o João marca de penálti: um a um. Toda a gente grita e abraça-se. O Bruno conta o dinheiro: o restaurante e a oficina deram oitocentos euros aos bombeiros.\n\nAssim, ganhámos todos.\n\ndiz a Dona Graça.\n\nÀ noite, jantam todos na cozinha da Dona Graça. Ela mostra uma fotografia antiga do marido com a camisola do Marítimo. Lá fora, o Tiago pega na mão da Rita:\n\nEu também tenho pensado nisso.\n\ndiz ela, baixinho."
+ },
+ "p01": {
+  "voice": "XxTHUwWTW2conYBz0vvk",
+  "items": [
+   [
+    "seg",
+    "22.1.1",
+    "No domingo há um jogo de futebol para os bombeiros: a minha oficina contra o restaurante do João. Tenho treinado todas as noites!"
+   ],
+   [
+    "seg",
+    "22.5.1",
+    "Isso foi falta!"
+   ],
+   [
+    "seg",
+    "22.5.3",
+    "Não foi nada!"
+   ],
+   [
+    "seg",
+    "22.8.1",
+    "Tenho pensado muito no que a Ana te perguntou."
+   ]
+  ],
+  "prompt": "No domingo há um jogo de futebol para os bombeiros: a minha oficina contra o restaurante do João. Tenho treinado todas as noites!\n\nIsso foi falta!\n\nNão foi nada!\n\nTenho pensado muito no que a Ana te perguntou."
+ },
+ "w01": {
+  "voice": "bBNhdwrIjl4fcVYiRbT2",
+  "items": [
+   [
+    "word",
+    "baliza",
+    "baliza"
+   ],
+   [
+    "word",
+    "campo",
+    "campo"
+   ],
+   [
+    "word",
+    "futebol",
+    "futebol"
+   ],
+   [
+    "word",
+    "golo",
+    "golo"
+   ],
+   [
+    "word",
+    "jogo",
+    "jogo"
+   ],
+   [
+    "word",
+    "árbitro",
+    "árbitro"
+   ]
+  ],
+  "prompt": "baliza, campo, futebol, golo, jogo, árbitro."
+ },
+ "t01": {
+  "voice": "bBNhdwrIjl4fcVYiRbT2",
+  "items": [
+   [
+    "title",
+    "jogo",
+    "O Jogo de Domingo"
+   ]
+  ],
+  "prompt": "O Jogo de Domingo."
+ }
+}
