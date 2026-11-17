@@ -8,10 +8,13 @@ Usage:
   python3 tools/ledger.py                          # write tools/ledger/ledger.md and ledger.json
   python3 tools/ledger.py --draft tools/b18/pages18.json   # also check a draft book against the rules
 
-Rules checked for a draft (see skills/madeira-book-stories, Step 3):
-  - recycling: at least 15 under-used words come back (tappable words met 1-2 times, or top-2,000 words met 1-2 times)
-  - frequency: at least half of the draft's new tappable words are in the top 2,000
-  - readability: at least 80% of the draft's running words already met (books 9-17 scored 73-82%; raise it as the library grows)
+Rules checked for a draft (see skills/madeira-book-stories, "The cycle" and Step 3); --kind book (default) or retell:
+  - readability: running words already met, counting other forms of met words (acordei <- acorda) — book >= 88%, retelling >= 95%
+  - well known: running words met 3+ times — reported, aim >= 70% (a word counts as known only after three meetings)
+  - old words back: tappable words last met 5+ books ago, tagged or as plain text — book >= 30, retelling >= 30
+  - recycling: under-used words come back (met 1-2 times) — >= 15
+  - new tappable words: book <= 15 (at least half in the top 2,000), retelling <= 3
+  - conversation: first/second-person and everyday talk words (CORE) — book >= 10 different, retelling >= 15
 
 A "word" here is a spelling (form): vai, vou and ir count separately. Tappable words are counted by key.
 """
@@ -31,6 +34,11 @@ OUT = ROOT / "tools" / "ledger"
 FREQ = OUT / "pt_top5000.txt"
 TOK = re.compile(r"[a-záàâãéêíóôõúüç]+(?:-[a-záàâãéêíóôõúüç]+)*")
 # names of people and places are not vocabulary targets
+# everyday conversation words the narrated books lacked (review, Nov 2026): first and second person, talk about life
+CORE = """eu tu nós você me te nos comigo contigo sou és somos estou estás estamos quero queres queremos sei sabes sabemos
+posso podes podemos pode vou vais vamos tenho tens temos gosto gostas gostamos acho achas preciso precisas fiz fizemos
+disse dissemos fui fomos falar falei falámos coisas coisa vida melhor ano anos mundo sempre nunca então também ainda já
+agora hoje amanhã ontem porque mas se quando muito pouco tudo nada alguém ninguém""".split()
 NAMES = {"rita", "ana", "joão", "marta", "tiago", "sofia", "duarte", "inês", "bruno", "funchal", "madeira",
          "seixal", "garajau", "machico", "faial", "calheta", "rabaçal", "lourenço"}
 
@@ -112,7 +120,7 @@ def report(books, form, form_books, first, key, key_books, key_shown, rank, freq
           f"{len(missing)} of the top 2,000 never met -> tools/ledger/ledger.md")
 
 
-def check_draft(path, form, key, key_shown, rank):
+def check_draft(path, form, key, key_shown, rank, key_books, nbooks, kind):
     pages = json.loads(Path(path).read_text(encoding="utf-8"))
     toks = [w for p in pages for w in tokens(p)]
     dkeys = [k for p in pages for _, k in WORD_RE.findall(p)]
@@ -124,15 +132,36 @@ def check_draft(path, form, key, key_shown, rank):
     common_new_keys = [k for k in new_keys if any(rank.get(w, 9999) <= 2000 for w in TOK.findall(shown[k]))]
     common_new_forms = [w for w in new_forms if rank.get(w, 9999) <= 2000]
     known_share = sum(1 for w in toks if w in form or w in NAMES) / max(1, len(toks))
+    stems = {w[:4] for w in form if len(w) >= 4}
+    def near(w):   # another form of a word already met: acordei <- acorda, escorregou <- escorrega
+        n = max(4, len(w) - 3)
+        return len(w) >= 5 and any(m.startswith(w[:n]) for m in form if len(m) >= n and m[:4] in stems)
+    near_share = sum(1 for w in toks if w in form or w in NAMES or near(w)) / max(1, len(toks))
+    well_share = sum(1 for w in toks if form.get(w, 0) >= 3 or w in NAMES) / max(1, len(toks))
+    nb = nbooks + 1
+    plain = " " + " ".join(toks) + " "
+    # an old word counts when it is tagged again, or when its shown form comes back as plain text (every word is tappable for its meaning)
+    old_keys = sorted({k for k in key_books if max(key_books[k]) <= nb - 5 and k not in NAMES
+                       and (k in dkeys or f" {' '.join(TOK.findall(key_shown[k].lower()))} " in plain)})
+    core = sorted({w for w in toks if w in CORE})
+    R = dict(book=(88, 30, 15, 10), retell=(95, 30, 3, 15))[kind]
     recycled_key_forms = {w for p in pages for sh, k in WORD_RE.findall(p) if k in recycled_keys for w in TOK.findall(sh.lower())}
     recycled = len(recycled_keys) + len(set(recycled_forms) - recycled_key_forms)
     print(f"\nDraft check: {path}")
     print(f"  pages {len(pages)}, running words {len(toks)}, avg {len(toks) / max(1, len(pages)):.0f} per page")
-    print(f"  readability: {known_share * 100:.0f}% of running words already met   (rule: >= 80%)")
-    print(f"  recycling: {recycled} under-used words come back   (rule: >= 15)")
+    ok = lambda b: "ok" if b else "BELOW RULE"
+    print(f"  kind: {kind}")
+    print(f"  readability: {known_share * 100:.0f}% of running words already met; {near_share * 100:.0f}% counting other forms of met words   (rule, the second: >= {R[0]}%)  {ok(near_share * 100 >= R[0])}")
+    print(f"     other forms of met words: {', '.join(sorted({w for w in toks if w not in form and near(w)})) or '-'}")
+    print(f"  well known: {well_share * 100:.0f}% of running words met 3+ times   (aim: >= 70%)")
+    print(f"  old words back (last met 5+ books ago): {len(old_keys)}   (rule: >= {R[1]})  {ok(len(old_keys) >= R[1])}")
+    print(f"     {', '.join(old_keys) or '-'}")
+    print(f"  conversation words: {len(core)}   (rule: >= {R[3]})  {ok(len(core) >= R[3])}")
+    print(f"     {', '.join(core)}")
+    print(f"  recycling: {recycled} under-used words come back   (rule: >= 15)  {ok(recycled >= 15)}")
     print(f"     keys: {', '.join(recycled_keys) or '-'}")
     print(f"     common forms: {', '.join(recycled_forms) or '-'}")
-    print(f"  new tappable words: {len(new_keys)}; in the top 2,000: {len(common_new_keys)}   (rule: >= half)")
+    print(f"  new tappable words: {len(new_keys)}   (rule: <= {R[2]})  {ok(len(new_keys) <= R[2])}; in the top 2,000: {len(common_new_keys)}   (rule for books: >= half)")
     print(f"     {', '.join(new_keys)}")
     print(f"  new word forms: {len(new_forms)}; in the top 2,000: {len(common_new_forms)}")
     print(f"     common: {', '.join(common_new_forms) or '-'}")
@@ -142,13 +171,14 @@ def check_draft(path, form, key, key_shown, rank):
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--draft", help="JSON list of a draft book's pages ([shown|key] tags), checked against the ledger")
+    ap.add_argument("--kind", choices=["book", "retell"], default="book", help="new book or a retelling of an earlier book")
     a = ap.parse_args()
     OUT.mkdir(parents=True, exist_ok=True)
     rank, freq = load_freq()
     books, form, form_books, first, key, key_books, key_shown = build()
     report(books, form, form_books, first, key, key_books, key_shown, rank, freq)
     if a.draft:
-        check_draft(a.draft, form, key, key_shown, rank)
+        check_draft(a.draft, form, key, key_shown, rank, key_books, len(books), a.kind)
 
 
 if __name__ == "__main__":
