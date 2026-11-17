@@ -1,0 +1,45 @@
+# O Domingo da Dona Graça
+
+Book 22b · id `graca22` · 8 pages
+
+## Page 1
+
+Chamo-me Graça e tenho oitenta e dois anos. Eu não estava na oficina, mas a Rita contou-me tudo, à frente de uma chávena de chá: o Tiago mostrou-lhe a camisola e falou de futebol durante uma hora. Os homens falam de futebol quando têm medo de falar de amor.
+
+Highlighted: `futebol`
+
+## Page 2
+
+No domingo, a Ana e o João vieram visitar-me. Quando falaram do jogo, fui buscar o cachecol do meu marido, o casaco e o guarda-chuva. Ele morreu há dez anos, mas o cachecol ainda cheira a ele. Há muito tempo que eu não ia ao campo.
+
+Highlighted: `cachecol`
+
+## Page 3
+
+O campo está igual: as casas, o mar, as nuvens, a música. Sentei-me nas bancadas com as meninas, no sítio de sempre. O árbitro era o Bruno, um rapaz alto e sério. Quando ele mostrou o apito, todos ficaram calados.
+
+Highlighted: `apito`, `arbitro`, `bancada`, `campo`
+
+## Page 4
+
+A bola veio alta e o Tiago marcou golo de cabeça. Depois correu para a Rita como um menino, e ela ficou vermelha. O meu marido também fazia assim: marcava um golo e olhava logo para mim, na bancada. Tenho saudades disso.
+
+Highlighted: `bola`, `cabeca`
+
+## Page 5
+
+Depois, os dois rapazes começaram a discutir na relva. O Bruno mostrou um cartão amarelo ao Tiago, e eu levantei-me, com dois pastéis de nata na mão. Já vi muitos jogos, e sei uma coisa: quando os homens discutem, alguém tem de falar mais alto do que eles.
+
+Highlighted: `cartao`, `relva`
+
+## Page 6
+
+No intervalo, desci ao campo e disse-lhes o que penso: amigos não se empurram por causa de uma bola. Eles olharam para o chão, como dois meninos na escola, e deram um aperto de mão. Ainda sei mandar!
+
+## Page 7
+
+No fim, foi um a um. Ninguém ganhou e todos ganharam, porque os bombeiros receberam oitocentos euros. Depois houve bolo, pudim e poncha para todos. O meu marido ia gostar deste jogo. Ele dizia sempre: — O futebol só é bom quando acaba em festa.
+
+## Page 8
+
+À noite, jantaram todos na minha cozinha, com flores, uma vela e um copo de vinho, e eu mostrei a fotografia do meu marido. Depois vi o Tiago e a Rita lá fora, de mãos dadas. Não disse nada. Na minha idade, a gente aprende a fechar a janela e a sorrir.

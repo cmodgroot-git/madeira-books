@@ -1,0 +1,81 @@
+{
+ "n01": {
+  "voice": "XxTHUwWTW2conYBz0vvk",
+  "items": [
+   [
+    "seg",
+    "4b.1.0",
+    "Naquela sexta-feira, eu trabalhava no restaurante de Porto Moniz. Ao fim da tarde, vi um carro pequeno chegar pela estrada do norte, entre as falésias e o mar. Ainda não sabia, mas aquele carro ia mudar a minha vida."
+   ],
+   [
+    "seg",
+    "4b.2.0",
+    "Antes de trabalhar, fui ver as ondas nas piscinas naturais. Batiam com força nas rochas pretas. Eu gosto de surfar, e o mar estava bonito. Quando voltei, as duas raparigas do carro já estavam no restaurante."
+   ],
+   [
+    "seg",
+    "4b.3.0",
+    "Sentaram-se na esplanada, na mesa com a melhor vista. Uma delas era a Ana. Eu já a tinha visto na praia do Funchal, mas nunca tinha falado com ela. Fiquei tão nervoso que quase deixei cair os copos."
+   ],
+   [
+    "seg",
+    "4b.4.0",
+    "Levei a ementa e um cesto de bolo do caco com manteiga de alho."
+   ],
+   [
+    "seg",
+    "4b.4.2",
+    "disse a Ana, e sorriu para mim. Eu fui para a cozinha e não me lembrei de mais nada durante cinco minutos."
+   ]
+  ],
+  "prompt": "Naquela sexta-feira, eu trabalhava no restaurante de Porto Moniz. Ao fim da tarde, vi um carro pequeno chegar pela estrada do norte, entre as falésias e o mar. Ainda não sabia, mas aquele carro ia mudar a minha vida.\n\nAntes de trabalhar, fui ver as ondas nas piscinas naturais. Batiam com força nas rochas pretas. Eu gosto de surfar, e o mar estava bonito. Quando voltei, as duas raparigas do carro já estavam no restaurante.\n\nSentaram-se na esplanada, na mesa com a melhor vista. Uma delas era a Ana. Eu já a tinha visto na praia do Funchal, mas nunca tinha falado com ela. Fiquei tão nervoso que quase deixei cair os copos.\n\nLevei a ementa e um cesto de bolo do caco com manteiga de alho.\n\ndisse a Ana, e sorriu para mim. Eu fui para a cozinha e não me lembrei de mais nada durante cinco minutos."
+ },
+ "n02": {
+  "voice": "XxTHUwWTW2conYBz0vvk",
+  "items": [
+   [
+    "seg",
+    "4b.5.0",
+    "A Ana pediu espetada, e a amiga pediu peixe-espada com banana. Eu trouxe o vinho e enchi os copos devagar, para ficar mais tempo perto da mesa. O meu colega riu-se de mim na cozinha."
+   ],
+   [
+    "seg",
+    "4b.6.0",
+    "Depois, o sol desceu no mar e o céu ficou cor-de-laranja. Elas olhavam para o céu e eu olhava para a Ana. Pensei: se eu não falar com ela hoje, nunca mais a vou ver."
+   ],
+   [
+    "seg",
+    "4b.7.0",
+    "Na sobremesa, elas dividiram um pudim de maracujá. Eu escrevi o meu número de telefone num papel e escondi-o debaixo da chávena de café da Ana. Tremiam-me as mãos."
+   ],
+   [
+    "seg",
+    "4b.8.0",
+    "Já era noite, com estrelas no céu e uma vela na mesa. A Rita pediu a conta. Quando a Ana viu o papel, olhou para mim e riu-se. Só a voltei a ver meses depois, no norte, quando eu estava a surfar. Mas ela guardou o papel. Ainda o tem."
+   ]
+  ],
+  "prompt": "A Ana pediu espetada, e a amiga pediu peixe-espada com banana. Eu trouxe o vinho e enchi os copos devagar, para ficar mais tempo perto da mesa. O meu colega riu-se de mim na cozinha.\n\nDepois, o sol desceu no mar e o céu ficou cor-de-laranja. Elas olhavam para o céu e eu olhava para a Ana. Pensei: se eu não falar com ela hoje, nunca mais a vou ver.\n\nNa sobremesa, elas dividiram um pudim de maracujá. Eu escrevi o meu número de telefone num papel e escondi-o debaixo da chávena de café da Ana. Tremiam-me as mãos.\n\nJá era noite, com estrelas no céu e uma vela na mesa. A Rita pediu a conta. Quando a Ana viu o papel, olhou para mim e riu-se. Só a voltei a ver meses depois, no norte, quando eu estava a surfar. Mas ela guardou o papel. Ainda o tem."
+ },
+ "o01": {
+  "voice": "bBNhdwrIjl4fcVYiRbT2",
+  "items": [
+   [
+    "seg",
+    "4b.4.1",
+    "Cheira muito bem"
+   ]
+  ],
+  "prompt": "Cheira muito bem."
+ },
+ "t01": {
+  "voice": "bBNhdwrIjl4fcVYiRbT2",
+  "items": [
+   [
+    "title",
+    "papel4",
+    "A Noite do Papel"
+   ]
+  ],
+  "prompt": "A Noite do Papel."
+ }
+}
