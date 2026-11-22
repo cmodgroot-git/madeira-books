@@ -13,8 +13,9 @@ Worked example (everything here was built and approved on it): book 22 `jogo` pa
 `tools/video/look.py` holds the numbers. Use the default unless the user asks:
 - **"first" (default since Nov 22, 2026):**
   - the rest of the picture at 45% brightness, in full colour;
-  - the thing itself unchanged;
-  - a 3 px warm-yellow outline (RGB 255,230,80) just outside its edge.
+  - the thing itself 15% brighter (×1.15 plus 0.02);
+  - a thin, solid 1.5 px warm-yellow outline (RGB 255,230,80) just outside its edge.
+  - The user tuned it on Nov 22 ("thinner outline. brighten the object") from the first demo's 3 px line and unchanged object.
   - The prototype draws it in WebGL, finding the outline from the matte in the shader.
 - **"soft" (kept as an alternative):**
   - the rest 38% darker and 27.5% toward grey;
@@ -26,6 +27,9 @@ Worked example (everything here was built and approved on it): book 22 `jogo` pa
 2. The user asked for "more subtle" and then "more contrast".
 3. Then "half as much pop" and "increase the dimming only", which produced the soft look.
 4. Then: "go back to your original highlight settings".
+
+In the browser, sync the matte to the frame actually on screen: use `requestVideoFrameCallback` mediaTime, not `currentTime`, which runs ahead and puts the highlight beside a moving head.
+For the ball, subtract skin only in frames where a knee or hand crosses it: the ball's warm shading reads as skin and punches holes in its matte.
 
 If asked to change the look, change one number at a time and show a short MP4 or the prototype.
 

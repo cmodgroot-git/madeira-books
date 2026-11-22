@@ -52,7 +52,7 @@ const GLOSS={bola:["bola","ball"],golo:["golo","goal (a score)"],cabeca:["cabeç
 const VIDEO_AT=2.785;          // the clip starts on "salta"
 const NF=96, FPS=24, CW=480, CH=270, COLS=8;
 // approved look (tools/video/look.py)
-const LOOK={dim:0.45,line:[1.0,0.902,0.314]};   // first-demo look: rest at 45%, warm-yellow 3 px outline (tools/video/look.py)
+const LOOK={dim:0.45,bright:1.15,line:[1.0,0.902,0.314]};   // rest at 45%, thing 15% brighter, warm-yellow 1.5 px outline (tools/video/look.py)
 
 const $=id=>document.getElementById(id);
 const cv=$('cv'), vid=$('vid'), narr=new Audio('narr.mp3');
@@ -67,15 +67,15 @@ WORDS.forEach((w,i)=>{const s=document.createElement('span');s.textContent=w[0];
 // ---- WebGL: video frame + per-word matte sheet (R = matte, G = halo) ----
 const gl=cv.getContext('webgl',{premultipliedAlpha:false,preserveDrawingBuffer:false});
 const vs=`attribute vec2 p;varying vec2 uv;void main(){uv=vec2(p.x*.5+.5,.5-p.y*.5);gl_Position=vec4(p,0.,1.);}`;
-const fs=`precision mediump float;varying vec2 uv;uniform sampler2D V,M;uniform vec2 cell;uniform float s,dim;uniform vec3 line;
+const fs=`precision mediump float;varying vec2 uv;uniform sampler2D V,M;uniform vec2 cell;uniform float s,dim,bright;uniform vec3 line;
 vec2 SH=vec2(${CW*COLS}.,${CH*Math.ceil(NF/COLS)}.);
 float mt(vec2 u){return texture2D(M,(cell+clamp(u,0.,1.)*vec2(${CW}.,${CH}.))/SH).r;}
 void main(){vec3 f=texture2D(V,uv).rgb; float m=mt(uv);
- // 3 px outline just outside the edge (first-demo look): biggest matte value nearby minus the matte here
- vec2 d=vec2(3.,3.)/vec2(1280.,720.); float n=0.;
+ // 1.5 px outline just outside the edge (first-demo look): biggest matte value nearby minus the matte here
+ vec2 d=vec2(1.5,1.5)/vec2(1280.,720.); float n=0.;
  for(int i=0;i<12;i++){float a=float(i)*0.5236; n=max(n,mt(uv+vec2(cos(a),sin(a))*d));}
- float ring=smoothstep(0.15,0.6,n-m);
- vec3 c=mix(f*dim,f,m); c=mix(c,line,ring);
+ float ring=smoothstep(0.04,0.3,n-m);
+ vec3 c=mix(f*dim,clamp(f*bright+0.02,0.,1.),m); c=mix(c,line,ring);
  gl_FragColor=vec4(mix(f,c,s),1.);}`;
 function sh(t,src){const x=gl.createShader(t);gl.shaderSource(x,src);gl.compileShader(x);if(!gl.getShaderParameter(x,gl.COMPILE_STATUS))console.error(gl.getShaderInfoLog(x));return x}
 const pr=gl.createProgram();gl.attachShader(pr,sh(gl.VERTEX_SHADER,vs));gl.attachShader(pr,sh(gl.FRAGMENT_SHADER,fs));gl.linkProgram(pr);gl.useProgram(pr);
@@ -83,7 +83,7 @@ const buf=gl.createBuffer();gl.bindBuffer(gl.ARRAY_BUFFER,buf);gl.bufferData(gl.
 const loc=gl.getAttribLocation(pr,'p');gl.enableVertexAttribArray(loc);gl.vertexAttribPointer(loc,2,gl.FLOAT,false,0,0);
 const U=n=>gl.getUniformLocation(pr,n);
 gl.uniform1i(U('V'),0);gl.uniform1i(U('M'),1);
-gl.uniform1f(U('dim'),LOOK.dim);gl.uniform3fv(U('line'),LOOK.line);
+gl.uniform1f(U('dim'),LOOK.dim);gl.uniform1f(U('bright'),LOOK.bright);gl.uniform3fv(U('line'),LOOK.line);
 function tex(){const t=gl.createTexture();gl.bindTexture(gl.TEXTURE_2D,t);for(const [a,b] of [[gl.TEXTURE_MIN_FILTER,gl.LINEAR],[gl.TEXTURE_MAG_FILTER,gl.LINEAR],[gl.TEXTURE_WRAP_S,gl.CLAMP_TO_EDGE],[gl.TEXTURE_WRAP_T,gl.CLAMP_TO_EDGE]])gl.texParameteri(gl.TEXTURE_2D,a,b);return t}
 const vtex=tex(), mtex={}, empty=tex();
 gl.texImage2D(gl.TEXTURE_2D,0,gl.RGBA,1,1,0,gl.RGBA,gl.UNSIGNED_BYTE,new Uint8Array([0,0,0,255]));
@@ -102,7 +102,11 @@ function light(k,ms){hlKey=k;hlFrom=now();hlTo=ms===Infinity?Infinity:now()+ms;
   const g=GLOSS[k]; $('gloss').innerHTML=g&&g[1]?`<b>${g[0]}</b> — ${g[1]}`:'';}
 function unlight(){hlTo=Math.min(hlTo,now()+1);document.querySelectorAll('#text .w.lit').forEach(s=>s.classList.remove('lit'));}
 
-function frameIndex(){return Math.max(0,Math.min(NF-1,Math.floor(vid.currentTime*FPS+0.01)))}
+// use the frame actually on screen (requestVideoFrameCallback), not currentTime, which can run ahead of the picture
+let shownT=0; const rvfc='requestVideoFrameCallback' in HTMLVideoElement.prototype;
+if(rvfc){const cb=(n,meta)=>{shownT=meta.mediaTime;vid.requestVideoFrameCallback(cb)};vid.requestVideoFrameCallback(cb);}
+vid.addEventListener('seeked',()=>{if(rvfc)shownT=vid.currentTime});
+function frameIndex(){const t=rvfc?shownT:vid.currentTime;return Math.max(0,Math.min(NF-1,Math.round(t*FPS)))}
 function draw(){
   if(vid.readyState>=2){gl.activeTexture(gl.TEXTURE0);gl.bindTexture(gl.TEXTURE_2D,vtex);
     gl.pixelStorei(gl.UNPACK_FLIP_Y_WEBGL,false);gl.texImage2D(gl.TEXTURE_2D,0,gl.RGB,gl.RGB,gl.UNSIGNED_BYTE,vid);}

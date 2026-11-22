@@ -2,14 +2,15 @@
 usage: python3 look.py picture.jpg matte.png out.jpg [--look first|soft] [--strength 1.0]
 matte: grey PNG, white = the word's thing (soft edges fine).
 DEFAULT = "first" (user, Nov 22 2026: "go back to your original highlight settings"):
-  rest of the picture at 45% brightness, full colour; the thing unchanged; 3 px warm-yellow outline just outside it.
+  rest of the picture at 45% brightness, full colour; the thing 15% brighter; thin (1.5 px) warm-yellow outline just outside it
+  (Nov 22: "thinner outline. brighten the object").
 "soft" = the tuned dim-and-glow look from Nov 21-22 (kept in case the user wants it again)."""
 import cv2,numpy as np,sys
-FIRST=dict(dim=0.45,line_bgr=(80/255,230/255,1.0),line_px=3)
+FIRST=dict(dim=0.45,bright=1.15,line_bgr=(80/255,230/255,1.0),line_px=1.5)
 SOFT=dict(dim=0.62,grey=0.275,contrast=1.06,lift=0.03,glow=0.30,glow_sigma=7)
 def look_first(f,a,s=1.0,P=FIRST):
-    o=f*P['dim']*(1-a[...,None])+f*a[...,None]
-    k=cv2.getStructuringElement(cv2.MORPH_ELLIPSE,(2*P['line_px']+1,)*2)
+    o=f*P['dim']*(1-a[...,None])+np.clip(f*P['bright']+0.02,0,1)*a[...,None]
+    r=int(np.ceil(P['line_px'])); k=cv2.getStructuringElement(cv2.MORPH_ELLIPSE,(2*r+1,)*2)
     ring=np.clip(cv2.dilate(a,k)-a,0,1); ring=cv2.GaussianBlur(ring,(0,0),0.7)[...,None]
     o=o*(1-ring)+np.float32(P['line_bgr'])*ring
     return np.clip(f*(1-s)+o*s,0,1)

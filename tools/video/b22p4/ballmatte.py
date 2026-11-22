@@ -8,5 +8,6 @@ for t,f in enumerate(F):
     a=cv2.resize(m,(W,H),interpolation=cv2.INTER_AREA).astype(np.float32)/255
     hsv=cv2.cvtColor(im,cv2.COLOR_BGR2HSV); skin=((hsv[...,0]<25)&(hsv[...,1]>55)&(hsv[...,2]>70)).astype(np.uint8)
     skin=cv2.morphologyEx(skin,cv2.MORPH_OPEN,np.ones((3,3),np.uint8)); skin=cv2.dilate(skin,np.ones((3,3),np.uint8))
-    a=a*(1-cv2.GaussianBlur(skin.astype(np.float32),(0,0),1.0)); out.append(np.clip(a,0,1))
+    if t>=84: a=a*(1-cv2.GaussianBlur(skin.astype(np.float32),(0,0),1.0))   # only where the keeper's knee passes in front
+    out.append(np.clip(a,0,1))
 pickle.dump(out,open('ballmatte.pkl','wb'))
