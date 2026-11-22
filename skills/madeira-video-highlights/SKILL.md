@@ -11,11 +11,11 @@ Worked example (everything here was built and approved on it): book 22 `jogo` pa
 
 ## The look (current default: the first one)
 `tools/video/look.py` holds the numbers. Use the default unless the user asks:
-- **"first" (default since Nov 22, 2026):**
-  - the rest of the picture at 45% brightness, in full colour;
-  - the thing itself 15% brighter (×1.15 plus 0.02);
-  - a thin, solid 1.5 px warm-yellow outline (RGB 255,230,80) just outside its edge.
-  - The user tuned it on Nov 22 ("thinner outline. brighten the object") from the first demo's 3 px line and unchanged object.
+- **"first" (default; settings as of Nov 22, 2026):**
+  - the rest of the picture only 10% darker (dim 0.90), in full colour;
+  - the thing itself 40% brighter (×1.40 plus 0.02);
+  - a solid 2 px light-grey outline (75% grey) just outside its edge.
+  - Tuning steps the user asked for: "go back to your original highlight settings" (45% rest, 3 px yellow line) → "thinner outline. brighten the object" (1.5 px, ×1.15) → "gray outline slightly thicker. 10% background change. highlight to 40%".
   - The prototype draws it in WebGL, finding the outline from the matte in the shader.
 - **"soft" (kept as an alternative):**
   - the rest 38% darker and 27.5% toward grey;
