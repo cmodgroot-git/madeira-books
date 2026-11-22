@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ver — O Jogo de Domingo, página 4</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;500;700&family=Fraunces:opsz,wght@9..144,500;9..144,600&display=swap">
+<style>
+:root{--bg:#F5EFE3;--fg:#3A3431;--hl:#F1E6CC;--accent:#173F5F;--surface:#FFFDF8;--line:#D8D9D4;--muted:#7a706a}
+@media (prefers-color-scheme:dark){:root{--bg:#1E1B19;--fg:#F5EFE3;--hl:#43392A;--accent:#86AEDB;--surface:#2A2623;--line:#45403B;--muted:#a89f97}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:"Alegreya Sans","Segoe UI",system-ui,sans-serif}
+.wrap{max-width:980px;margin:0 auto;padding:18px max(14px,env(safe-area-inset-left)) 40px;display:grid;gap:16px}
+header{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+h1{font-family:Fraunces,Georgia,serif;font-weight:600;font-size:clamp(20px,3.2vw,28px);margin:0}
+.tag{font-size:13px;color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:2px 10px}
+.stage{position:relative;border-radius:14px;overflow:hidden;background:#000;aspect-ratio:16/9;box-shadow:0 1px 0 var(--line),0 8px 30px rgb(0 0 0/.12)}
+canvas{display:block;width:100%;height:100%}
+.load{position:absolute;inset:0;display:grid;place-items:center;color:#fff;font-size:15px;background:rgb(0 0 0/.35);transition:opacity .4s}
+.load.gone{opacity:0;pointer-events:none}
+.bar{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+button.b{font:inherit;font-size:16px;font-weight:500;color:var(--surface);background:var(--accent);border:0;border-radius:999px;padding:9px 18px;cursor:pointer;display:inline-flex;gap:8px;align-items:center}
+button.b.ghost{background:none;color:var(--fg);border:1px solid var(--line)}
+button.b:disabled{opacity:.5;cursor:default}
+.hint{font-size:14px;color:var(--muted)}
+#text{font-size:clamp(20px,2.6vw,26px);line-height:1.6;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px 20px;margin:0}
+#text span{border-radius:4px;transition:background-color .2s,box-shadow .2s}
+#text .w{cursor:pointer;text-decoration:underline solid 1px color-mix(in srgb,var(--fg) 30%,transparent);text-underline-offset:.24em}
+#text .say{background:var(--hl);box-shadow:0 0 0 2px var(--hl)}
+#text .w.lit{box-shadow:0 0 0 2px var(--accent)}
+.gloss{min-height:1.4em;font-size:16px;color:var(--muted)}
+.gloss b{color:var(--fg)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header><h1>O Jogo de Domingo</h1><span class="tag">página 4 · protótipo “ver”</span></header>
+  <div class="stage"><canvas id="cv" width="1280" height="720"></canvas><div class="load" id="load">A carregar…</div></div>
+  <div class="bar">
+    <button class="b" id="play" disabled>▶ Ouvir e ver</button>
+    <button class="b ghost" id="again" disabled>↺ Só o vídeo</button>
+    <span class="hint">Toca numa palavra sublinhada para a ouvir e ver no vídeo.</span>
+  </div>
+  <p id="text"></p>
+  <div class="gloss" id="gloss"></div>
+</div>
+<video id="vid" src="clip.mp4" muted playsinline preload="auto" style="display:none"></video>
+<script>
+// ---- page data (book 22 "jogo", page index 3) ----
+const WORDS=[["Aos",120,240],["dez",301,461],["minutos,",501,982],["a",1122,1162],["bola",1222,1382,"bola"],["vem",1462,1603],["alta",1683,1923],["e",2144,2164],["o",2224,2264],["Tiago",2344,2644],["salta.",2785,3065],["Marca",3666,3907],["golo",4107,4267,"golo"],["de",4327,4387],["cabeça!",4427,4908,"cabeca"],["Corre",5609,5830],["para",5870,5990],["as",6010,6090],["bancadas,",6130,6671],["com",6711,6811],["os",6851,6932],["braços",7012,7312],["no",7352,7412],["ar,",7513,7673],["e",7973,7993],["manda",8073,8254],["um",8334,8394],["beijo",8474,8694],["à",8755,8775],["Rita.",8875,9095,"rita"],["Ela",9636,9776],["fica",9856,10037],["vermelha,",10117,10558],["mas",10878,10978],["bate",11038,11199],["palmas",11299,11619],["mais",11720,12000],["alto",12060,12240],["do",12300,12341],["que",12381,12461],["todos.",12521,12901]];
+const GLOSS={bola:["bola","ball"],golo:["golo","goal (a score)"],cabeca:["cabeça","head (de cabeça: head first)"],rita:["Rita",""]};
+const VIDEO_AT=2.785;          // the clip starts on "salta"
+const NF=96, FPS=24, CW=480, CH=270, COLS=8;
+// approved look (tools/video/look.py)
+const LOOK={dim:0.62,grey:0.275,contrast:1.06,lift:0.03,glow:0.30};
+
+const $=id=>document.getElementById(id);
+const cv=$('cv'), vid=$('vid'), narr=new Audio('narr.mp3');
+const clips={}; for(const k of ['bola','golo','cabeca','rita']) clips[k]=new Audio('w_'+k+'.mp3');
+narr.preload='auto';
+
+// ---- text ----
+const spans=[];
+WORDS.forEach((w,i)=>{const s=document.createElement('span');s.textContent=w[0];if(w[3]){s.className='w';s.dataset.k=w[3];s.onclick=()=>tap(w[3]);}
+  $('text').append(s,' ');spans.push(s);});
+
+// ---- WebGL: video frame + per-word matte sheet (R = matte, G = halo) ----
+const gl=cv.getContext('webgl',{premultipliedAlpha:false,preserveDrawingBuffer:false});
+const vs=`attribute vec2 p;varying vec2 uv;void main(){uv=vec2(p.x*.5+.5,.5-p.y*.5);gl_Position=vec4(p,0.,1.);}`;
+const fs=`precision mediump float;varying vec2 uv;uniform sampler2D V,M;uniform vec2 cell;uniform float s,dim,grey,con,lift,glow;
+void main(){vec3 f=texture2D(V,uv).rgb;
+ vec2 muv=(cell+uv*vec2(${CW}.,${CH}.))/vec2(${CW*COLS}.,${CH*Math.ceil(NF/COLS)}.);
+ vec2 m=texture2D(M,muv).rg;
+ float g=(f.r+f.g+f.b)/3.;vec3 o=mix(f,vec3(g),grey)*dim;
+ vec3 i=clamp((f-.5)*con+.5+lift,0.,1.);
+ vec3 c=mix(o,i,m.r)+m.g*vec3(1.,.93,.78)*glow;
+ gl_FragColor=vec4(clamp(mix(f,c,s),0.,1.),1.);}`;
+function sh(t,src){const x=gl.createShader(t);gl.shaderSource(x,src);gl.compileShader(x);if(!gl.getShaderParameter(x,gl.COMPILE_STATUS))console.error(gl.getShaderInfoLog(x));return x}
+const pr=gl.createProgram();gl.attachShader(pr,sh(gl.VERTEX_SHADER,vs));gl.attachShader(pr,sh(gl.FRAGMENT_SHADER,fs));gl.linkProgram(pr);gl.useProgram(pr);
+const buf=gl.createBuffer();gl.bindBuffer(gl.ARRAY_BUFFER,buf);gl.bufferData(gl.ARRAY_BUFFER,new Float32Array([-1,-1,1,-1,-1,1,1,1]),gl.STATIC_DRAW);
+const loc=gl.getAttribLocation(pr,'p');gl.enableVertexAttribArray(loc);gl.vertexAttribPointer(loc,2,gl.FLOAT,false,0,0);
+const U=n=>gl.getUniformLocation(pr,n);
+gl.uniform1i(U('V'),0);gl.uniform1i(U('M'),1);
+gl.uniform1f(U('dim'),LOOK.dim);gl.uniform1f(U('grey'),LOOK.grey);gl.uniform1f(U('con'),LOOK.contrast);gl.uniform1f(U('lift'),LOOK.lift);gl.uniform1f(U('glow'),LOOK.glow);
+function tex(){const t=gl.createTexture();gl.bindTexture(gl.TEXTURE_2D,t);for(const [a,b] of [[gl.TEXTURE_MIN_FILTER,gl.LINEAR],[gl.TEXTURE_MAG_FILTER,gl.LINEAR],[gl.TEXTURE_WRAP_S,gl.CLAMP_TO_EDGE],[gl.TEXTURE_WRAP_T,gl.CLAMP_TO_EDGE]])gl.texParameteri(gl.TEXTURE_2D,a,b);return t}
+const vtex=tex(), mtex={}, empty=tex();
+gl.texImage2D(gl.TEXTURE_2D,0,gl.RGBA,1,1,0,gl.RGBA,gl.UNSIGNED_BYTE,new Uint8Array([0,0,0,255]));
+function loadImg(src){return new Promise((ok,no)=>{const i=new Image();i.onload=()=>ok(i);i.onerror=no;i.src=src;})}
+
+// ---- state ----
+let mode='idle';          // idle | narr | clip
+let hlKey=null, hlFrom=0, hlTo=0, clipKey=null; // highlight window (ms on the active clock)
+const now=()=>performance.now();
+function strength(){ // fade 0.3 s in, 0.4 s out
+  if(!hlKey)return 0; const t=now(); if(t<hlFrom)return 0;
+  const a=Math.min(1,(t-hlFrom)/300), b=hlTo===Infinity?1:Math.max(0,Math.min(1,(hlTo-t)/400)); return Math.min(a,b);
+}
+function light(k,ms){hlKey=k;hlFrom=now();hlTo=ms===Infinity?Infinity:now()+ms;
+  document.querySelectorAll('#text .w').forEach(s=>s.classList.toggle('lit',s.dataset.k===k));
+  const g=GLOSS[k]; $('gloss').innerHTML=g&&g[1]?`<b>${g[0]}</b> — ${g[1]}`:'';}
+function unlight(){hlTo=Math.min(hlTo,now()+1);document.querySelectorAll('#text .w.lit').forEach(s=>s.classList.remove('lit'));}
+
+function frameIndex(){return Math.max(0,Math.min(NF-1,Math.floor(vid.currentTime*FPS+0.01)))}
+function draw(){
+  if(vid.readyState>=2){gl.activeTexture(gl.TEXTURE0);gl.bindTexture(gl.TEXTURE_2D,vtex);
+    gl.pixelStorei(gl.UNPACK_FLIP_Y_WEBGL,false);gl.texImage2D(gl.TEXTURE_2D,0,gl.RGB,gl.RGB,gl.UNSIGNED_BYTE,vid);}
+  const s=strength(); if(s<=0&&hlTo!==Infinity&&now()>hlTo) hlKey=hlKey; // keep key for fade
+  gl.activeTexture(gl.TEXTURE1);gl.bindTexture(gl.TEXTURE_2D,(hlKey&&mtex[hlKey])||empty);
+  const f=frameIndex();gl.uniform2f(U('cell'),(f%COLS)*CW,Math.floor(f/COLS)*CH);gl.uniform1f(U('s'),s);
+  gl.viewport(0,0,cv.width,cv.height);gl.drawArrays(gl.TRIANGLE_STRIP,0,4);
+  if(mode==='narr') tickNarr();
+  requestAnimationFrame(draw);
+}
+
+// ---- read-along: words + video start + things lighting up as they are said ----
+let lastWord=-1, videoStarted=false;
+function tickNarr(){
+  const ms=narr.currentTime*1000;
+  let cur=-1; for(let i=0;i<WORDS.length;i++){if(ms>=WORDS[i][1]-40&&ms<=WORDS[i][2]+120){cur=i;break}}
+  if(cur!==lastWord){if(lastWord>=0)spans[lastWord].classList.remove('say');if(cur>=0){spans[cur].classList.add('say');const k=WORDS[cur][3];if(k)light(k,k==='golo'?320:1600);}lastWord=cur;}
+  if(!videoStarted&&narr.currentTime>=VIDEO_AT){videoStarted=true;vid.currentTime=0;vid.play().catch(()=>{});}
+}
+narr.addEventListener('ended',()=>{mode='idle';if(lastWord>=0)spans[lastWord].classList.remove('say');lastWord=-1;unlight();$('play').textContent='▶ Ouvir e ver';});
+vid.addEventListener('ended',()=>{if(mode==='clip'){mode='idle';setTimeout(()=>{if(mode==='idle')unlight()},900);}});
+
+function stopAll(){narr.pause();vid.pause();for(const a of Object.values(clips))a.pause();if(lastWord>=0)spans[lastWord].classList.remove('say');lastWord=-1;}
+$('play').onclick=()=>{
+  if(mode==='narr'){stopAll();mode='idle';unlight();$('play').textContent='▶ Ouvir e ver';return}
+  stopAll();unlight();mode='narr';videoStarted=false;vid.currentTime=0;narr.currentTime=0;
+  narr.play().catch(()=>{});$('play').textContent='■ Parar';
+};
+$('again').onclick=()=>{stopAll();mode='clip';$('play').textContent='▶ Ouvir e ver';unlight();vid.currentTime=0;vid.play().catch(()=>{});};
+function tap(k){
+  stopAll();mode='clip';$('play').textContent='▶ Ouvir e ver';
+  const a=clips[k];a.currentTime=0;a.play().catch(()=>{});
+  light(k,Infinity);vid.currentTime=0;setTimeout(()=>vid.play().catch(()=>{}),250);
+}
+
+// ---- load ----
+(async()=>{
+  const keys=['bola','golo','cabeca','rita'];
+  const imgs=await Promise.all(keys.map(k=>loadImg('m_'+k+'.webp')));
+  keys.forEach((k,i)=>{mtex[k]=tex();gl.texImage2D(gl.TEXTURE_2D,0,gl.RGB,gl.RGB,gl.UNSIGNED_BYTE,imgs[i]);});
+  await new Promise(r=>{if(vid.readyState>=2)r();else vid.addEventListener('loadeddata',r,{once:true});});
+  $('load').classList.add('gone');$('play').disabled=false;$('again').disabled=false;
+  requestAnimationFrame(draw);
+})().catch(e=>{$('load').textContent='Não foi possível carregar ('+e+')';});
+</script>
+</body>
+</html>
