@@ -9,13 +9,25 @@ Use this when a page becomes a short video (Google Flow / Veo, Krea video) and i
 
 Worked example (everything here was built and approved on it): book 22 `jogo` page 4 (`jogo:3`, words bola, cabeça, golo, Rita), the user's 4 s Flow clip `books/22-jogo/video/b22p4_flow_4s.mp4`, scripts in `tools/video/b22p4/`.
 
-## The look (user-approved, Nov 2026)
-`tools/video/look.py` holds the numbers; use it unchanged unless the user asks:
-- rest of the picture 38% darker (`DIM 0.62`) and 27.5% toward grey;
-- the thing itself slightly punchier (contrast 1.06, +0.03);
-- a soft warm-white halo just outside its edge (`GLOW 0.30`, sigma 7 px at 1280×720);
-- no outline, no yellow; the label (if any) small, bottom-left, fading in and out over ~8 frames.
-How we got there: first demo (thick yellow line, 55% dim) → user: "more subtle" → 20% dim → "more contrast" (45% dim, 55% grey, glow 0.6) → "half as much pop" → "increase the dimming only" → the numbers above. If asked to change it, change one number at a time and send a new short MP4.
+## The look (current default: the first one)
+`tools/video/look.py` holds the numbers. Use the default unless the user asks:
+- **"first" (default since Nov 22, 2026):**
+  - the rest of the picture at 45% brightness, in full colour;
+  - the thing itself unchanged;
+  - a 3 px warm-yellow outline (RGB 255,230,80) just outside its edge.
+  - The prototype draws it in WebGL, finding the outline from the matte in the shader.
+- **"soft" (kept as an alternative):**
+  - the rest 38% darker and 27.5% toward grey;
+  - the thing slightly punchier;
+  - a soft warm-white halo instead of a line.
+
+**History:**
+1. First demo: the yellow line.
+2. The user asked for "more subtle" and then "more contrast".
+3. Then "half as much pop" and "increase the dimming only", which produced the soft look.
+4. Then: "go back to your original highlight settings".
+
+If asked to change the look, change one number at a time and show a short MP4 or the prototype.
 
 ## Setup (each session)
 1. `sh tools/video/setup.sh`: clones MobileSAM (code and 40 MB weights) from GitHub into `/home/claude/work/MobileSAM`. The user approved using it.
@@ -37,7 +49,7 @@ How we got there: first demo (thick yellow line, 55% dim) → user: "more subtle
    - **Rigid structure (the goal):** don't highlight an area, because people in front get lit. `golo.py` tracks the camera with a homography, then finds the posts and crossbar by the painted ink lines on either side of each post. It takes the median perpendicular brightness profile and the nearest dark dips around the brightest line, and subtracts arms or gloves crossing the posts. The net strings come from a 5×5 top-hat (thin bright lines) inside the goal polygon, dropping long flat streaks (fence rails). Brightness alone can't separate the posts from the sky.
 4. **Temporal smoothing:** average each matte with its flow-aligned neighbours (weights 1-2-1), as `sam_post.py` and `roto.py` do. This removes edge flicker.
 5. **Check before showing:** `sheet.py <keys>` makes a close-up contact sheet (6 frames per object) with a 1 px outline. Look at it, fix, and repeat. The user only sees the MP4.
-6. **Render:** `render.py` writes one pass per word with the look and the fade, then encode with `libx264 -preset veryfast -crf 18 -pix_fmt yuv420p`.
+6. **Render:** `render.py` (soft look) writes one pass per word with the look and the fade; for the default look call `look.look_first` instead, then encode with `libx264 -preset veryfast -crf 18 -pix_fmt yuv420p`.
 
 ## For a still page
 Use the same cut steps without the tracking. Seed with the page's `hlcache` cut or a hand box, then run MobileSAM (box plus interior points), guided-filter alpha, and `look.py` for a preview. Check the cut on a 2× close-up sheet before replacing reader regions (`madeira-book-highlights` covers the reader side).
