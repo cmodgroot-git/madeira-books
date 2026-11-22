@@ -14,8 +14,8 @@ Worked example (everything here was built and approved on it): book 22 `jogo` pa
 - **"first" (default; settings as of Nov 22, 2026):**
   - the rest of the picture 20% darker (dim 0.80), in full colour;
   - the thing itself 40% brighter (×1.40 plus 0.02);
-  - a solid 2 px light-grey outline (75% grey) just outside its edge.
-  - Tuning steps the user asked for: "go back to your original highlight settings" (45% rest, 3 px yellow line) → "thinner outline. brighten the object" (1.5 px, ×1.15) → "gray outline slightly thicker. 10% background change. highlight to 40%" → "background to 20%".
+  - a solid 1.5 px light-grey outline (75% grey) just outside its edge.
+  - Tuning steps the user asked for: "go back to your original highlight settings" (45% rest, 3 px yellow line) → "thinner outline. brighten the object" (1.5 px, ×1.15) → "gray outline slightly thicker. 10% background change. highlight to 40%" → "background to 20%" → "thinner outline" (1.5 px).
   - The prototype draws it in WebGL, finding the outline from the matte in the shader.
 - **"soft" (kept as an alternative):**
   - the rest 38% darker and 27.5% toward grey;

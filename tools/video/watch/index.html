@@ -52,7 +52,7 @@ const GLOSS={bola:["bola","ball"],golo:["golo","goal (a score)"],cabeca:["cabeç
 const VIDEO_AT=2.785;          // the clip starts on "salta"
 const NF=96, FPS=24, CW=480, CH=270, COLS=8;
 // approved look (tools/video/look.py)
-const LOOK={dim:0.80,bright:1.40,line:[0.75,0.75,0.75]};   // rest 20% darker, thing 40% brighter, grey 2 px outline (tools/video/look.py)
+const LOOK={dim:0.80,bright:1.40,line:[0.75,0.75,0.75]};   // rest 20% darker, thing 40% brighter, grey 1.5 px outline (tools/video/look.py)
 
 const $=id=>document.getElementById(id);
 const cv=$('cv'), vid=$('vid'), narr=new Audio('narr.mp3');
@@ -71,8 +71,8 @@ const fs=`precision mediump float;varying vec2 uv;uniform sampler2D V,M;uniform 
 vec2 SH=vec2(${CW*COLS}.,${CH*Math.ceil(NF/COLS)}.);
 float mt(vec2 u){return texture2D(M,(cell+clamp(u,0.,1.)*vec2(${CW}.,${CH}.))/SH).r;}
 void main(){vec3 f=texture2D(V,uv).rgb; float m=mt(uv);
- // 2 px outline just outside the edge (first-demo look): biggest matte value nearby minus the matte here
- vec2 d=vec2(2.,2.)/vec2(1280.,720.); float n=0.;
+ // 1.5 px outline just outside the edge (first-demo look): biggest matte value nearby minus the matte here
+ vec2 d=vec2(1.5,1.5)/vec2(1280.,720.); float n=0.;
  for(int i=0;i<12;i++){float a=float(i)*0.5236; n=max(n,mt(uv+vec2(cos(a),sin(a))*d));}
  float ring=smoothstep(0.04,0.3,n-m);
  vec3 c=mix(f*dim,clamp(f*bright+0.02,0.,1.),m); c=mix(c,line,ring);
