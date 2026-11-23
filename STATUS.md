@@ -13,9 +13,9 @@ Krea: ~340 units left this month (plan resets monthly).
 3. Video pages ("Ver" / watch mode), paused by the user ("save for now"):
    - Prototype for book 22 p4: separate private artifact 7b9a0ceb-feeb-4f07-a2bc-f7d28de20666, source tools/video/watch/.
    - Done: per-frame AI cut-outs (MobileSAM), approved look (tools/video/look.py), skill skills/madeira-video-highlights.
-   - Waiting on the user: test the prototype on a phone; make an 8 s Flow clip (Frames to Video, Veo 3.1 Lite or Fast)
-     and extend it to cover the 13.3 s narration. Veo 3.1 Fast/Quality leave Flow on Dec 5, 2026.
-   - Then: rotoscope the longer clip, decide whether a whole book gets video, and add "Ver" to the reader.
+   - Done Nov 22: 12 s Flow clip (books/22-jogo/video/b22p4_flow_12s.mp4) made by Claude in the user's Chrome
+     (52 Flow credits incl. 2 failed takes; 76 left until Nov 30), rotoscoped (tools/video/b22p4_v2), in the prototype.
+   - Next: user tests the prototype on a phone; then decide whether a whole book gets video and add "Ver" to the reader.
 4. Pending features: reader practice (story questions, listen-first, repeat after Marta); character voices test.
 
 ## How (see skills/madeira-book-stories/SKILL.md)

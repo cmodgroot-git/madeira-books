@@ -58,6 +58,23 @@ If asked to change the look, change one number at a time and show a short MP4 or
 ## For a still page
 Use the same cut steps without the tracking. Seed with the page's `hlcache` cut or a hand box, then run MobileSAM (box plus interior points), guided-filter alpha, and `look.py` for a preview. Check the cut on a 2× close-up sheet before replacing reader regions (`madeira-book-highlights` covers the reader side).
 
+## Making the clip in Google Flow (through the user's Chrome)
+There's no Flow connector or API from the workspace, so drive flow.google.com with Claude in Chrome. The user is signed in, on Plus.
+- **Upload:** Flow's Upload creates its file input only on click, which opens a system dialog. Patch `HTMLInputElement.prototype.click` in the page (javascript_tool) so a file input gets attached to the page instead, then `file_upload` the workspace image into it.
+- **Settings:** the window is small; `document.body.style.zoom='0.55'` shows the player and timeline. The agent panel's gear has "Video defaults": the model (Omni 1.2 Flash default, Veo 3.1 Lite/Fast/Quality; Fast and Quality leave Dec 5, 2026), 16:9, and outputs. Flow's agent asks "kick off … costing N credits?"; check N, then click Approve, never "Always approve".
+- **Costs (Nov 2026):** Veo 3.1 Fast 8 s = 20 credits; Lite 8 s = 10; Extend (Omni 1.2 Flash) 4 s = 12. Nano Banana picture edits = 0. Blocked generations are free. The balance is in the account menu.
+- **Force the story with a last frame.** Two first-frame-only takes got it wrong: Fast hit the frame and went out, Lite had the keeper catch it. What worked: make the ending picture with a free Nano Banana edit of the page (ball in the net, celebration). Re-upload the page, because editing replaces the asset's shown version. Then "Frames to video" with both pictures attached via "Add to prompt", in order.
+- **Safety filter:** "blows a kiss" plus "young woman, blushes" was refused as content about minors. Neutral wording (waves, applauds) passed.
+- **Download:** the 720p "Original size" download goes to the user's computer, and the user attaches it back.
+
+## Lessons from the 12 s clip (tools/video/b22p4_v2)
+- **One tracking pass:** MobileSAM tracks all objects in one pass (`sam_track.py`, about 1.4 s per frame for 3 objects), each seeded from the first-clip cut-outs, ECC-aligned to the new first frame.
+- **Head:** the cut drifts to the face only, or swallows the shirt, when arms go up. `head_fix.py` keeps the head from the earlier frames' typical size and height, measured down from the top of the curls, puts negative points on the shirt, and re-runs from frame 100.
+- **Ball:** the AI tracker loses it at the keeper's glove. `ball2.py` works from hand keyframes read off gridded contact sheets, fits Hough circles near each, and fades the highlight where too little white shows (ball behind the keeper's legs).
+- **Goal:** `golo2.py`, then `assemble.py` subtracts Rita (her white blouse dots read as net strings) and the keeper. The keeper is cut by AI from his yellow shirt (`keeper.py`), then a morphological opening strips net strings out of his cut.
+- **Memory:** never hold 284 frames of flow fields or float mattes at once (an 8 GB box was killed). Stream the flow and keep mattes as uint8.
+- **Prototype sheets:** 400×225 cells, 9×18 per sheet (162 frames), 2 sheets per word, because phones cap a texture at 4096 px.
+
 ## Video sources and costs
 - **Google Flow:** the user has credits. Veo 3.1 Lite costs 10 credits, Fast 20, Quality 100. Extend works only on 8 s Veo 3.1 clips. Fast and Quality retire from Flow on Dec 5, 2026. Make an 8 s Frames-to-Video clip and extend it to cover the narration (page 4's narration is 13.27 s, `b22p4_narracao.mp3`).
 - **Krea video:** see the cost notes in `madeira-book-stories`.

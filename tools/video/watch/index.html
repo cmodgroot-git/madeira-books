@@ -49,8 +49,8 @@ button.b:disabled{opacity:.5;cursor:default}
 // ---- page data (book 22 "jogo", page index 3) ----
 const WORDS=[["Aos",120,240],["dez",301,461],["minutos,",501,982],["a",1122,1162],["bola",1222,1382,"bola"],["vem",1462,1603],["alta",1683,1923],["e",2144,2164],["o",2224,2264],["Tiago",2344,2644],["salta.",2785,3065],["Marca",3666,3907],["golo",4107,4267,"golo"],["de",4327,4387],["cabeça!",4427,4908,"cabeca"],["Corre",5609,5830],["para",5870,5990],["as",6010,6090],["bancadas,",6130,6671],["com",6711,6811],["os",6851,6932],["braços",7012,7312],["no",7352,7412],["ar,",7513,7673],["e",7973,7993],["manda",8073,8254],["um",8334,8394],["beijo",8474,8694],["à",8755,8775],["Rita.",8875,9095,"rita"],["Ela",9636,9776],["fica",9856,10037],["vermelha,",10117,10558],["mas",10878,10978],["bate",11038,11199],["palmas",11299,11619],["mais",11720,12000],["alto",12060,12240],["do",12300,12341],["que",12381,12461],["todos.",12521,12901]];
 const GLOSS={bola:["bola","ball"],golo:["golo","goal (a score)"],cabeca:["cabeça","head (de cabeça: head first)"],rita:["Rita",""]};
-const VIDEO_AT=2.785;          // the clip starts on "salta"
-const NF=96, FPS=24, CW=480, CH=270, COLS=8;
+const VIDEO_AT=0;              // the 12 s clip starts with the header, so it starts with the narration
+const NF=284, FPS=24, CW=400, CH=225, COLS=9, ROWS=18, PER=COLS*ROWS, NSHEET=Math.ceil(NF/PER);
 // approved look (tools/video/look.py)
 const LOOK={dim:0.80,bright:1.60,line:[0.5,0.5,0.5]};   // rest 20% darker, thing 60% brighter, grey 1.5 px outline (tools/video/look.py)
 
@@ -68,7 +68,7 @@ WORDS.forEach((w,i)=>{const s=document.createElement('span');s.textContent=w[0];
 const gl=cv.getContext('webgl',{premultipliedAlpha:false,preserveDrawingBuffer:false});
 const vs=`attribute vec2 p;varying vec2 uv;void main(){uv=vec2(p.x*.5+.5,.5-p.y*.5);gl_Position=vec4(p,0.,1.);}`;
 const fs=`precision mediump float;varying vec2 uv;uniform sampler2D V,M;uniform vec2 cell;uniform float s,dim,bright;uniform vec3 line;
-vec2 SH=vec2(${CW*COLS}.,${CH*Math.ceil(NF/COLS)}.);
+vec2 SH=vec2(${CW*COLS}.,${CH*ROWS}.);
 float mt(vec2 u){return texture2D(M,(cell+clamp(u,0.,1.)*vec2(${CW}.,${CH}.))/SH).r;}
 void main(){vec3 f=texture2D(V,uv).rgb; float m=mt(uv);
  // 1.5 px outline just outside the edge (first-demo look): biggest matte value nearby minus the matte here
@@ -111,8 +111,9 @@ function draw(){
   if(vid.readyState>=2){gl.activeTexture(gl.TEXTURE0);gl.bindTexture(gl.TEXTURE_2D,vtex);
     gl.pixelStorei(gl.UNPACK_FLIP_Y_WEBGL,false);gl.texImage2D(gl.TEXTURE_2D,0,gl.RGB,gl.RGB,gl.UNSIGNED_BYTE,vid);}
   const s=strength(); if(s<=0&&hlTo!==Infinity&&now()>hlTo) hlKey=hlKey; // keep key for fade
-  gl.activeTexture(gl.TEXTURE1);gl.bindTexture(gl.TEXTURE_2D,(hlKey&&mtex[hlKey])||empty);
-  const f=frameIndex();gl.uniform2f(U('cell'),(f%COLS)*CW,Math.floor(f/COLS)*CH);gl.uniform1f(U('s'),s);
+  const f=frameIndex(), sh=Math.floor(f/PER), j=f%PER;
+  gl.activeTexture(gl.TEXTURE1);gl.bindTexture(gl.TEXTURE_2D,(hlKey&&mtex[hlKey]&&mtex[hlKey][sh])||empty);
+  gl.uniform2f(U('cell'),(j%COLS)*CW,Math.floor(j/COLS)*CH);gl.uniform1f(U('s'),s);
   gl.viewport(0,0,cv.width,cv.height);gl.drawArrays(gl.TRIANGLE_STRIP,0,4);
   if(mode==='narr') tickNarr();
   requestAnimationFrame(draw);
@@ -145,8 +146,10 @@ function tap(k){
 // ---- load ----
 (async()=>{
   const keys=['bola','golo','cabeca','rita'];
-  const imgs=await Promise.all(keys.map(k=>loadImg('m_'+k+'.webp')));
-  keys.forEach((k,i)=>{mtex[k]=tex();gl.texImage2D(gl.TEXTURE_2D,0,gl.RGB,gl.RGB,gl.UNSIGNED_BYTE,imgs[i]);});
+  for(const k of keys){
+    const imgs=await Promise.all([...Array(NSHEET).keys()].map(s=>loadImg('m_'+k+'_'+s+'.webp')));
+    mtex[k]=imgs.map(im=>{const t=tex();gl.texImage2D(gl.TEXTURE_2D,0,gl.RGB,gl.RGB,gl.UNSIGNED_BYTE,im);return t;});
+  }
   await new Promise(r=>{if(vid.readyState>=2)r();else vid.addEventListener('loadeddata',r,{once:true});});
   $('load').classList.add('gone');$('play').disabled=false;$('again').disabled=false;
   requestAnimationFrame(draw);
