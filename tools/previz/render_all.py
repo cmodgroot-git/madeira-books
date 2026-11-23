@@ -9,7 +9,7 @@ sh.light = 'STUDIO'; sh.color_type = 'MATERIAL'; sh.show_shadows = True; sh.show
 for f in range(s.frame_start, s.frame_end + 1):
     s.frame_set(f); s.render.filepath = f'/home/claude/work/bl/grey/{f:03d}.png'; bpy.ops.render.render(write_still=True)
 # pass 2: ID colours per group
-ID = {'bola': (1, 0, 0), 'cabeca': (0, 1, 0), 'golo': (0, 0, 1), 'rita': (1, 1, 0), 'keeper': (1, 0, 1), 'tiago': (0, 1, 1), 'set': (0, 0, 0)}
+ID = {'bola': (1, 0, 0), 'cabeca': (0, 1, 0), 'golo': (0, 0, 1), 'rita': (1, 1, 0), 'keeper': (1, 0, 1), 'tiago': (0, 1, 1), 'ana': (1, 0.5, 0), 'graca': (0.5, 0, 1), 'set': (0, 0, 0)}
 for o in s.objects:
     if o.type == 'MESH': o.color = (*ID.get(o.get('group', 'set'), (0, 0, 0)), 1)
 sh.light = 'FLAT'; sh.color_type = 'OBJECT'; sh.show_shadows = False; sh.show_cavity = False; sh.show_specular_highlight = False

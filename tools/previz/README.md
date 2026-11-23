@@ -18,3 +18,16 @@ Plan grey Blender scenes before spending credits on stills or video: fixed sets,
   - magenta = keeper
   - cyan = tiago
 - **`render_prev.py`:** renders chosen frames for a quick check.
+
+## Staging fix (Nov 23, 2026)
+The user asked why Rita stood on a plinth behind the goal. The text has her **in the stand with Ana and Dona Graça** (p3), and Tiago **runs to the stand** and blows her a kiss (p4).
+- The p4 prompt had put her "behind the goal, on the low stand", and the image model turned that into a block.
+- The user chose a **stand alongside the pitch**.
+- The previz now:
+  - removes the plinth and the stand behind the goal;
+  - adds `side_stand()` along the left touchline near the goal end;
+  - seats Rita between Ana and Dona Graça in the front row;
+  - has Rita stand up and clap after the goal (Ana claps from her seat, Dona Graça stays seated);
+  - has Tiago run to the stand, arms up, and blow the kiss;
+  - pulls the camera back with a 22 mm lens so the goal and the stand fit together.
+- Book pictures p4 and p7 still show the old staging and need repainting to match.

@@ -127,3 +127,20 @@ def build_light():
     w.use_nodes = True; bg = w.node_tree.nodes.get('Background')
     if bg: bg.inputs[0].default_value = (0.62, 0.75, 0.88, 1); bg.inputs[1].default_value = 0.9
     w.color = (0.62, 0.75, 0.88)
+
+def side_stand(x0=-5.2, y_from=-14.0, y_to=1.5, rows=3):
+    """Low concrete stand along the left touchline (x = x0), seats facing the pitch (+X). Returns seat positions per row."""
+    M = {'seat': mat('seat', (0.10, 0.25, 0.62), 0.4), 'stone': mat('stone', (0.62, 0.60, 0.56))}
+    parts = []; seats = []
+    for r in range(rows):
+        x = x0 - r * 0.8; z = 0.4 * r
+        parts.append(box(f'tier{r}', (x - 0.2, (y_from + y_to) / 2, z / 2 + 0.2), (0.8, y_to - y_from, z + 0.4), M['stone']))
+        row = []
+        y = y_from + 0.4
+        while y < y_to - 0.3:
+            parts.append(box(f'st{r}_{y:.1f}', (x, y, z + 0.62), (0.42, 0.46, 0.06), M['seat']))
+            parts.append(box(f'sb{r}_{y:.1f}', (x - 0.22, y, z + 0.86), (0.05, 0.46, 0.46), M['seat']))
+            row.append((x, y, z + 0.65)); y += 0.62
+        seats.append(row)
+    o = join(parts, 'side_stand'); o['group'] = 'set'
+    return seats
