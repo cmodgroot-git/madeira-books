@@ -31,3 +31,14 @@ The user asked why Rita stood on a plinth behind the goal. The text has her **in
   - has Tiago run to the stand, arms up, and blow the kiss;
   - pulls the camera back with a 22 mm lens so the goal and the stand fit together.
 - Book pictures p4 and p7 still show the old staging and need repainting to match.
+
+## The user's edits (Nov 23, 2026): the .blend is now the master
+The user edited the scene in Blender 5.3 and sent it back. It is saved as `tools/previz/b22p4.blend`.
+- **His changes:**
+  - turned Rita, Ana and Dona Graça to face the pitch (the script had them facing -X, backs to the game);
+  - rerouted Tiago's run right up to the stand and simplified his turns;
+  - moved the ball's start closer to Tiago's head.
+- **From now on, don't re-run `shot_b22p4.py`:** it would overwrite his edits. Make script changes by opening `b22p4.blend` and editing it.
+- **To render:** `BLEND=tools/previz/b22p4.blend python3 render_all.py`.
+- **To see what changed:** `dump.py <file.blend> <out.json>` dumps every object's transforms and keyframes; compare two dumps.
+- **Rotation convention reminder:** a person faces -Y at rest. rot Z = +90° faces +X; rot Z = -90° faces -X.

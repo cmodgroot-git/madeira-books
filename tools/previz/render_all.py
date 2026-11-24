@@ -1,6 +1,6 @@
 # grey previz video + per-group ID masks (flat colours, no anti-aliasing) for every frame
 import bpy, os
-bpy.ops.wm.open_mainfile(filepath='/home/claude/work/bl/b22p4.blend')
+import os; bpy.ops.wm.open_mainfile(filepath=os.environ.get('BLEND','/home/claude/work/bl/b22p4.blend'))
 s = bpy.context.scene; s.render.resolution_x = 1280; s.render.resolution_y = 720; s.render.engine = 'BLENDER_WORKBENCH'
 os.makedirs('/home/claude/work/bl/grey', exist_ok=True); os.makedirs('/home/claude/work/bl/ids', exist_ok=True)
 sh = s.display.shading
