@@ -42,3 +42,20 @@ The user edited the scene in Blender 5.3 and sent it back. It is saved as `tools
 - **To render:** `BLEND=tools/previz/b22p4.blend python3 render_all.py`.
 - **To see what changed:** `dump.py <file.blend> <out.json>` dumps every object's transforms and keyframes; compare two dumps.
 - **Rotation convention reminder:** a person faces -Y at rest. rot Z = +90° faces +X; rot Z = -90° faces -X.
+
+## Rigged characters (Nov 23, 2026)
+The user found the empty-based mannequins hard to animate, so `rig.py` builds a real armature for each person.
+- **Controls** (bone collection "Controls", with custom shapes):
+  - `root`: move or turn the whole person;
+  - `hips`;
+  - `spine`, `neck`, `head`: rotated directly (FK);
+  - `foot_ik.L/R`, `hand_ik.L/R`: IK targets, which hands and feet also follow in rotation;
+  - `knee_pole.L/R`, `elbow_pole.L/R`: which way the knee or elbow points.
+- Set an IK constraint's influence to 0 to pose that limb by rotating its bones instead.
+- Body meshes are parented to bones and keep their `group` tags, so the masks still work.
+- A small nose shows which way each face points.
+- **`convert_to_rigs.py`** (SRC=old.blend DST=new.blend) swapped the old mannequins for rigs and carried over every keyed pose:
+  - placement goes to `root`, spine and neck to FK;
+  - wrists and ankles go to the IK targets, elbows and knees to the poles.
+- The user's file was converted this way; `tools/previz/b22p4.blend` is now the rigged version.
+- Widget meshes live in a hidden `WGT` collection.
