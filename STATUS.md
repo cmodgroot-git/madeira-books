@@ -16,7 +16,15 @@ Krea: ~340 units left this month (plan resets monthly).
    - Done Nov 22: 12 s Flow clip (books/22-jogo/video/b22p4_flow_12s.mp4) made by Claude in the user's Chrome
      (52 Flow credits incl. 2 failed takes; 76 left until Nov 30), rotoscoped (tools/video/b22p4_v2), in the prototype.
    - Next: user tests the prototype on a phone; then decide whether a whole book gets video and add "Ver" to the reader.
-4. Pending features: reader practice (story questions, listen-first, repeat after Marta); character voices test.
+4. Blender previz pilot (Nov 23), stopped by the user ("total mess"):
+   - tools/previz/: pitch set, mannequins, user-edited b22p4.blend (keys at frames 0, 50, 150, 230).
+   - What failed:
+     - Omni video restyle copied the stiff mannequin motion.
+     - Repaints drifted: the ball outside the post, Rita appearing twice, the framing of one frame copied from another.
+     - The Omni first+last-frame clip for frames 150→230 doubled Tiago.
+   - What worked: staging fixes (Rita moved to a stand alongside the pitch), exact masks, and the segments for frames 0→50 and 50→150.
+   - Flow credits: 20 left until Nov 30.
+5. Pending features: reader practice (story questions, listen-first, repeat after Marta); character voices test.
 
 ## How (see skills/madeira-book-stories/SKILL.md)
 - New book: tools/b22 is the newest working set; after the build run tools/pack/pack_pages.py before publishing.
