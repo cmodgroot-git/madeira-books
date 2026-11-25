@@ -3,7 +3,7 @@ import bpy, os
 import os; bpy.ops.wm.open_mainfile(filepath=os.environ.get('BLEND','/home/claude/work/bl/b22p4.blend'))
 OUT=os.environ.get('OUT','/home/claude/work/bl')
 FR=[int(x) for x in os.environ['FRAMES'].split(',')] if os.environ.get('FRAMES') else None
-s = bpy.context.scene; s.render.resolution_x = 1280; s.render.resolution_y = 720; s.render.engine = 'BLENDER_WORKBENCH'
+s = bpy.context.scene; s.render.resolution_x = 1280; s.render.resolution_y = 720; s.render.engine = 'BLENDER_WORKBENCH'; s.view_settings.view_transform = 'Standard'
 os.makedirs(OUT+'/grey', exist_ok=True); os.makedirs(OUT+'/ids', exist_ok=True)
 sh = s.display.shading
 # pass 1: shaded previz
