@@ -66,7 +66,7 @@ The user asked for a cleaner setup: a background like the painting, all old pose
   - terrain with the town of white and cream houses with terracotta roofs climbing the hill;
   - the cliff band, and the coastline so the sea shows behind the goal on the right;
   - bigger buildings and trees beyond the stand, and a low stone wall under the railing.
-- **`storyboard_b22p4.py`** clears every keyframe, fixes a still camera (19 mm, at (-2.9, -8.6, 2.1)), and poses the rigs at five keys only:
+- **`storyboard_b22p4.py`** clears every keyframe, fixes a still closer camera (24 mm, at (-1.4, -6.4, 1.75); the stand stays out of shot), and poses the rigs at five keys only:
   - 0: just before the jump; 36: header; 96: goal; 165: runs with arms up; 230: kiss to Rita.
   - Rita walks out to meet Tiago at about (-4, -2), as in the user's edit.
 - **Rendered keys:** `storyboard_b22p4/` holds the grey stills plus flat-colour masks.

@@ -26,9 +26,9 @@ for o in bpy.data.objects:
             pb.rotation_mode = 'QUATERNION'; pb.matrix_basis = Matrix.Identity(4)
 
 # ---- still camera: sees the goal, Tiago's run and the stand
-cam = bpy.data.objects['camera']; cam.data.lens = 19.0
-cam.location = (-2.9, -8.6, 2.1)
-cam.rotation_euler = (Vector((-3.9, 0.0, 1.45)) - cam.location).to_track_quat('-Z', 'Y').to_euler()
+cam = bpy.data.objects['camera']; cam.data.lens = 24.0
+cam.location = (-1.4, -6.4, 1.75)
+cam.rotation_euler = (Vector((-1.9, 0.0, 1.3)) - cam.location).to_track_quat('-Z', 'Y').to_euler()
 
 def RX(a, b, c): return Euler((math.radians(a), math.radians(b), math.radians(c))).to_matrix().to_4x4()
 def T(v): return Matrix.Translation(Vector(v))
@@ -77,13 +77,13 @@ def face_to(src, dst):   # turn angle so a person at src faces dst
 # ---------- Tiago
 TIAGO_K5 = (-3.05, -1.85); RITA_K5 = (-3.95, -2.05)
 t = 'tiago'
-pose(t, 0, (-1.35, -2.75, 112), hips=(0, 0.02, -0.26, 22, 0, 0), spine=(12, 0, 0), neck=(-28, 0, 0),
+pose(t, 0, (-1.25, -2.05, 112), hips=(0, 0.02, -0.26, 22, 0, 0), spine=(12, 0, 0), neck=(-28, 0, 0),
      feet={'L': (0.13, -0.18, 0.06), 'R': (-0.12, 0.2, 0.06, 0, 0, 0)},
      hands={'L': (0.30, 0.32, 0.66), 'R': (-0.30, 0.34, 0.66)}, knees={'L': (0.13, -0.8, 0.45), 'R': (-0.12, -0.6, 0.45)})
-pose(t, 36, (-0.95, -2.15, 112, 0.5), hips=(0, 0, 0, 28, 0, 0), spine=(10, 0, 0), neck=(18, 0, 0),
+pose(t, 36, (-0.9, -1.55, 112, 0.5), hips=(0, 0, 0, 28, 0, 0), spine=(10, 0, 0), neck=(18, 0, 0),
      feet={'L': (0.12, 0.30, 0.42, 40, 0, 0), 'R': (-0.12, 0.22, 0.20, 25, 0, 0)},
      hands={'L': (0.58, -0.05, 1.22), 'R': (-0.58, -0.05, 1.22)}, elbows={'L': (0.7, 0.4, 1.3), 'R': (-0.7, 0.4, 1.3)})
-pose(t, 96, (-0.55, -2.45, 25), hips=(0, 0, -0.04, 0, 0, 0), neck=(-12, 0, 0),
+pose(t, 96, (-0.75, -1.55, 25), hips=(0, 0, -0.04, 0, 0, 0), neck=(-12, 0, 0),
      feet={'L': (0.16, -0.02, 0.06), 'R': (-0.16, 0.02, 0.06)},
      hands={'L': (0.42, 0.02, 2.02), 'R': (-0.42, 0.02, 2.02)}, elbows={'L': (0.75, 0.45, 1.65), 'R': (-0.75, 0.45, 1.65)})
 pose(t, 165, (-2.0, -2.15, face_to((-2.0, -2.15), TIAGO_K5), 0.05), hips=(0, 0, -0.06, 10, 0, 0), neck=(-8, 0, 0),
@@ -125,7 +125,7 @@ clap_shut = lambda k: {'L': (0.03, -0.30, 1.20 * k), 'R': (-0.03, -0.30, 1.20 * 
 seated('rita', 0, -1.38, kr, clasp_seated, neck=(-5, 0, 0))
 seated('rita', 36, -1.38, kr, clasp_seated, neck=(-8, 0, 0))
 pose('rita', 96, (-9.25, -1.40, 90, 0.0), hips=(0, 0, 0.03, 0, 0, 0), neck=(-6, 0, 0), hands=clap_open(kr))
-pose('rita', 165, (-6.6, -1.75, face_to((-6.6, -1.75), TIAGO_K5)), neck=(-4, 0, 0),
+pose('rita', 165, (-4.55, -1.95, face_to((-4.55, -1.95), TIAGO_K5)), neck=(-4, 0, 0),
      feet={'L': (0.09 * kr, -0.30, 0.06 * kr), 'R': (-0.09 * kr, 0.30, 0.12 * kr, 25, 0, 0)}, hands=clap_shut(kr))
 pose('rita', 230, (RITA_K5[0], RITA_K5[1], face_to(RITA_K5, TIAGO_K5)), neck=(16, 0, -6), spine=(4, 0, 0),
      hands={'L': (0.035, -0.24, 1.17 * kr), 'R': (-0.035, -0.24, 1.17 * kr)})
@@ -139,7 +139,7 @@ for f in KEYS:
     seated('graca', f, -0.76, kg, lap(kg), neck=(0, 0, 10 if f >= 165 else 0))
 
 # ---------- ball (only at the keys)
-ball(0, (-3.6, -3.7, 3.3))
+ball(0, (-2.9, -2.6, 2.75))
 bpy.context.scene.frame_set(36); ball(36, tuple(head_front('tiago')))
 ball(96, (1.15, 1.30, 0.12)); ball(165, (1.25, 1.18, 0.11)); ball(230, (1.25, 1.18, 0.11))
 
